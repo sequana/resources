@@ -29,7 +29,7 @@ Install dependencies with Conda
 
 For homer software, follow the instructions here : http://homer.ucsd.edu/homer/introduction/install.html
 
-.. warning:: Be careful, the python version used for MACS2 and Homer must be 2.7!
+**Warning** Be careful, the python version used for MACS2 and Homer must be 2.7!
 
 
 
@@ -78,7 +78,7 @@ and the gene-regulation/examples/ChIP-seq\_GSE55357. The output directory will b
     :width: 30%
 
 
-**warning**: the output directory must contain the gene-regulation library.
+**Warning**: the output directory must contain the gene-regulation library.
 
 
 
