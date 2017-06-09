@@ -26,10 +26,11 @@ Install dependencies with Conda
     pip2 install macs2
     conda install r-essentials bioconductor-deseq2 bioconductor-edger
     conda install -c bioconda bioconductor-mosaics=2.10.0
-    (pip2 install homer)
 
+For homer software, follow the instructions here : http://homer.ucsd.edu/homer/introduction/install.html
 
 .. warning:: Be careful, the python version used for MACS2 and Homer must be 2.7!
+
 
 
 Create workdir
@@ -78,5 +79,6 @@ and the gene-regulation/examples/ChIP-seq\_GSE55357. The output directory will b
 
 
 .. warning:: the output directory must contain the gene-regulation library.
+
 
 
