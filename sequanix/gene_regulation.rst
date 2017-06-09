@@ -21,11 +21,13 @@ Install dependencies with Conda
 -------------------------------
 
 ::
+
     conda install fastqc bowtie2 bedtools samtools graphviz
     pip2 install macs2
     conda install r-essentials bioconductor-deseq2 bioconductor-edger
     conda install -c bioconda bioconductor-mosaics=2.10.0
     (pip2 install homer)
+
 
 .. warning:: Be careful, the python version used for MACS2 and Homer must be 2.7!
 
@@ -71,7 +73,7 @@ Run the workflow with sequanix
 As for the minimalist example, you must select the Snakefile called gene-regulation/scripts/snakefiles/workflows/ChIP-seq.wf
 and the gene-regulation/examples/ChIP-seq\_GSE55357. The output directory will be ${ANALYSIS_DIR}
 
-.. image:: sequanix_regulation.png
+.. image:: sequanix-regulation.png
     :width: 30%
 
 
