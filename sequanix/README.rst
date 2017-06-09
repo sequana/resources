@@ -11,9 +11,9 @@ Tutorial available on Sequana documentation web page http://sequana.readthedocs.
 :Citations: 
 
 In the reference above, the online supplementary illustrates the usage of Sequanix on 4 different cases:
+
 - a sequana pipeline (quality control)
 - a minimalist example (unix commands only) with a configuration file or without 
 - a third-party example extracted from the Gene-regulation library.
 
-All material and explanation for the the 2 first cases are available in the Sequana tutorial (linkj above) while the material for the Gene-regulation case are available on this dedicated page: :ref:`gene_regulation`
-
+All material and explanation for the the 2 first cases are available in the Sequana tutorial (linkj above) while the material for the Gene-regulation case are available on this dedicated page: `Gene regulation material <https://github.com/sequana/resources/tree/master/sequanix/gene_regulation.rst>`_
