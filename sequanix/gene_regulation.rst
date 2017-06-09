@@ -2,32 +2,40 @@ Gene regulation example
 ============================
 
 This page shows how to load and execute a Snakemake pipeline from the Gene-regulation library (Rioualen et al). 
-Tutorial available on gene-regulation documentation web page http://gene-regulation.readthedocs.io/en/latest/tutorials.html#
+Tutorial available on gene-regulation documentation web page http://gene-regulation.readthedocs.io/en/latest/tutorials.html
 
 We will use one of the pipeline for the demonstration that is the ChIP-seq pipeline. 
 
 Independently of Sequana/Sequanix we will first need to install Gene-regulation package itself and then a set of data files to play with. 
 
-Download gene-reulation library
+Download gene-regulation library
 -------------------------------
+
+::
 
     wget --no-clobber https://github.com/rioualen/gene-regulation/archive/4.0.tar.gz
     tar xvzf 4.0.tar.gz
-    ln -s gene-regulation-4.0 gene-regulation</code></pre>
+    ln -s gene-regulation-4.0 gene-regulation
 
 Install dependencies with Conda
 -------------------------------
+
+::
     conda install fastqc bowtie2 bedtools samtools graphviz
     pip2 install macs2
     conda install r-essentials bioconductor-deseq2 bioconductor-edger
     conda install -c bioconda bioconductor-mosaics=2.10.0
-    pip2 install homer
+    (pip2 install homer)
+
+.. warning:: Be careful, the python version used for MACS2 and Homer must be 2.7!
 
 
 Create workdir
 --------------
 
-    ANALYSIS_DIR=/root/mydisk/test_sequanix_gene-regulation
+::
+
+    ANALYSIS_DIR=~/test_sequanix_gene-regulation
     mkdir ${ANALYSIS_DIR}
 
 
@@ -44,7 +52,7 @@ Genome assembly: sacCer3::
 Download ChIP-seq data
 --------------------------
 
-From GEO series <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE55357> GSE55357::
+From GEO series`GSE55357 <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE55357>`_::
 
     wget --no-clobber ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR117/005/SRR1176905/SRR1176905.fastq.gz -P ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334674
     wget --no-clobber ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR117/007/SRR1176907/SRR1176907.fastq.gz -P ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334676
@@ -55,4 +63,18 @@ From GEO series <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE55357> GS
     gunzip -c ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334676/SRR1176907.fastq.gz &gt; ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334676/GSM1334676.fastq; rm -f ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334676/SRR1176907.fastq.gz
     gunzip -c ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334679/SRR1176908.fastq.gz &gt; ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334679/GSM1334679.fastq; rm -f ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334679/SRR1176908.fastq.gz
     gunzip -c ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334677/SRR1176910.fastq.gz &gt; ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334677/GSM1334677.fastq; rm -f ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334677/SRR1176910.fastq.gz
+
+
+Run the workflow with sequanix
+--------------------------------
+
+As for the minimalist example, you must select the Snakefile called gene-regulation/scripts/snakefiles/workflows/ChIP-seq.wf
+and the gene-regulation/examples/ChIP-seq\_GSE55357. The output directory will be ${ANALYSIS_DIR}
+
+.. image:: sequanix_regulation.png
+    :width: 30%
+
+
+.. warning:: the output directory must contain the gene-regulation library.
+
 
