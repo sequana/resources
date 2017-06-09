@@ -78,7 +78,7 @@ and the gene-regulation/examples/ChIP-seq\_GSE55357. The output directory will b
     :width: 30%
 
 
-.. warning:: the output directory must contain the gene-regulation library.
+**warning**: the output directory must contain the gene-regulation library.
 
 
 
