@@ -6,7 +6,7 @@ This directory contains data and resources to demonstrate the usage of Sequanix.
 Tutorial available on Sequana documentation web page http://sequana.readthedocs.io/en/master/sequanix.html
 
 .. image:: sequanix.png
-    :width: 50%
+    :width: 20%
 
 :Citations: 
 
