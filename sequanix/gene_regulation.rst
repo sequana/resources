@@ -23,9 +23,17 @@ Install dependencies with Conda
 ::
 
     conda install fastqc bowtie2 bedtools samtools graphviz
-    pip2 install macs2
     conda install r-essentials bioconductor-deseq2 bioconductor-edger
     conda install -c bioconda bioconductor-mosaics=2.10.0
+
+For MACS2, note that only the version for Python2.7 is available (no Python 3 in June 2017). So, since we used conda for version 3 of Python, one need to trick the system using **pip2**, which is the **pip** version for Python2.7. Most distributions are still using Python2 so you should have the utility available. Type this command to install macs2 globally::
+
+    pip2 install macs2
+
+of if you do not have root permission::
+
+    pip2 install --user macs2
+
 
 For homer software, follow the instructions here : http://homer.ucsd.edu/homer/introduction/install.html
 
