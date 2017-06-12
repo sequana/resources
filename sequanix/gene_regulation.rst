@@ -81,7 +81,14 @@ From GEO series`GSE55357 <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE
     wget --no-clobber ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR117/008/SRR1176908/SRR1176908.fastq.gz -P ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334679
     wget --no-clobber ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR117/000/SRR1176910/SRR1176910.fastq.gz -P ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334677
 
-    gunzip ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM*/*.fastq.gz 
+
+in progress::
+
+    gunzip ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM/*.fastq.gz 
+    
+    
+    GSM1334674  GSM1334676  GSM1334677  GSM1334679
+
 
 Run the workflow with sequanix
 --------------------------------
