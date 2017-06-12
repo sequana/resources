@@ -87,9 +87,6 @@ in progress::
     gunzip ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM/*.fastq.gz 
     
     
-    GSM1334674  GSM1334676  GSM1334677  GSM1334679
-
-
 Run the workflow with sequanix
 --------------------------------
 
