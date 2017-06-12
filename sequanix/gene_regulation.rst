@@ -10,8 +10,8 @@ The ChIP-seq pipeline is part of the gene-regulation library, which needs to be 
 
 Let us first define a directory.
 
-Create workdir
---------------
+Create an analysis and working directory
+-------------------------------------------
 ::
 
     # Create a working and analysis directory at the top level
