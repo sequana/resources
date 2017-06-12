@@ -41,7 +41,12 @@ of if you do not have root permission::
     pip2 install --user macs2
 
 
-For homer software, follow the instructions here : http://homer.ucsd.edu/homer/introduction/install.html
+For homer software, follow the instructions here : http://homer.ucsd.edu/homer/introduction/install.html 
+This summarised set of instructions should work on a linux box::
+
+    wget http://homer.ucsd.edu/homer/configureHomer.pl
+    perl configureHomer.pl -install
+    export PATH=$PATH:$PWD/bin                # This should be added to you bashrc environemnt
 
 **Warning** Be careful, the python version used for MACS2 and Homer must be 2.7!
 
@@ -52,7 +57,7 @@ Create workdir
 
 ::
 
-    ANALYSIS_DIR=~/test_sequanix_gene-regulation
+    export ANALYSIS_DIR=~/test_sequanix_gene-regulation
     mkdir ${ANALYSIS_DIR}
 
 
