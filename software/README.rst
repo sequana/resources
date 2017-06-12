@@ -1,6 +1,6 @@
-Snpashots of Software used by Sequana
+Sppashots of Software used by Sequana
 ----------------------------------------
-Motivation, some pages or software are hard to find or links may not be
+Motivation: some software are hard to find or links may not be
 available on the long run.
 
 
