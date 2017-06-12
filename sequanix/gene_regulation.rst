@@ -27,7 +27,7 @@ To not interfere with your system, let us create a new conda environment from sc
 
 and install all dependencies including sequana itself::
 
-    conda install fastqc bowtie2 bedtools samtools graphviz
+    conda install fastqc bowtie2 bedtools samtools graphviz deeptools
     conda install r-essentials bioconductor-deseq2 bioconductor-edger
     conda install -c bioconda bioconductor-mosaics=2.10.0
     conda install sequana
