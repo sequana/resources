@@ -15,8 +15,10 @@ Create workdir
 --------------
 ::
 
+    # Create a working and analysis directory at the top level
     export ANALYSIS_DIR=~/test_sequanix_gene-regulation
     mkdir ${ANALYSIS_DIR}
+    cd ${ANALYSIS_DIR}
 
 Download gene-regulation library
 -------------------------------
