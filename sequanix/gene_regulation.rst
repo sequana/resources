@@ -2,12 +2,9 @@ Gene regulation example
 ============================
 
 This page shows how to load and execute a Snakemake pipeline from the Gene-regulation library (Rioualen et al). 
-Tutorial available on gene-regulation documentation web page http://gene-regulation.readthedocs.io/en/latest/tutorials.html
+This tutorial is a snapshot (June 2017) of the official (and up-to-date) tutorial available on gene-regulation documentation web page http://gene-regulation.readthedocs.io/en/latest/tutorials.html
 
-We will use one of the pipeline for the demonstration that is the ChIP-seq pipeline. 
-
-Independently of Sequana/Sequanix we will first need to install Gene-regulation package itself and then a set of data files to play with. 
-
+We will use one of the pipeline from the Gene-regulation library to demonstrate that **Sequanix** can load a third-party snakemake pipelin. Here, the ChIP-seq pipeline. 
 
 The following pipeline (ChIP-seq) depends on the gene-regulation library. The pipeline requires some data to be copied in the the directory where will be installed the library. So let us first define a directory.
 
@@ -29,8 +26,8 @@ Download gene-regulation library
     tar xvzf 4.0.tar.gz
     ln -s gene-regulation-4.0 gene-regulation
 
-Install dependencies with Conda
--------------------------------
+Install dependencies with Conda and Sequana
+-----------------------------------------------
 
 To not interfere with your system, let us create a new conda environment from scratch::
 
