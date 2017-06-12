@@ -54,19 +54,15 @@ of if you do not have root permission::
 
 
 For homer software, follow the instructions here : http://homer.ucsd.edu/homer/introduction/install.html 
-This summarised set of instructions should work on a linux box::
+Note that in June 2017 the following instructions are enough to install Homer on a unix box (you need perl)::
 
     wget http://homer.ucsd.edu/homer/configureHomer.pl
     perl configureHomer.pl -install
-    export PATH=$PATH:$PWD/bin                # This should be added to you bashrc environemnt
+    export PATH=$PATH:$PWD/bin                # This should be added to you bashrc environment.
 
-**Warning** Be careful, the python version used for MACS2 and Homer must be 2.7!
+**Warning** again note that the python version used for MACS2 is python 2.7
 
-
-
-
-
-Download genome and annotations
+Download genomes and annotations 
 -------------------------------------
 
 Genome assembly: sacCer3::
