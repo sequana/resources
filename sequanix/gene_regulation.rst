@@ -8,6 +8,15 @@ We will use one of the pipeline for the demonstration that is the ChIP-seq pipel
 
 Independently of Sequana/Sequanix we will first need to install Gene-regulation package itself and then a set of data files to play with. 
 
+
+The following pipeline (ChIP-seq) depends on the gene-regulation library. The pipeline requires some data to be copied in the the directory where will be installed the library. So let us first define a directory.
+
+Create workdir
+--------------
+::
+    export ANALYSIS_DIR=~/test_sequanix_gene-regulation
+    mkdir ${ANALYSIS_DIR}
+
 Download gene-regulation library
 -------------------------------
 
@@ -52,13 +61,6 @@ This summarised set of instructions should work on a linux box::
 
 
 
-Create workdir
---------------
-
-::
-
-    export ANALYSIS_DIR=~/test_sequanix_gene-regulation
-    mkdir ${ANALYSIS_DIR}
 
 
 Download genome and annotations
