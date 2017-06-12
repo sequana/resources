@@ -36,6 +36,8 @@ To not interfere with your system, let us create a new conda environment from sc
     conda create --name genereg python=3.5
     source activate genereg
 
+**Note:** when you open a new shell, the last instruction must be called
+
 and install all dependencies including sequana itself::
 
     conda install fastqc bowtie2 bedtools samtools graphviz deeptools
@@ -58,6 +60,8 @@ Note that in June 2017 the following instructions are enough to install Homer on
     wget http://homer.ucsd.edu/homer/configureHomer.pl
     perl configureHomer.pl -install
     export PATH=$PATH:$PWD/bin                # This should be added to you bashrc environment.
+
+**Note:** when you open a new shell, the last instruction must be called (or set in a bashrc file)
 
 **Warning** again note that the python version used for MACS2 is python 2.7
 
