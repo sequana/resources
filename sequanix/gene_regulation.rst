@@ -14,6 +14,7 @@ The following pipeline (ChIP-seq) depends on the gene-regulation library. The pi
 Create workdir
 --------------
 ::
+
     export ANALYSIS_DIR=~/test_sequanix_gene-regulation
     mkdir ${ANALYSIS_DIR}
 
