@@ -95,8 +95,17 @@ From GEO series`GSE55357 <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE
 Run the workflow with sequanix
 --------------------------------
 
-As for the minimalist example, you must select the Snakefile called gene-regulation/scripts/snakefiles/workflows/ChIP-seq.wf
-and the gene-regulation/examples/ChIP-seq\_GSE55357. The output directory will be ${ANALYSIS_DIR}
+Open Sequanix in the same directory as above and 
+
+#. At the top select the "Generic pipelines" tab
+#. select the pipeline thanks to the browser, that is called gene-regulation/scripts/snakefiles/workflows/ChIP-seq.wf
+#. select the config file in ./gene-regulation/examples/ChIP-seq_GSE55357/config.yml
+#. set the working directory (the local directory where sequanix is launch, also referede to as ${ANALYSIS_DIR} above)
+#. Press the "Save" button in the button
+#. Press "Show pipeline" to check everything looks fine
+#. Press "Run"
+#. The analysis takes about 15-20 minutes
+
 
 .. image:: sequanix-regulation.png
     :width: 30%
