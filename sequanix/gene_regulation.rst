@@ -1,12 +1,14 @@
 Gene regulation example
 ============================
 
-This page shows how to load and execute a Snakemake pipeline from the Gene-regulation library (Rioualen et al, 2017) within the Sequanix application (Desvillechabrol et al, 2017). 
+This page shows how to load and execute a Snakemake pipeline from the **Gene-regulation** library (Rioualen et al, 2017) within the Sequanix application (Desvillechabrol et al, 2017). 
 This tutorial is a snapshot (June 2017) of the official (and up-to-date) tutorial available on gene-regulation documentation web page http://gene-regulation.readthedocs.io/en/latest/tutorials.html
 
 We will use one of the pipeline from the Gene-regulation library to demonstrate that **Sequanix** can load a third-party snakemake pipeline: here, the ChIP-seq pipeline. 
 
-The following pipeline (ChIP-seq) depends on the gene-regulation library. The pipeline requires some data to be copied in the the directory where will be installed the library. So let us first define a directory.
+The ChIP-seq pipeline is part of the gene-regulation library, which needs to be installed. We also need to install **Sequana**. This pipeline requires some data to be copied in the the directory where will be installed the **Gene-regulation** library as well. 
+
+Let us first define a directory.
 
 Create workdir
 --------------
