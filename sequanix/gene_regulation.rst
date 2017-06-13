@@ -93,10 +93,10 @@ From GEO series`GSE55357 <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE
     wget --no-clobber ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR117/000/SRR1176910/SRR1176910.fastq.gz -P ${ANALYSIS_DIR}/fastq/GSM1334677
 
 
-   gunzip -c ${ANALYSIS_DIR}/fastq/GSM1334674/SRR1176905.fastq.gz > ${ANALYSIS_DIR}/fastq/GSM1334674/GSM1334674.fastq; rm -f ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334674/SRR1176905.fastq.gz
-   gunzip -c ${ANALYSIS_DIR}/fastq/GSM1334676/SRR1176907.fastq.gz > ${ANALYSIS_DIR}/fastq/GSM1334676/GSM1334676.fastq; rm -f ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334676/SRR1176907.fastq.gz
-   gunzip -c ${ANALYSIS_DIR}/fastq/GSM1334679/SRR1176908.fastq.gz > ${ANALYSIS_DIR}/fastq/GSM1334679/GSM1334679.fastq; rm -f ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334679/SRR1176908.fastq.gz
-   gunzip -c ${ANALYSIS_DIR}/fastq/GSM1334677/SRR1176910.fastq.gz > ${ANALYSIS_DIR}/fastq/GSM1334677/GSM1334677.fastq; rm -f ${ANALYSIS_DIR}/ChIP-seq_GSE55357/fastq/GSM1334677/SRR1176910.fastq.gz
+   gunzip -c ${ANALYSIS_DIR}/fastq/GSM1334674/SRR1176905.fastq.gz > ${ANALYSIS_DIR}/fastq/GSM1334674/GSM1334674.fastq; rm -f ${ANALYSIS_DIR}/fastq/GSM1334674/SRR1176905.fastq.gz
+   gunzip -c ${ANALYSIS_DIR}/fastq/GSM1334676/SRR1176907.fastq.gz > ${ANALYSIS_DIR}/fastq/GSM1334676/GSM1334676.fastq; rm -f ${ANALYSIS_DIR}/fastq/GSM1334676/SRR1176907.fastq.gz
+   gunzip -c ${ANALYSIS_DIR}/fastq/GSM1334679/SRR1176908.fastq.gz > ${ANALYSIS_DIR}/fastq/GSM1334679/GSM1334679.fastq; rm -f ${ANALYSIS_DIR}/fastq/GSM1334679/SRR1176908.fastq.gz
+   gunzip -c ${ANALYSIS_DIR}/fastq/GSM1334677/SRR1176910.fastq.gz > ${ANALYSIS_DIR}/fastq/GSM1334677/GSM1334677.fastq; rm -f ${ANALYSIS_DIR}/fastq/GSM1334677/SRR1176910.fastq.gz
     
     
 Run the workflow with sequanix
