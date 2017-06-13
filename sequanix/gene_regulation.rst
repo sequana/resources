@@ -31,7 +31,14 @@ Download gene-regulation library
 Install dependencies with Conda and Sequana
 -----------------------------------------------
 
-To not interfere with your system, let us create a new conda environment from scratch::
+For information about conda and meaning of the following statements, please see the Installation instructions of Sequana on this page (http://sequana.readthedocs.io/en/master/installation.html#add-conda-channels). You need to add those channels once for all (in this order)::
+
+    conda config --add channels conda-forge
+    conda config --add channels defaults
+    conda config --add channels r
+    conda config --add channels bioconda
+
+Then, to not interfere with your system, let us create a new conda environment from scratch::
 
     conda create --name genereg python=3.5
     source activate genereg
