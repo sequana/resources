@@ -26,7 +26,7 @@ Download gene-regulation library
 
     wget --no-clobber https://github.com/rioualen/gene-regulation/archive/4.0.tar.gz
     tar xvzf 4.0.tar.gz
-    ln -s gene-regulation-4.0 gene-regulation
+    mv gene-regulation-4.0 gene-regulation
 
 Install dependencies with Conda and Sequana
 -----------------------------------------------
