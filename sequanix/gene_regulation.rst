@@ -87,16 +87,17 @@ Download ChIP-seq data
 
 From GEO series`GSE55357 <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE55357>`_::
 
-    wget --no-clobber ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR117/005/SRR1176905/SRR1176905.fastq.gz -P ${ANALYSIS_DIR}/fastq/GSM1334674
-    wget --no-clobber ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR117/007/SRR1176907/SRR1176907.fastq.gz -P ${ANALYSIS_DIR}/fastq/GSM1334676
-    wget --no-clobber ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR117/008/SRR1176908/SRR1176908.fastq.gz -P ${ANALYSIS_DIR}/fastq/GSM1334679
-    wget --no-clobber ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR117/000/SRR1176910/SRR1176910.fastq.gz -P ${ANALYSIS_DIR}/fastq/GSM1334677
+    cd ${ANALYSIS_DIR}
+    export URL="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR117"
+    wget --no-clobber ${URL}/005/SRR1176905/SRR1176905.fastq.gz -P fastq/GSM1334674
+    wget --no-clobber ${URL}/007/SRR1176907/SRR1176907.fastq.gz -P fastq/GSM1334676
+    wget --no-clobber ${URL}/008/SRR1176908/SRR1176908.fastq.gz -P fastq/GSM1334679
+    wget --no-clobber ${URL}/000/SRR1176910/SRR1176910.fastq.gz -P fastq/GSM1334677
 
-
-   gunzip -c ${ANALYSIS_DIR}/fastq/GSM1334674/SRR1176905.fastq.gz > ${ANALYSIS_DIR}/fastq/GSM1334674/GSM1334674.fastq; rm -f ${ANALYSIS_DIR}/fastq/GSM1334674/SRR1176905.fastq.gz
-   gunzip -c ${ANALYSIS_DIR}/fastq/GSM1334676/SRR1176907.fastq.gz > ${ANALYSIS_DIR}/fastq/GSM1334676/GSM1334676.fastq; rm -f ${ANALYSIS_DIR}/fastq/GSM1334676/SRR1176907.fastq.gz
-   gunzip -c ${ANALYSIS_DIR}/fastq/GSM1334679/SRR1176908.fastq.gz > ${ANALYSIS_DIR}/fastq/GSM1334679/GSM1334679.fastq; rm -f ${ANALYSIS_DIR}/fastq/GSM1334679/SRR1176908.fastq.gz
-   gunzip -c ${ANALYSIS_DIR}/fastq/GSM1334677/SRR1176910.fastq.gz > ${ANALYSIS_DIR}/fastq/GSM1334677/GSM1334677.fastq; rm -f ${ANALYSIS_DIR}/fastq/GSM1334677/SRR1176910.fastq.gz
+    gunzip -c fastq/GSM1334674/SRR1176905.fastq.gz; mv fastq/GSM1334674/GSM1334674.fastq; rm -f fastq/GSM1334674/SRR*.fastq.gz
+    gunzip -c fastq/GSM1334676/SRR1176907.fastq.gz > fastq/GSM1334676/GSM1334676.fastq; rm -f fastq/GSM1334676/SRR*.fastq.gz
+    gunzip -c fastq/GSM1334679/SRR1176908.fastq.gz > fastq/GSM1334679/GSM1334679.fastq; rm -f fastq/GSM1334679/SRR*.fastq.gz
+    gunzip -c fastq/GSM1334677/SRR1176910.fastq.gz > fastq/GSM1334677/GSM1334677.fastq; rm -f fastq/GSM1334677/SRR*.fastq.gz
     
     
 Run the workflow with sequanix
