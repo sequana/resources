@@ -47,10 +47,10 @@ Then, to not interfere with your system, let us create a new conda environment f
 
 and install all dependencies including sequana itself::
 
-    conda install fastqc bowtie2 bedtools samtools graphviz deeptools
-    conda install r-essentials bioconductor-deseq2 bioconductor-edger
-    conda install -c bioconda bioconductor-mosaics=2.10.0
-    conda install sequana
+    conda install -y fastqc bowtie2 bedtools samtools graphviz deeptools
+    conda install -y r-essentials bioconductor-deseq2 bioconductor-edger
+    conda install -y -c bioconda bioconductor-mosaics=2.10.0
+    conda install -y sequana
 
 For MACS2, note that only the version for Python2.7 is available (no Python 3 in June 2017). So, since we used conda for version 3 of Python, one need to trick the system using **pip2**, which is the **pip** version for Python2.7. Most distributions are still using Python2 so you should have the utility available. Type this command to install macs2 globally::
 
