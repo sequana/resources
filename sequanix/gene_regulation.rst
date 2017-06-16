@@ -85,7 +85,7 @@ Genome assembly: sacCer3::
 Download ChIP-seq data
 --------------------------
 
-From GEO series`GSE55357 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE55357:
+From GEO series `GSE55357 <ttps://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE55357>`_
 
     cd ${ANALYSIS_DIR}
     export URL="ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR117/"
