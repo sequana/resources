@@ -111,7 +111,9 @@ From GEO series `GSE55357 <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GS
 Run the workflow with sequanix
 --------------------------------
 
-Open Sequanix in the same directory as above and 
+You may watch the  `video (webm format)  <https://tinyurl.com/yajkodzn>`_ or follow those instructions:
+
+Make sure you are in the ANALYSIS_DIR directory (see above) and start **Sequanix**. Then,  
 
 #. At the top select the "Generic pipelines" tab
 #. select the pipeline thanks to the browser, that is called gene-regulation/scripts/snakefiles/workflows/ChIP-seq.wf
