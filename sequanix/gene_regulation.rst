@@ -100,7 +100,7 @@ From GEO series `GSE55357 <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GS
     gunzip -c fastq/GSM1334677/SRR1176910.fastq.gz>fastq/GSM1334677/GSM1334677.fastq
     rm -f fastq/GSM133467?/SRR11769??.fastq.gz
 
-**If you do not alter your bash, remember to do the following each time you open a new shell**
+**If you do not alter your bash, remember to do the following each time you open a new shell**::
 
     export ANALYSIS_DIR=~/test_sequanix_gene-regulation
     export PATH=$PATH:$PWD/bin
