@@ -105,7 +105,7 @@ From GEO series `GSE55357 <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GS
     export ANALYSIS_DIR=~/test_sequanix_gene-regulation
     export PATH=$PATH:$PWD/bin
     source activate genereg
-
+    cd $ANALYSIS_DIR
     
     
 Run the workflow with sequanix
