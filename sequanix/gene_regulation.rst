@@ -111,7 +111,7 @@ From GEO series `GSE55357 <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GS
 Run the workflow with sequanix
 --------------------------------
 
-You may watch the  `video (webm format)  <https://tinyurl.com/yajkodzn>`_  or in `ogg format <https://tinyurl.com/ydak9ayw>`_ or follow those instructions:
+You may watch the  `video (webm format)  <https://tinyurl.com/yajkodzn>`_  (alternatively download it in `ogg format <https://tinyurl.com/ydak9ayw>`_). You can also simply follow these instructions:
 
 Make sure you are in the ANALYSIS_DIR directory (see above) and start **Sequanix**. Then,  
 
