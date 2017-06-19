@@ -130,4 +130,12 @@ Open Sequanix in the same directory as above and
 **Warning**: the output directory must contain the gene-regulation library.
 
 
+<video width="800" height=600 controls="controls">
+<source src="demo_genereg.webm"/> 
+<source src="demo_genereg.ogg"/> 
+test
+</video>
+
+
+
 
