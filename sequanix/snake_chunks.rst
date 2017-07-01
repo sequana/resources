@@ -1,12 +1,12 @@
-Gene regulation example
-============================
+SnakeChunks regulation example
+======================================
 
-This page shows how to load and execute a Snakemake pipeline from the **Gene-regulation** library (Rioualen et al, 2017) within the Sequanix application (Desvillechabrol et al, 2017). 
-This tutorial is a snapshot (June 2017) of the official (and up-to-date) tutorial available on gene-regulation documentation web page http://gene-regulation.readthedocs.io/en/latest/tutorials.html
+This page shows how to load and execute a Snakemake pipeline from the **SnakeChunks** library (Rioualen et al, 2017) within the Sequanix application (Desvillechabrol et al, 2017). 
+This tutorial is a snapshot (June 2017) of the official (and up-to-date) tutorial available on SnakeChunks documentation web page http://snakechunks.readthedocs.io/en/latest/tutorials.html
 
-We will use one of the pipeline from the Gene-regulation library to demonstrate that **Sequanix** can load a third-party snakemake pipeline: here, the ChIP-seq pipeline. 
+We will use one of the pipeline from the snakechunks library to demonstrate that **Sequanix** can load a third-party snakemake pipeline: here, the ChIP-seq pipeline. 
 
-The ChIP-seq pipeline is part of the gene-regulation library, which needs to be installed. We also need to install **Sequana**. This pipeline requires some data to be copied in the the directory where will be installed the **Gene-regulation** library as well. 
+The ChIP-seq pipeline is part of the SnakeChunks library, which needs to be installed. We also need to install **Sequana**. This pipeline requires some data to be copied in the the directory where will be installed the **SnakeChunks** library as well. 
 
 Let us first define a directory.
 
@@ -15,18 +15,18 @@ Create an analysis and working directory
 ::
 
     # Create a working and analysis directory at the top level
-    export ANALYSIS_DIR=~/test_sequanix_gene-regulation
+    export ANALYSIS_DIR=~/test_sequanix_snakechunks
     mkdir ${ANALYSIS_DIR}
     cd ${ANALYSIS_DIR}
 
-Download gene-regulation library
--------------------------------
+Download SnakeChunks library
+-------------------------------------
 
 ::
 
-    wget --no-clobber https://github.com/rioualen/gene-regulation/archive/4.0.tar.gz
+    wget --no-clobber https://github.com/SnakeChunks/SnakeChunks/archive/4.0.tar.gz
     tar xvzf 4.0.tar.gz
-    mv gene-regulation-4.0 gene-regulation
+    mv gene-regulation-4.0 snakechunks
 
 Install dependencies with Conda and Sequana
 -----------------------------------------------
@@ -40,12 +40,12 @@ For information about conda and meaning of the following statements, please see 
 
 Then, to not interfere with your system, let us create a new conda environment from scratch::
 
-    conda create --name genereg python=3.5
-    source activate genereg
+    conda create --name snakechunks python=3.5
+    source activate snakechunks
 
 **Note:** when you open a new shell, the last instruction must be called
 
-and install all dependencies including sequana itself::
+and install all dependencies including **sequana** itself::
 
     conda install -y fastqc bowtie2 bedtools samtools graphviz deeptools
     conda install -y r-essentials bioconductor-deseq2 bioconductor-edger
@@ -61,7 +61,7 @@ of if you do not have root permission::
     pip2 install --user macs2
 
 
-For homer software, follow the instructions here : http://homer.ucsd.edu/homer/introduction/install.html 
+For homer software, follow the instructions here : http://homer.ucsd.edu/homer/introduction/install.html
 Note that in June 2017 the following instructions are enough to install Homer on a unix box (you need perl)::
 
     wget http://homer.ucsd.edu/homer/configureHomer.pl
@@ -102,7 +102,7 @@ From GEO series `GSE55357 <https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GS
 
 **If you do not alter your bash, remember to do the following each time you open a new shell**::
 
-    export ANALYSIS_DIR=~/test_sequanix_gene-regulation
+    export ANALYSIS_DIR=~/test_sequanix_snakechunks
     export PATH=$PATH:$PWD/bin
     source activate genereg
     cd $ANALYSIS_DIR
@@ -116,8 +116,8 @@ You may watch the  `video (webm format)  <https://tinyurl.com/yajkodzn>`_  (alte
 Make sure you are in the ANALYSIS_DIR directory (see above) and start **Sequanix**. Then,  
 
 #. At the top select the "Generic pipelines" tab
-#. select the pipeline thanks to the browser, that is called gene-regulation/scripts/snakefiles/workflows/ChIP-seq.wf
-#. select the config file in ./gene-regulation/examples/ChIP-seq_GSE55357/config.yml
+#. select the pipeline thanks to the browser, that is called snakechunks/scripts/snakefiles/workflows/ChIP-seq.wf
+#. select the config file in ./snakechunks/examples/ChIP-seq_GSE55357/config.yml
 #. set the working directory (the local directory where sequanix is launch, also referede to as ${ANALYSIS_DIR} above)
 #. Press the "Save" button in the button
 #. Press "Show pipeline" to check everything looks fine
@@ -129,7 +129,7 @@ Make sure you are in the ANALYSIS_DIR directory (see above) and start **Sequanix
     :width: 30%
 
 
-**Warning**: the output directory must contain the gene-regulation library.
+**Warning**: the output directory must contain the SnakeChunks library.
 
 
 <video width="800" height=600 controls="controls">
