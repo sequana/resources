@@ -120,6 +120,7 @@ Make sure you are in the ANALYSIS_DIR directory (see above) and start **Sequanix
 #. select the pipeline thanks to the browser, that is called snakechunks/scripts/snakefiles/workflows/ChIP-seq.wf
 #. select the config file in ./snakechunks/examples/ChIP-seq_GSE55357/config.yml
 #. set the working directory (the local directory where sequanix is launch, also referede to as ${ANALYSIS_DIR} above)
+#. **In the dir and metadata sections, changes gene-regulation to SnakeChunks-4.0**
 #. Press the "Save" button in the button
 #. Press "Show pipeline" to check everything looks fine
 #. Press "Run"
