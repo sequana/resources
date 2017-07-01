@@ -33,6 +33,7 @@ Install dependencies with Conda and Sequana
 
 For information about conda and meaning of the following statements, please see the Installation instructions of Sequana on this page (http://sequana.readthedocs.io/en/master/installation.html#add-conda-channels). You need to add those channels once for all (in this order)::
 
+    # OPTIONAL if already done 
     conda config --add channels conda-forge
     conda config --add channels defaults
     conda config --add channels r
