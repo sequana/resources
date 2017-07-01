@@ -26,7 +26,8 @@ Download SnakeChunks library
 
     wget --no-clobber https://github.com/SnakeChunks/SnakeChunks/archive/4.0.tar.gz
     tar xvzf 4.0.tar.gz
-    cd SnakeChunks-4.0
+    mv SnakeChunks-4.0 gene-regulation
+    # cd SnakeChunks-4.0
 
 Install dependencies with Conda and Sequana
 -----------------------------------------------
