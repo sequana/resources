@@ -1,11 +1,6 @@
 SnakeChunks regulation example
 ======================================
 
-.. toctree::
-
-
-.. content::
-
 This page shows how to load and execute a Snakemake pipeline from the **SnakeChunks** library (Rioualen et al, 2017) within the Sequanix application (Desvillechabrol et al, 2017). 
 This tutorial is a snapshot (June 2017) of the official (and up-to-date) tutorial available on SnakeChunks documentation web page http://snakechunks.readthedocs.io/en/latest/tutorials.html
 
