@@ -4,7 +4,7 @@ SnakeChunks regulation example
 This page shows how to load and execute a Snakemake pipeline from the **SnakeChunks** library (Rioualen et al, 2017) within the Sequanix application (Desvillechabrol et al, 2017). 
 This tutorial is a snapshot (June 2017) of the official (and up-to-date) tutorial available on SnakeChunks documentation web page http://snakechunks.readthedocs.io/en/latest/tutorials.html
 
-We will use one of the pipeline from the snakechunks library to demonstrate that **Sequanix** can load a third-party snakemake pipeline: here, the ChIP-seq pipeline. 
+We will use one of the pipeline from the SnakeChunks library to demonstrate that **Sequanix** can load a third-party snakemake pipeline: here, the ChIP-seq pipeline. 
 
 The ChIP-seq pipeline is part of the SnakeChunks library, which needs to be installed. We also need to install **Sequana**. This pipeline requires some data to be copied in the the directory where will be installed the **SnakeChunks** library as well. 
 
