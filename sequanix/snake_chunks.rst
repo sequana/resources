@@ -125,7 +125,7 @@ Make sure you are in the ANALYSIS_DIR directory (see above) and start **Sequanix
 #. The analysis takes about 15-20 minutes
 
 
-.. image:: sequanix-regulation.png
+.. image:: sequanix-snakechunks.png
     :width: 30%
 
 

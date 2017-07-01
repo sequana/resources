@@ -15,7 +15,7 @@ In the reference above, the online supplementary illustrates the usage of Sequan
 All materials and explanations for the the 2 first cases are available in the Sequana tutorial (link above) while the material for the SnakeChunks case are available on this dedicated page: `SnakeChunksmaterial <https://github.com/sequana/resources/tree/master/sequanix/snake_chunks.rst>`_. A video is also available in the `videos <https://github.com/sequana/resources/tree/master/sequanix/videos>`_  directory.
 
 We also provide a tutorial/video of for one of Sequana  pipeline (quality
-control) in the ./videos directory.
+control) in the same *video* directory. 
 
 Here below is a snapshot of Sequanix, a GUI for snakemake pipelines.
 
