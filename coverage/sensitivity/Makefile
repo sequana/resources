@@ -3,3 +3,4 @@ clean:
 	rm -f out err
 	rm -rf report
 	rm -f paired_*.*
+	rm *.bed
