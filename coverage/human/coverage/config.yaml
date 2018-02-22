@@ -1,0 +1,37 @@
+
+# ============================================================================
+# Config file for coverage pipeline
+# ==========================================[ Sections for the users ]========
+#
+# One of input_directory, input_pattern and input_samples must be provided
+# If input_directory provided, use it otherwise if input_pattern provided,
+# use it, otherwise use input_samples.
+# If input_extension provided, use it otherwise assume fastq.gz
+# ============================================================================
+input_directory: ''
+input_readtag: _R[12]_
+input_extension: ''
+input_pattern: /pasteur/homes/tcokelae/TEMP/coverage/NA12878.bed
+input_samples:
+    file1: ''
+    file2: ''
+
+
+####################################"
+#
+# :Parameters:
+#
+# 
+#
+coverage:
+    circular: true
+    double_threshold: 0.5
+    genbank_file: ''
+    high_threshold: 6.0
+    low_threshold: -4.0
+    mixture_models: 2
+    reference_file: ''
+    window: 250001
+    chunksize: 10000000
+    binning: 100
+    cnv_delta: 1000

@@ -1,0 +1,66 @@
+{
+    "data": {
+        "BOC": 99.04287914258377,
+        "C3": 0.9867,
+        "C4": 0.9893,
+        "CV": 0.4197725445582998,
+        "DOC": 5.2349775347360845,
+        "ROI": 2161,
+        "ROI(high)": 833,
+        "ROI(low)": 1328,
+        "chrom_name": "chrX",
+        "evenness": 0.8563,
+        "fit_mu": 0.9745490282119199,
+        "fit_pi": 0.8853050238322095,
+        "fit_sigma": 0.35247850240103956,
+        "hist_coverage": {
+            "X": [
+                1.12,
+                2.12,
+                3.12,
+                4.12,
+                5.12,
+                6.12,
+                7.12,
+                8.12,
+                9.12,
+                10.12
+            ],
+            "Y": [
+                0.01064206675113065,
+                0.03861988310254999,
+                0.09540588807029651,
+                0.15998395886726952,
+                0.19773330102278683,
+                0.1874962136078325,
+                0.14410020835034465,
+                0.0916919312312162,
+                0.0500699330170763,
+                0.02425661597949685
+            ]
+        },
+        "length": 156040895
+    },
+    "data_description": {
+        "BOC": "Breadth of Coverage",
+        "C3": "Centralness (1 - ratio outliers by genome length) using zscore of 3",
+        "C4": "Centralness (1 - ratio outliers by genome length) using zscore of 4",
+        "CV": "coefficient of variation of the DOC",
+        "DOC": "Depth of Coverage",
+        "ROI": "number of regions of interest found",
+        "ROI(high)": null,
+        "ROI(low)": null,
+        "chrom_name": "name of the contig/chromosome",
+        "evenness": null,
+        "fit_mu": null,
+        "fit_pi": null,
+        "fit_sigma": null,
+        "hist_coverage": null,
+        "length": "length of the contig/chromosome"
+    },
+    "date": "Thu Feb 22 12:43:06 2018",
+    "description": "",
+    "name": "sequana_summary_coverage",
+    "sample_name": "NA12878.bed",
+    "version": ">=0.20.0"
+}

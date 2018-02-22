@@ -1,0 +1,66 @@
+{
+    "data": {
+        "BOC": 99.4841414280873,
+        "C3": 0.9903,
+        "C4": 0.9931,
+        "CV": 0.5259480148384721,
+        "DOC": 5.296518594756066,
+        "ROI": 3387,
+        "ROI(high)": 1529,
+        "ROI(low)": 1858,
+        "chrom_name": "chr7",
+        "evenness": 0.8576,
+        "fit_mu": 0.9800720689957151,
+        "fit_pi": 0.9012952861021599,
+        "fit_sigma": 0.36019449475182547,
+        "hist_coverage": {
+            "X": [
+                1.6600000000000001,
+                2.66,
+                3.66,
+                4.66,
+                5.66,
+                6.66,
+                7.66,
+                8.66,
+                9.66,
+                10.66
+            ],
+            "Y": [
+                0.024369501032698585,
+                0.06742721451653443,
+                0.13166151656592526,
+                0.18421504300821595,
+                0.19428875576694504,
+                0.16431703364482497,
+                0.1147031465647746,
+                0.06759949165387981,
+                0.034962616504021195,
+                0.016455680742180193
+            ]
+        },
+        "length": 159345973
+    },
+    "data_description": {
+        "BOC": "Breadth of Coverage",
+        "C3": "Centralness (1 - ratio outliers by genome length) using zscore of 3",
+        "C4": "Centralness (1 - ratio outliers by genome length) using zscore of 4",
+        "CV": "coefficient of variation of the DOC",
+        "DOC": "Depth of Coverage",
+        "ROI": "number of regions of interest found",
+        "ROI(high)": null,
+        "ROI(low)": null,
+        "chrom_name": "name of the contig/chromosome",
+        "evenness": null,
+        "fit_mu": null,
+        "fit_pi": null,
+        "fit_sigma": null,
+        "hist_coverage": null,
+        "length": "length of the contig/chromosome"
+    },
+    "date": "Thu Feb 22 12:41:14 2018",
+    "description": "",
+    "name": "sequana_summary_coverage",
+    "sample_name": "NA12878.bed",
+    "version": ">=0.20.0"
+}

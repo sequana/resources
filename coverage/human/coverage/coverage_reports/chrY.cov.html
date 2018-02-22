@@ -1,0 +1,2336 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <title>
+  Coverage analysis of chromosome chrY - Sequana</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Javascript static files  -->
+  <script type="text/javascript" src="../js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.dropdown.min.js"></script>
+  <script type="text/javascript" src="../js/jquery.dataTables.min.js"></script>
+  <script type="text/javascript" src="../js/dataTables.buttons.min.js"></script>
+  <script type="text/javascript" src="../js/buttons.html5.min.js"></script>
+  <script type="text/javascript" src="../js/papaparse.min.js"></script>
+  <script type="text/javascript" src="../js/canvasjs.min.js"></script>
+
+  <!-- CSS static files -->
+  <link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link type="text/css" rel="stylesheet" href="../css/jquery.dropdown.min.css" />
+  <link type="text/css" rel="stylesheet" href="../css/jquery.dataTables.min.css" />
+  <link type="text/css" rel="stylesheet" href="../css/buttons.dataTables.min.css" />
+  <link type="text/css" rel="stylesheet" href="../css/report.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header>
+      <h1 class="title">Coverage analysis of chromosome chrY</h1>
+      <h2 class="subtitle">
+        Report created with <a href="http://sequana.readthedocs.org">Sequana</a>
+        (0.6.4)
+      </h2>
+    </header>
+    
+  <p>The genome coverage analysis of the chromosome <b>chrY</b>.</p>
+  <div id="coverage" style="clear:both">
+      <h2 id="coverage">Coverage
+        <div style="float:right"></div>
+      </h2>
+    <p>Large data sets (--chunk-size argument used), skipped plotting.</p>
+  </div>
+  <div id="subcoverage" style="clear:both">
+      <h2 id="subcoverage">Subcoverage
+        <div style="float:right"></div>
+      </h2>
+    
+<div id="jq-dropdown-sub" class="jq-dropdown jq-dropdown-tip jq-dropdown-scroll">
+    <ul class="jq-dropdown-menu">
+        <li><a href="chrY/chrY_1_200001.html" target="_blank" >chrY_1_200001.html</a></li>
+
+<li><a href="chrY/chrY_200001_400001.html" target="_blank" >chrY_200001_400001.html</a></li>
+
+<li><a href="chrY/chrY_400001_600001.html" target="_blank" >chrY_400001_600001.html</a></li>
+
+<li><a href="chrY/chrY_600001_800001.html" target="_blank" >chrY_600001_800001.html</a></li>
+
+<li><a href="chrY/chrY_800001_1000001.html" target="_blank" >chrY_800001_1000001.html</a></li>
+
+<li><a href="chrY/chrY_1000001_1200001.html" target="_blank" >chrY_1000001_1200001.html</a></li>
+
+<li><a href="chrY/chrY_1200001_1400001.html" target="_blank" >chrY_1200001_1400001.html</a></li>
+
+<li><a href="chrY/chrY_1400001_1600001.html" target="_blank" >chrY_1400001_1600001.html</a></li>
+
+<li><a href="chrY/chrY_1600001_1800001.html" target="_blank" >chrY_1600001_1800001.html</a></li>
+
+<li><a href="chrY/chrY_1800001_2000001.html" target="_blank" >chrY_1800001_2000001.html</a></li>
+
+<li><a href="chrY/chrY_2000001_2200001.html" target="_blank" >chrY_2000001_2200001.html</a></li>
+
+<li><a href="chrY/chrY_2200001_2400001.html" target="_blank" >chrY_2200001_2400001.html</a></li>
+
+<li><a href="chrY/chrY_2400001_2600001.html" target="_blank" >chrY_2400001_2600001.html</a></li>
+
+<li><a href="chrY/chrY_2600001_2800001.html" target="_blank" >chrY_2600001_2800001.html</a></li>
+
+<li><a href="chrY/chrY_2800001_3000001.html" target="_blank" >chrY_2800001_3000001.html</a></li>
+
+<li><a href="chrY/chrY_3000001_3200001.html" target="_blank" >chrY_3000001_3200001.html</a></li>
+
+<li><a href="chrY/chrY_3200001_3400001.html" target="_blank" >chrY_3200001_3400001.html</a></li>
+
+<li><a href="chrY/chrY_3400001_3600001.html" target="_blank" >chrY_3400001_3600001.html</a></li>
+
+<li><a href="chrY/chrY_3600001_3800001.html" target="_blank" >chrY_3600001_3800001.html</a></li>
+
+<li><a href="chrY/chrY_3800001_4000001.html" target="_blank" >chrY_3800001_4000001.html</a></li>
+
+<li><a href="chrY/chrY_4000001_4200001.html" target="_blank" >chrY_4000001_4200001.html</a></li>
+
+<li><a href="chrY/chrY_4200001_4400001.html" target="_blank" >chrY_4200001_4400001.html</a></li>
+
+<li><a href="chrY/chrY_4400001_4600001.html" target="_blank" >chrY_4400001_4600001.html</a></li>
+
+<li><a href="chrY/chrY_4600001_4800001.html" target="_blank" >chrY_4600001_4800001.html</a></li>
+
+<li><a href="chrY/chrY_4800001_5000001.html" target="_blank" >chrY_4800001_5000001.html</a></li>
+
+<li><a href="chrY/chrY_5000001_5200001.html" target="_blank" >chrY_5000001_5200001.html</a></li>
+
+<li><a href="chrY/chrY_5200001_5400001.html" target="_blank" >chrY_5200001_5400001.html</a></li>
+
+<li><a href="chrY/chrY_5400001_5600001.html" target="_blank" >chrY_5400001_5600001.html</a></li>
+
+<li><a href="chrY/chrY_5600001_5800001.html" target="_blank" >chrY_5600001_5800001.html</a></li>
+
+<li><a href="chrY/chrY_5800001_6000001.html" target="_blank" >chrY_5800001_6000001.html</a></li>
+
+<li><a href="chrY/chrY_6000001_6200001.html" target="_blank" >chrY_6000001_6200001.html</a></li>
+
+<li><a href="chrY/chrY_6200001_6400001.html" target="_blank" >chrY_6200001_6400001.html</a></li>
+
+<li><a href="chrY/chrY_6400001_6600001.html" target="_blank" >chrY_6400001_6600001.html</a></li>
+
+<li><a href="chrY/chrY_6600001_6800001.html" target="_blank" >chrY_6600001_6800001.html</a></li>
+
+<li><a href="chrY/chrY_6800001_7000001.html" target="_blank" >chrY_6800001_7000001.html</a></li>
+
+<li><a href="chrY/chrY_7000001_7200001.html" target="_blank" >chrY_7000001_7200001.html</a></li>
+
+<li><a href="chrY/chrY_7200001_7400001.html" target="_blank" >chrY_7200001_7400001.html</a></li>
+
+<li><a href="chrY/chrY_7400001_7600001.html" target="_blank" >chrY_7400001_7600001.html</a></li>
+
+<li><a href="chrY/chrY_7600001_7800001.html" target="_blank" >chrY_7600001_7800001.html</a></li>
+
+<li><a href="chrY/chrY_7800001_8000001.html" target="_blank" >chrY_7800001_8000001.html</a></li>
+
+<li><a href="chrY/chrY_8000001_8200001.html" target="_blank" >chrY_8000001_8200001.html</a></li>
+
+<li><a href="chrY/chrY_8200001_8400001.html" target="_blank" >chrY_8200001_8400001.html</a></li>
+
+<li><a href="chrY/chrY_8400001_8600001.html" target="_blank" >chrY_8400001_8600001.html</a></li>
+
+<li><a href="chrY/chrY_8600001_8800001.html" target="_blank" >chrY_8600001_8800001.html</a></li>
+
+<li><a href="chrY/chrY_8800001_9000001.html" target="_blank" >chrY_8800001_9000001.html</a></li>
+
+<li><a href="chrY/chrY_9000001_9200001.html" target="_blank" >chrY_9000001_9200001.html</a></li>
+
+<li><a href="chrY/chrY_9200001_9400001.html" target="_blank" >chrY_9200001_9400001.html</a></li>
+
+<li><a href="chrY/chrY_9400001_9600001.html" target="_blank" >chrY_9400001_9600001.html</a></li>
+
+<li><a href="chrY/chrY_9600001_9800001.html" target="_blank" >chrY_9600001_9800001.html</a></li>
+
+<li><a href="chrY/chrY_9800001_10000001.html" target="_blank" >chrY_9800001_10000001.html</a></li>
+
+<li><a href="chrY/chrY_10000001_10200001.html" target="_blank" >chrY_10000001_10200001.html</a></li>
+
+<li><a href="chrY/chrY_10200001_10400001.html" target="_blank" >chrY_10200001_10400001.html</a></li>
+
+<li><a href="chrY/chrY_10400001_10600001.html" target="_blank" >chrY_10400001_10600001.html</a></li>
+
+<li><a href="chrY/chrY_10600001_10800001.html" target="_blank" >chrY_10600001_10800001.html</a></li>
+
+<li><a href="chrY/chrY_10800001_11000001.html" target="_blank" >chrY_10800001_11000001.html</a></li>
+
+<li><a href="chrY/chrY_11000001_11200001.html" target="_blank" >chrY_11000001_11200001.html</a></li>
+
+<li><a href="chrY/chrY_11200001_11400001.html" target="_blank" >chrY_11200001_11400001.html</a></li>
+
+<li><a href="chrY/chrY_11400001_11600001.html" target="_blank" >chrY_11400001_11600001.html</a></li>
+
+<li><a href="chrY/chrY_11600001_11800001.html" target="_blank" >chrY_11600001_11800001.html</a></li>
+
+<li><a href="chrY/chrY_11800001_12000001.html" target="_blank" >chrY_11800001_12000001.html</a></li>
+
+<li><a href="chrY/chrY_12000001_12200001.html" target="_blank" >chrY_12000001_12200001.html</a></li>
+
+<li><a href="chrY/chrY_12200001_12400001.html" target="_blank" >chrY_12200001_12400001.html</a></li>
+
+<li><a href="chrY/chrY_12400001_12600001.html" target="_blank" >chrY_12400001_12600001.html</a></li>
+
+<li><a href="chrY/chrY_12600001_12800001.html" target="_blank" >chrY_12600001_12800001.html</a></li>
+
+<li><a href="chrY/chrY_12800001_13000001.html" target="_blank" >chrY_12800001_13000001.html</a></li>
+
+<li><a href="chrY/chrY_13000001_13200001.html" target="_blank" >chrY_13000001_13200001.html</a></li>
+
+<li><a href="chrY/chrY_13200001_13400001.html" target="_blank" >chrY_13200001_13400001.html</a></li>
+
+<li><a href="chrY/chrY_13400001_13600001.html" target="_blank" >chrY_13400001_13600001.html</a></li>
+
+<li><a href="chrY/chrY_13600001_13800001.html" target="_blank" >chrY_13600001_13800001.html</a></li>
+
+<li><a href="chrY/chrY_13800001_14000001.html" target="_blank" >chrY_13800001_14000001.html</a></li>
+
+<li><a href="chrY/chrY_14000001_14200001.html" target="_blank" >chrY_14000001_14200001.html</a></li>
+
+<li><a href="chrY/chrY_14200001_14400001.html" target="_blank" >chrY_14200001_14400001.html</a></li>
+
+<li><a href="chrY/chrY_14400001_14600001.html" target="_blank" >chrY_14400001_14600001.html</a></li>
+
+<li><a href="chrY/chrY_14600001_14800001.html" target="_blank" >chrY_14600001_14800001.html</a></li>
+
+<li><a href="chrY/chrY_14800001_15000001.html" target="_blank" >chrY_14800001_15000001.html</a></li>
+
+<li><a href="chrY/chrY_15000001_15200001.html" target="_blank" >chrY_15000001_15200001.html</a></li>
+
+<li><a href="chrY/chrY_15200001_15400001.html" target="_blank" >chrY_15200001_15400001.html</a></li>
+
+<li><a href="chrY/chrY_15400001_15600001.html" target="_blank" >chrY_15400001_15600001.html</a></li>
+
+<li><a href="chrY/chrY_15600001_15800001.html" target="_blank" >chrY_15600001_15800001.html</a></li>
+
+<li><a href="chrY/chrY_15800001_16000001.html" target="_blank" >chrY_15800001_16000001.html</a></li>
+
+<li><a href="chrY/chrY_16000001_16200001.html" target="_blank" >chrY_16000001_16200001.html</a></li>
+
+<li><a href="chrY/chrY_16200001_16400001.html" target="_blank" >chrY_16200001_16400001.html</a></li>
+
+<li><a href="chrY/chrY_16400001_16600001.html" target="_blank" >chrY_16400001_16600001.html</a></li>
+
+<li><a href="chrY/chrY_16600001_16800001.html" target="_blank" >chrY_16600001_16800001.html</a></li>
+
+<li><a href="chrY/chrY_16800001_17000001.html" target="_blank" >chrY_16800001_17000001.html</a></li>
+
+<li><a href="chrY/chrY_17000001_17200001.html" target="_blank" >chrY_17000001_17200001.html</a></li>
+
+<li><a href="chrY/chrY_17200001_17400001.html" target="_blank" >chrY_17200001_17400001.html</a></li>
+
+<li><a href="chrY/chrY_17400001_17600001.html" target="_blank" >chrY_17400001_17600001.html</a></li>
+
+<li><a href="chrY/chrY_17600001_17800001.html" target="_blank" >chrY_17600001_17800001.html</a></li>
+
+<li><a href="chrY/chrY_17800001_18000001.html" target="_blank" >chrY_17800001_18000001.html</a></li>
+
+<li><a href="chrY/chrY_18000001_18200001.html" target="_blank" >chrY_18000001_18200001.html</a></li>
+
+<li><a href="chrY/chrY_18200001_18400001.html" target="_blank" >chrY_18200001_18400001.html</a></li>
+
+<li><a href="chrY/chrY_18400001_18600001.html" target="_blank" >chrY_18400001_18600001.html</a></li>
+
+<li><a href="chrY/chrY_18600001_18800001.html" target="_blank" >chrY_18600001_18800001.html</a></li>
+
+<li><a href="chrY/chrY_18800001_19000001.html" target="_blank" >chrY_18800001_19000001.html</a></li>
+
+<li><a href="chrY/chrY_19000001_19200001.html" target="_blank" >chrY_19000001_19200001.html</a></li>
+
+<li><a href="chrY/chrY_19200001_19400001.html" target="_blank" >chrY_19200001_19400001.html</a></li>
+
+<li><a href="chrY/chrY_19400001_19600001.html" target="_blank" >chrY_19400001_19600001.html</a></li>
+
+<li><a href="chrY/chrY_19600001_19800001.html" target="_blank" >chrY_19600001_19800001.html</a></li>
+
+<li><a href="chrY/chrY_19800001_20000001.html" target="_blank" >chrY_19800001_20000001.html</a></li>
+
+<li><a href="chrY/chrY_20000001_20200001.html" target="_blank" >chrY_20000001_20200001.html</a></li>
+
+<li><a href="chrY/chrY_20200001_20400001.html" target="_blank" >chrY_20200001_20400001.html</a></li>
+
+<li><a href="chrY/chrY_20400001_20600001.html" target="_blank" >chrY_20400001_20600001.html</a></li>
+
+<li><a href="chrY/chrY_20600001_20800001.html" target="_blank" >chrY_20600001_20800001.html</a></li>
+
+<li><a href="chrY/chrY_20800001_21000001.html" target="_blank" >chrY_20800001_21000001.html</a></li>
+
+<li><a href="chrY/chrY_21000001_21200001.html" target="_blank" >chrY_21000001_21200001.html</a></li>
+
+<li><a href="chrY/chrY_21200001_21400001.html" target="_blank" >chrY_21200001_21400001.html</a></li>
+
+<li><a href="chrY/chrY_21400001_21600001.html" target="_blank" >chrY_21400001_21600001.html</a></li>
+
+<li><a href="chrY/chrY_21600001_21800001.html" target="_blank" >chrY_21600001_21800001.html</a></li>
+
+<li><a href="chrY/chrY_21800001_22000001.html" target="_blank" >chrY_21800001_22000001.html</a></li>
+
+<li><a href="chrY/chrY_22000001_22200001.html" target="_blank" >chrY_22000001_22200001.html</a></li>
+
+<li><a href="chrY/chrY_22200001_22400001.html" target="_blank" >chrY_22200001_22400001.html</a></li>
+
+<li><a href="chrY/chrY_22400001_22600001.html" target="_blank" >chrY_22400001_22600001.html</a></li>
+
+<li><a href="chrY/chrY_22600001_22800001.html" target="_blank" >chrY_22600001_22800001.html</a></li>
+
+<li><a href="chrY/chrY_22800001_23000001.html" target="_blank" >chrY_22800001_23000001.html</a></li>
+
+<li><a href="chrY/chrY_23000001_23200001.html" target="_blank" >chrY_23000001_23200001.html</a></li>
+
+<li><a href="chrY/chrY_23200001_23400001.html" target="_blank" >chrY_23200001_23400001.html</a></li>
+
+<li><a href="chrY/chrY_23400001_23600001.html" target="_blank" >chrY_23400001_23600001.html</a></li>
+
+<li><a href="chrY/chrY_23600001_23800001.html" target="_blank" >chrY_23600001_23800001.html</a></li>
+
+<li><a href="chrY/chrY_23800001_24000001.html" target="_blank" >chrY_23800001_24000001.html</a></li>
+
+<li><a href="chrY/chrY_24000001_24200001.html" target="_blank" >chrY_24000001_24200001.html</a></li>
+
+<li><a href="chrY/chrY_24200001_24400001.html" target="_blank" >chrY_24200001_24400001.html</a></li>
+
+<li><a href="chrY/chrY_24400001_24600001.html" target="_blank" >chrY_24400001_24600001.html</a></li>
+
+<li><a href="chrY/chrY_24600001_24800001.html" target="_blank" >chrY_24600001_24800001.html</a></li>
+
+<li><a href="chrY/chrY_24800001_25000001.html" target="_blank" >chrY_24800001_25000001.html</a></li>
+
+<li><a href="chrY/chrY_25000001_25200001.html" target="_blank" >chrY_25000001_25200001.html</a></li>
+
+<li><a href="chrY/chrY_25200001_25400001.html" target="_blank" >chrY_25200001_25400001.html</a></li>
+
+<li><a href="chrY/chrY_25400001_25600001.html" target="_blank" >chrY_25400001_25600001.html</a></li>
+
+<li><a href="chrY/chrY_25600001_25800001.html" target="_blank" >chrY_25600001_25800001.html</a></li>
+
+<li><a href="chrY/chrY_25800001_26000001.html" target="_blank" >chrY_25800001_26000001.html</a></li>
+
+<li><a href="chrY/chrY_26000001_26200001.html" target="_blank" >chrY_26000001_26200001.html</a></li>
+
+<li><a href="chrY/chrY_26200001_26400001.html" target="_blank" >chrY_26200001_26400001.html</a></li>
+
+<li><a href="chrY/chrY_26400001_26600001.html" target="_blank" >chrY_26400001_26600001.html</a></li>
+
+<li><a href="chrY/chrY_26600001_26800001.html" target="_blank" >chrY_26600001_26800001.html</a></li>
+
+<li><a href="chrY/chrY_26800001_27000001.html" target="_blank" >chrY_26800001_27000001.html</a></li>
+
+<li><a href="chrY/chrY_27000001_27200001.html" target="_blank" >chrY_27000001_27200001.html</a></li>
+
+<li><a href="chrY/chrY_27200001_27400001.html" target="_blank" >chrY_27200001_27400001.html</a></li>
+
+<li><a href="chrY/chrY_27400001_27600001.html" target="_blank" >chrY_27400001_27600001.html</a></li>
+
+<li><a href="chrY/chrY_27600001_27800001.html" target="_blank" >chrY_27600001_27800001.html</a></li>
+
+<li><a href="chrY/chrY_27800001_28000001.html" target="_blank" >chrY_27800001_28000001.html</a></li>
+
+<li><a href="chrY/chrY_28000001_28200001.html" target="_blank" >chrY_28000001_28200001.html</a></li>
+
+<li><a href="chrY/chrY_28200001_28400001.html" target="_blank" >chrY_28200001_28400001.html</a></li>
+
+<li><a href="chrY/chrY_28400001_28600001.html" target="_blank" >chrY_28400001_28600001.html</a></li>
+
+<li><a href="chrY/chrY_28600001_28800001.html" target="_blank" >chrY_28600001_28800001.html</a></li>
+
+<li><a href="chrY/chrY_28800001_29000001.html" target="_blank" >chrY_28800001_29000001.html</a></li>
+
+<li><a href="chrY/chrY_29000001_29200001.html" target="_blank" >chrY_29000001_29200001.html</a></li>
+
+<li><a href="chrY/chrY_29200001_29400001.html" target="_blank" >chrY_29200001_29400001.html</a></li>
+
+<li><a href="chrY/chrY_29400001_29600001.html" target="_blank" >chrY_29400001_29600001.html</a></li>
+
+<li><a href="chrY/chrY_29600001_29800001.html" target="_blank" >chrY_29600001_29800001.html</a></li>
+
+<li><a href="chrY/chrY_29800001_30000001.html" target="_blank" >chrY_29800001_30000001.html</a></li>
+
+<li><a href="chrY/chrY_30000001_30200001.html" target="_blank" >chrY_30000001_30200001.html</a></li>
+
+<li><a href="chrY/chrY_30200001_30400001.html" target="_blank" >chrY_30200001_30400001.html</a></li>
+
+<li><a href="chrY/chrY_30400001_30600001.html" target="_blank" >chrY_30400001_30600001.html</a></li>
+
+<li><a href="chrY/chrY_30600001_30800001.html" target="_blank" >chrY_30600001_30800001.html</a></li>
+
+<li><a href="chrY/chrY_30800001_31000001.html" target="_blank" >chrY_30800001_31000001.html</a></li>
+
+<li><a href="chrY/chrY_31000001_31200001.html" target="_blank" >chrY_31000001_31200001.html</a></li>
+
+<li><a href="chrY/chrY_31200001_31400001.html" target="_blank" >chrY_31200001_31400001.html</a></li>
+
+<li><a href="chrY/chrY_31400001_31600001.html" target="_blank" >chrY_31400001_31600001.html</a></li>
+
+<li><a href="chrY/chrY_31600001_31800001.html" target="_blank" >chrY_31600001_31800001.html</a></li>
+
+<li><a href="chrY/chrY_31800001_32000001.html" target="_blank" >chrY_31800001_32000001.html</a></li>
+
+<li><a href="chrY/chrY_32000001_32200001.html" target="_blank" >chrY_32000001_32200001.html</a></li>
+
+<li><a href="chrY/chrY_32200001_32400001.html" target="_blank" >chrY_32200001_32400001.html</a></li>
+
+<li><a href="chrY/chrY_32400001_32600001.html" target="_blank" >chrY_32400001_32600001.html</a></li>
+
+<li><a href="chrY/chrY_32600001_32800001.html" target="_blank" >chrY_32600001_32800001.html</a></li>
+
+<li><a href="chrY/chrY_32800001_33000001.html" target="_blank" >chrY_32800001_33000001.html</a></li>
+
+<li><a href="chrY/chrY_33000001_33200001.html" target="_blank" >chrY_33000001_33200001.html</a></li>
+
+<li><a href="chrY/chrY_33200001_33400001.html" target="_blank" >chrY_33200001_33400001.html</a></li>
+
+<li><a href="chrY/chrY_33400001_33600001.html" target="_blank" >chrY_33400001_33600001.html</a></li>
+
+<li><a href="chrY/chrY_33600001_33800001.html" target="_blank" >chrY_33600001_33800001.html</a></li>
+
+<li><a href="chrY/chrY_33800001_34000001.html" target="_blank" >chrY_33800001_34000001.html</a></li>
+
+<li><a href="chrY/chrY_34000001_34200001.html" target="_blank" >chrY_34000001_34200001.html</a></li>
+
+<li><a href="chrY/chrY_34200001_34400001.html" target="_blank" >chrY_34200001_34400001.html</a></li>
+
+<li><a href="chrY/chrY_34400001_34600001.html" target="_blank" >chrY_34400001_34600001.html</a></li>
+
+<li><a href="chrY/chrY_34600001_34800001.html" target="_blank" >chrY_34600001_34800001.html</a></li>
+
+<li><a href="chrY/chrY_34800001_35000001.html" target="_blank" >chrY_34800001_35000001.html</a></li>
+
+<li><a href="chrY/chrY_35000001_35200001.html" target="_blank" >chrY_35000001_35200001.html</a></li>
+
+<li><a href="chrY/chrY_35200001_35400001.html" target="_blank" >chrY_35200001_35400001.html</a></li>
+
+<li><a href="chrY/chrY_35400001_35600001.html" target="_blank" >chrY_35400001_35600001.html</a></li>
+
+<li><a href="chrY/chrY_35600001_35800001.html" target="_blank" >chrY_35600001_35800001.html</a></li>
+
+<li><a href="chrY/chrY_35800001_36000001.html" target="_blank" >chrY_35800001_36000001.html</a></li>
+
+<li><a href="chrY/chrY_36000001_36200001.html" target="_blank" >chrY_36000001_36200001.html</a></li>
+
+<li><a href="chrY/chrY_36200001_36400001.html" target="_blank" >chrY_36200001_36400001.html</a></li>
+
+<li><a href="chrY/chrY_36400001_36600001.html" target="_blank" >chrY_36400001_36600001.html</a></li>
+
+<li><a href="chrY/chrY_36600001_36800001.html" target="_blank" >chrY_36600001_36800001.html</a></li>
+
+<li><a href="chrY/chrY_36800001_37000001.html" target="_blank" >chrY_36800001_37000001.html</a></li>
+
+<li><a href="chrY/chrY_37000001_37200001.html" target="_blank" >chrY_37000001_37200001.html</a></li>
+
+<li><a href="chrY/chrY_37200001_37400001.html" target="_blank" >chrY_37200001_37400001.html</a></li>
+
+<li><a href="chrY/chrY_37400001_37600001.html" target="_blank" >chrY_37400001_37600001.html</a></li>
+
+<li><a href="chrY/chrY_37600001_37800001.html" target="_blank" >chrY_37600001_37800001.html</a></li>
+
+<li><a href="chrY/chrY_37800001_38000001.html" target="_blank" >chrY_37800001_38000001.html</a></li>
+
+<li><a href="chrY/chrY_38000001_38200001.html" target="_blank" >chrY_38000001_38200001.html</a></li>
+
+<li><a href="chrY/chrY_38200001_38400001.html" target="_blank" >chrY_38200001_38400001.html</a></li>
+
+<li><a href="chrY/chrY_38400001_38600001.html" target="_blank" >chrY_38400001_38600001.html</a></li>
+
+<li><a href="chrY/chrY_38600001_38800001.html" target="_blank" >chrY_38600001_38800001.html</a></li>
+
+<li><a href="chrY/chrY_38800001_39000001.html" target="_blank" >chrY_38800001_39000001.html</a></li>
+
+<li><a href="chrY/chrY_39000001_39200001.html" target="_blank" >chrY_39000001_39200001.html</a></li>
+
+<li><a href="chrY/chrY_39200001_39400001.html" target="_blank" >chrY_39200001_39400001.html</a></li>
+
+<li><a href="chrY/chrY_39400001_39600001.html" target="_blank" >chrY_39400001_39600001.html</a></li>
+
+<li><a href="chrY/chrY_39600001_39800001.html" target="_blank" >chrY_39600001_39800001.html</a></li>
+
+<li><a href="chrY/chrY_39800001_40000001.html" target="_blank" >chrY_39800001_40000001.html</a></li>
+
+<li><a href="chrY/chrY_40000001_40200001.html" target="_blank" >chrY_40000001_40200001.html</a></li>
+
+<li><a href="chrY/chrY_40200001_40400001.html" target="_blank" >chrY_40200001_40400001.html</a></li>
+
+<li><a href="chrY/chrY_40400001_40600001.html" target="_blank" >chrY_40400001_40600001.html</a></li>
+
+<li><a href="chrY/chrY_40600001_40800001.html" target="_blank" >chrY_40600001_40800001.html</a></li>
+
+<li><a href="chrY/chrY_40800001_41000001.html" target="_blank" >chrY_40800001_41000001.html</a></li>
+
+<li><a href="chrY/chrY_41000001_41200001.html" target="_blank" >chrY_41000001_41200001.html</a></li>
+
+<li><a href="chrY/chrY_41200001_41400001.html" target="_blank" >chrY_41200001_41400001.html</a></li>
+
+<li><a href="chrY/chrY_41400001_41600001.html" target="_blank" >chrY_41400001_41600001.html</a></li>
+
+<li><a href="chrY/chrY_41600001_41800001.html" target="_blank" >chrY_41600001_41800001.html</a></li>
+
+<li><a href="chrY/chrY_41800001_42000001.html" target="_blank" >chrY_41800001_42000001.html</a></li>
+
+<li><a href="chrY/chrY_42000001_42200001.html" target="_blank" >chrY_42000001_42200001.html</a></li>
+
+<li><a href="chrY/chrY_42200001_42400001.html" target="_blank" >chrY_42200001_42400001.html</a></li>
+
+<li><a href="chrY/chrY_42400001_42600001.html" target="_blank" >chrY_42400001_42600001.html</a></li>
+
+<li><a href="chrY/chrY_42600001_42800001.html" target="_blank" >chrY_42600001_42800001.html</a></li>
+
+<li><a href="chrY/chrY_42800001_43000001.html" target="_blank" >chrY_42800001_43000001.html</a></li>
+
+<li><a href="chrY/chrY_43000001_43200001.html" target="_blank" >chrY_43000001_43200001.html</a></li>
+
+<li><a href="chrY/chrY_43200001_43400001.html" target="_blank" >chrY_43200001_43400001.html</a></li>
+
+<li><a href="chrY/chrY_43400001_43600001.html" target="_blank" >chrY_43400001_43600001.html</a></li>
+
+<li><a href="chrY/chrY_43600001_43800001.html" target="_blank" >chrY_43600001_43800001.html</a></li>
+
+<li><a href="chrY/chrY_43800001_44000001.html" target="_blank" >chrY_43800001_44000001.html</a></li>
+
+<li><a href="chrY/chrY_44000001_44200001.html" target="_blank" >chrY_44000001_44200001.html</a></li>
+
+<li><a href="chrY/chrY_44200001_44400001.html" target="_blank" >chrY_44200001_44400001.html</a></li>
+
+<li><a href="chrY/chrY_44400001_44600001.html" target="_blank" >chrY_44400001_44600001.html</a></li>
+
+<li><a href="chrY/chrY_44600001_44800001.html" target="_blank" >chrY_44600001_44800001.html</a></li>
+
+<li><a href="chrY/chrY_44800001_45000001.html" target="_blank" >chrY_44800001_45000001.html</a></li>
+
+<li><a href="chrY/chrY_45000001_45200001.html" target="_blank" >chrY_45000001_45200001.html</a></li>
+
+<li><a href="chrY/chrY_45200001_45400001.html" target="_blank" >chrY_45200001_45400001.html</a></li>
+
+<li><a href="chrY/chrY_45400001_45600001.html" target="_blank" >chrY_45400001_45600001.html</a></li>
+
+<li><a href="chrY/chrY_45600001_45800001.html" target="_blank" >chrY_45600001_45800001.html</a></li>
+
+<li><a href="chrY/chrY_45800001_46000001.html" target="_blank" >chrY_45800001_46000001.html</a></li>
+
+<li><a href="chrY/chrY_46000001_46200001.html" target="_blank" >chrY_46000001_46200001.html</a></li>
+
+<li><a href="chrY/chrY_46200001_46400001.html" target="_blank" >chrY_46200001_46400001.html</a></li>
+
+<li><a href="chrY/chrY_46400001_46600001.html" target="_blank" >chrY_46400001_46600001.html</a></li>
+
+<li><a href="chrY/chrY_46600001_46800001.html" target="_blank" >chrY_46600001_46800001.html</a></li>
+
+<li><a href="chrY/chrY_46800001_47000001.html" target="_blank" >chrY_46800001_47000001.html</a></li>
+
+<li><a href="chrY/chrY_47000001_47200001.html" target="_blank" >chrY_47000001_47200001.html</a></li>
+
+<li><a href="chrY/chrY_47200001_47400001.html" target="_blank" >chrY_47200001_47400001.html</a></li>
+
+<li><a href="chrY/chrY_47400001_47600001.html" target="_blank" >chrY_47400001_47600001.html</a></li>
+
+<li><a href="chrY/chrY_47600001_47800001.html" target="_blank" >chrY_47600001_47800001.html</a></li>
+
+<li><a href="chrY/chrY_47800001_48000001.html" target="_blank" >chrY_47800001_48000001.html</a></li>
+
+<li><a href="chrY/chrY_48000001_48200001.html" target="_blank" >chrY_48000001_48200001.html</a></li>
+
+<li><a href="chrY/chrY_48200001_48400001.html" target="_blank" >chrY_48200001_48400001.html</a></li>
+
+<li><a href="chrY/chrY_48400001_48600001.html" target="_blank" >chrY_48400001_48600001.html</a></li>
+
+<li><a href="chrY/chrY_48600001_48800001.html" target="_blank" >chrY_48600001_48800001.html</a></li>
+
+<li><a href="chrY/chrY_48800001_49000001.html" target="_blank" >chrY_48800001_49000001.html</a></li>
+
+<li><a href="chrY/chrY_49000001_49200001.html" target="_blank" >chrY_49000001_49200001.html</a></li>
+
+<li><a href="chrY/chrY_49200001_49400001.html" target="_blank" >chrY_49200001_49400001.html</a></li>
+
+<li><a href="chrY/chrY_49400001_49600001.html" target="_blank" >chrY_49400001_49600001.html</a></li>
+
+<li><a href="chrY/chrY_49600001_49800001.html" target="_blank" >chrY_49600001_49800001.html</a></li>
+
+<li><a href="chrY/chrY_49800001_50000001.html" target="_blank" >chrY_49800001_50000001.html</a></li>
+
+<li><a href="chrY/chrY_50000001_50200001.html" target="_blank" >chrY_50000001_50200001.html</a></li>
+
+<li><a href="chrY/chrY_50200001_50400001.html" target="_blank" >chrY_50200001_50400001.html</a></li>
+
+<li><a href="chrY/chrY_50400001_50600001.html" target="_blank" >chrY_50400001_50600001.html</a></li>
+
+<li><a href="chrY/chrY_50600001_50800001.html" target="_blank" >chrY_50600001_50800001.html</a></li>
+
+<li><a href="chrY/chrY_50800001_51000001.html" target="_blank" >chrY_50800001_51000001.html</a></li>
+
+<li><a href="chrY/chrY_51000001_51200001.html" target="_blank" >chrY_51000001_51200001.html</a></li>
+
+<li><a href="chrY/chrY_51200001_51400001.html" target="_blank" >chrY_51200001_51400001.html</a></li>
+
+<li><a href="chrY/chrY_51400001_51600001.html" target="_blank" >chrY_51400001_51600001.html</a></li>
+
+<li><a href="chrY/chrY_51600001_51800001.html" target="_blank" >chrY_51600001_51800001.html</a></li>
+
+<li><a href="chrY/chrY_51800001_52000001.html" target="_blank" >chrY_51800001_52000001.html</a></li>
+
+<li><a href="chrY/chrY_52000001_52200001.html" target="_blank" >chrY_52000001_52200001.html</a></li>
+
+<li><a href="chrY/chrY_52200001_52400001.html" target="_blank" >chrY_52200001_52400001.html</a></li>
+
+<li><a href="chrY/chrY_52400001_52600001.html" target="_blank" >chrY_52400001_52600001.html</a></li>
+
+<li><a href="chrY/chrY_52600001_52800001.html" target="_blank" >chrY_52600001_52800001.html</a></li>
+
+<li><a href="chrY/chrY_52800001_53000001.html" target="_blank" >chrY_52800001_53000001.html</a></li>
+
+<li><a href="chrY/chrY_53000001_53200001.html" target="_blank" >chrY_53000001_53200001.html</a></li>
+
+<li><a href="chrY/chrY_53200001_53400001.html" target="_blank" >chrY_53200001_53400001.html</a></li>
+
+<li><a href="chrY/chrY_53400001_53600001.html" target="_blank" >chrY_53400001_53600001.html</a></li>
+
+<li><a href="chrY/chrY_53600001_53800001.html" target="_blank" >chrY_53600001_53800001.html</a></li>
+
+<li><a href="chrY/chrY_53800001_54000001.html" target="_blank" >chrY_53800001_54000001.html</a></li>
+
+<li><a href="chrY/chrY_54000001_54200001.html" target="_blank" >chrY_54000001_54200001.html</a></li>
+
+<li><a href="chrY/chrY_54200001_54400001.html" target="_blank" >chrY_54200001_54400001.html</a></li>
+
+<li><a href="chrY/chrY_54400001_54600001.html" target="_blank" >chrY_54400001_54600001.html</a></li>
+
+<li><a href="chrY/chrY_54600001_54800001.html" target="_blank" >chrY_54600001_54800001.html</a></li>
+
+<li><a href="chrY/chrY_54800001_55000001.html" target="_blank" >chrY_54800001_55000001.html</a></li>
+
+<li><a href="chrY/chrY_55000001_55200001.html" target="_blank" >chrY_55000001_55200001.html</a></li>
+
+<li><a href="chrY/chrY_55200001_55400001.html" target="_blank" >chrY_55200001_55400001.html</a></li>
+
+<li><a href="chrY/chrY_55400001_55600001.html" target="_blank" >chrY_55400001_55600001.html</a></li>
+
+<li><a href="chrY/chrY_55600001_55800001.html" target="_blank" >chrY_55600001_55800001.html</a></li>
+
+<li><a href="chrY/chrY_55800001_56000001.html" target="_blank" >chrY_55800001_56000001.html</a></li>
+
+<li><a href="chrY/chrY_56000001_56200001.html" target="_blank" >chrY_56000001_56200001.html</a></li>
+
+<li><a href="chrY/chrY_56200001_56400001.html" target="_blank" >chrY_56200001_56400001.html</a></li>
+
+<li><a href="chrY/chrY_56400001_56600001.html" target="_blank" >chrY_56400001_56600001.html</a></li>
+
+<li><a href="chrY/chrY_56600001_56800001.html" target="_blank" >chrY_56600001_56800001.html</a></li>
+
+<li><a href="chrY/chrY_56800001_57000001.html" target="_blank" >chrY_56800001_57000001.html</a></li>
+
+<li><a href="chrY/chrY_57000001_57200001.html" target="_blank" >chrY_57000001_57200001.html</a></li>
+
+<li><a href="chrY/chrY_57200001_57227401.html" target="_blank" >chrY_57200001_57227401.html</a></li>
+
+    </ul>
+</div>
+<a href="#" data-jq-dropdown="#jq-dropdown-sub">Subchromosome</a>
+        
+  </div>
+  <div id="basic_stats" style="clear:both">
+      <h2 id="basic_stats">Basic stats
+        <div style="float:right"></div>
+      </h2>
+    <p>Here are some basic statistics about the genome coverage.</p>
+<ul><li><b>BOC</b> (breadth of coverage: the proportion (in %s)  of the genome covered by at least one read.): 5.79</li>
+<li><b>CV</b> (the coefficient of variation.): 29.27</li>
+<li><b>DOC</b> (the sequencing depth (Depth of Coverage), that is the average the genome coverage.): 0.27</li>
+<li><b>MAD</b> (median of the absolute median deviation defined as median(|X-median(X)|).): 0.00</li>
+<li><b>Median</b> (Median of the coverage.): 0.00</li>
+<li><b>STD</b> (standard deviation.): 7.95</li></ul>
+  </div>
+  <div id="roi" style="clear:both">
+      <h2 id="roi">Regions Of Interest (ROI)
+        <div style="float:right"></div>
+      </h2>
+    
+<script type="text/javascript">
+    function parseCsv_roi(csv, id) {
+        Papa.parse(csv, {
+            comments: '#',
+            delimiter: ',',
+            header: true,
+            dynamicTyping: true,
+            error: function(reason) {
+                console.log(reason);
+            },
+            complete: function(results) {
+                $(id).DataTable({buttons:[{'extend': 'copy', 'exportOptions': {'columns': ':visible'}}, {'extend': 'csv', 'exportOptions': {'columns': ':visible'}}],
+pageLength:15,
+scrollCollapse:true,
+columns:[{data:'chr'},
+{data:'start',
+render:function(data, type, row, meta){
+            return '<a href="'+row.link+'" target="_blank">'+data+'</a>';
+        }
+        },
+{data:'end',
+render:function(data, type, row, meta){
+            return '<a href="'+row.link+'" target="_blank">'+data+'</a>';
+        }
+        },
+{data:'size'},
+{data:'mean_cov'},
+{data:'max_cov'},
+{data:'mean_rm'},
+{data:'mean_zscore'},
+{data:'max_zscore'},
+{data:'log2_ratio'},
+{data:'link',
+visible:false}],
+dom:'Bfrtip',
+scrollX:true,data: results.data});
+            }
+        });
+    };
+</script>
+
+<p>The following tables give regions of interest detected by sequana. Here are the definitions of the columns:</p>
+<ul><li>mean_cov: the average of coverage</li>
+<li>mean_rm: the average of running median</li>
+<li>mean_zscore: the average of zscore</li>
+<li>max_zscore: the higher zscore contains in the region</li></ul>
+<h3>Low coverage region</h3>
+<p>Regions with a z-score lower than -2.00 and at least one base with a z-score lower than -4.00 are detected.There are 931 low regions of interest.</p>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var lroi = document.getElementById('csv_lroi').innerText;
+        parseCsv_roi(lroi, '#table_lroi');
+        lroi = null;
+    });
+</script>
+        <style>#csv_lroi{display:none}</style>
+<pre id="csv_lroi">chr,start,end,size,mean_cov,max_cov,mean_rm,mean_zscore,max_zscore,log2_ratio,link
+chrY,1,3050203,3050202,0,0,0,-4.01,-4.01,,chrY/chrY_1_200001.html
+chrY,3051801,3054503,2702,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3057001,3059603,2602,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3060701,3061703,1002,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3063001,3063703,702,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3065201,3070903,5702,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3072601,3075203,2602,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3076301,3077203,902,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3078701,3088803,10102,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3090101,3092203,2102,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3093701,3094803,1102,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3095901,3096403,502,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3097601,3098603,1002,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3100801,3101103,302,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3103301,3104803,1502,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3105901,3111503,5602,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3114901,3115003,102,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3116201,3118803,2602,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3120901,3122703,1802,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3124201,3138303,14102,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3139501,3142003,2502,0,0,0,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3142501,3144103,1602,0,0,0.0141,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3144401,3145003,602,0,0,0.0364,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3145601,3145803,202,0,0,0.04,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3146101,3146103,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3146401,3146403,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3146701,3146703,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3147201,3147203,2,0,0,0.045,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3149201,3149203,2,0,0,0.06,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3149701,3149703,2,0,0,0.06,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3150601,3150603,2,0,0,0.07,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3151101,3151103,2,0,0,0.07,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3152601,3152803,202,0,0,0.09,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3153101,3153103,2,0,0,0.09,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3156501,3156503,2,0,0,0.12,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3157201,3157403,202,0,0,0.12,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3157801,3157803,2,0,0,0.12,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3161701,3161803,102,0,0,0.15,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3163601,3166103,2502,0,0,0.166,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3170701,3171103,402,0,0,0.17,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3177201,3177703,502,0,0,0.17,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3183101,3184803,1702,0,0,0.143,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3185901,3186403,502,0,0,0.14,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3187401,3188103,702,0,0,0.14,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3188601,3188603,2,0,0,0.14,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3191701,3191703,2,0,0,0.14,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3193401,3193903,502,0,0,0.14,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3197101,3197703,602,0,0,0.125,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3199001,3199203,202,0,0,0.13,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3199801,3199803,2,0,0,0.13,-4.01,-4.01,,chrY/chrY_3000001_3200001.html
+chrY,3200401,3200703,302,0,0,0.135,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3201601,3201803,202,0,0,0.14,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3202701,3202703,2,0,0,0.14,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3203101,3203103,2,0,0,0.14,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3203401,3203403,2,0,0,0.135,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3203701,3203703,2,0,0,0.135,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3206001,3207403,1402,0,0,0.15,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3208101,3211803,3702,0,0,0.147,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3212401,3212403,2,0,0,0.145,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3214301,3214603,302,0,0,0.15,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3215101,3215103,2,0,0,0.15,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3216001,3216003,2,0,0,0.14,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3218401,3218403,2,0,0,0.13,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3220501,3221403,902,0,0,0.136,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3221801,3221803,2,0,0,0.14,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3222101,3223003,902,0,0,0.134,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3223301,3223303,2,0,0,0.13,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3223601,3224003,402,0,0,0.13,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3224901,3225303,402,0,0,0.12,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3229101,3229503,402,0,0,0.09,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3237201,3237203,2,0,0,0.13,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3237701,3237803,102,0,0,0.122,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3238701,3238703,2,0,0,0.11,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3239001,3239003,2,0,0,0.105,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3239301,3239603,302,0,0,0.0988,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3239901,3239903,2,0,0,0.09,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3240301,3240303,2,0,0,0.09,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3240601,3240603,2,0,0,0.09,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3240901,3241903,1002,0,0,0.09,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3242201,3242303,102,0,0,0.09,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3242501,3243103,602,0,0,0.09,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3243901,3244003,102,0,0,0.09,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3244301,3244303,2,0,0,0.09,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3244601,3249103,4502,0,0,0.105,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3249401,3249403,2,0,0,0.11,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3250201,3250603,402,0,0,0.11,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3251401,3251503,102,0,0,0.103,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3265501,3265503,2,0,0,0.115,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3266201,3266503,302,0,0,0.12,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3266801,3266803,2,0,0,0.115,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3267101,3267103,2,0,0,0.11,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3269701,3270403,702,0,0,0.103,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3271201,3271803,602,0,0,0.0964,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3272101,3272103,2,0,0,0.09,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3272501,3272903,402,0,0,0.09,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3274001,3274403,402,0,0,0.081,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3275001,3275203,202,0,0,0.075,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3276001,3276103,102,0,0,0.0625,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3277601,3277603,2,0,0,0.06,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3277901,3278003,102,0,0,0.06,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3278501,3278603,102,0,0,0.06,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3278901,3279103,202,0,0,0.06,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3279801,3279803,2,0,0,0.06,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3280201,3280203,2,0,0,0.06,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3281401,3281603,202,0,0,0.05,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3281901,3283103,1202,0,0,0.0412,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3286401,3286403,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3287001,3287003,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3287301,3288103,802,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3288801,3289403,602,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3290001,3297603,7602,0,0,0.0159,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3298801,3298803,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3299501,3301503,2002,0,0,0.00786,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3302301,3302303,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3302601,3302603,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3302901,3302903,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3303301,3303403,102,0,0,0.0075,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3303701,3303903,202,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3304201,3304203,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3305101,3306703,1602,0,0,0.0197,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3307401,3307403,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3307701,3308303,602,0,0,0.0271,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3310401,3310503,102,0,0,0.0125,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3312101,3312703,602,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3313501,3313503,2,0,0,0.015,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3314301,3314403,102,0,0,0.0125,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3315601,3316203,602,0,0,0.015,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3317401,3317403,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3317701,3318603,902,0,0,0.0045,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3319101,3319103,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3319601,3319703,102,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3320001,3320003,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3320301,3320503,202,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3321501,3322503,1002,0,0,0.0223,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3323001,3323503,502,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3323801,3323803,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3324601,3324803,202,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3325101,3325103,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3327101,3327103,2,0,0,0.015,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3327401,3327403,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3328201,3328303,102,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3330501,3345803,15302,0,0,0,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3347101,3368403,21302,0,0,0,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3370501,3370503,2,0,0,0,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3371601,3374503,2902,0,0,0,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3375801,3379703,3902,0,0,0,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3381001,3383803,2802,0,0,0,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3385301,3385403,102,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3386101,3386603,502,0,0,0.0208,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3386901,3387203,302,0,0,0.02,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3388301,3388403,102,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3388901,3389103,202,0,0,0.02,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3389401,3389403,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3389701,3389703,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3390001,3390003,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3390301,3390703,402,0,0,0.03,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3391401,3391403,2,0,0,0.02,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3391701,3392503,802,0,0,0.0189,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3392801,3392803,2,0,0,0.02,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3393101,3395303,2202,0,0,0.00957,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3395601,3395603,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3395901,3407403,11502,0,0,0.00116,-4.01,-4.01,,chrY/chrY_3200001_3400001.html
+chrY,3408501,3409903,1402,0,0,0,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3410201,3411503,1302,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3411801,3411803,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3412301,3412503,202,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3412801,3412803,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3413101,3414203,1102,0,0,0.0162,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3414501,3414703,202,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3416201,3416203,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3416501,3416603,102,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3417101,3417103,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3417401,3418203,802,0,0,0.0428,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3418801,3418803,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3419101,3419103,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3419401,3419803,402,0,0,0.06,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3420101,3420103,2,0,0,0.06,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3421401,3421903,502,0,0,0.0792,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3423701,3424403,702,0,0,0.09,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3425001,3425003,2,0,0,0.09,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3426201,3426603,402,0,0,0.1,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3428901,3429303,402,0,0,0.108,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3429701,3429703,2,0,0,0.11,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3430001,3430003,2,0,0,0.11,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3430501,3430503,2,0,0,0.11,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3430801,3431103,302,0,0,0.112,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3431701,3432203,502,0,0,0.127,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3432801,3432803,2,0,0,0.13,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3433101,3433103,2,0,0,0.13,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3433801,3436403,2602,0,0,0.13,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3438701,3438703,2,0,0,0.13,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3439101,3439103,2,0,0,0.13,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3453001,3453803,802,0,0,0.11,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3454101,3454103,2,0,0,0.11,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3454801,3456103,1302,0,0,0.103,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3456401,3456503,102,0,0,0.1,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3462001,3463403,1402,0,0,0.11,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3465401,3467103,1702,0,0,0.11,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3467701,3467703,2,0,0,0.11,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3470101,3470803,702,0,0,0.104,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3471301,3472803,1502,0,0,0.0941,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3473501,3474103,602,0,0,0.0807,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3474401,3474403,2,0,0,0.08,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3474701,3474803,102,0,0,0.08,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3475101,3477003,1902,0,0,0.0738,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3477501,3478603,1102,0,0,0.0583,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3479201,3480103,902,0,0,0.07,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3480801,3480803,2,0,0,0.07,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3483201,3483203,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3483501,3483503,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3483801,3483803,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3484101,3485203,1102,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3485501,3485503,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3486201,3486603,402,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3486901,3487403,502,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3487701,3487703,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3488501,3488603,102,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3488901,3489003,102,0,0,0.045,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3490201,3490703,502,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3491601,3491603,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3492001,3492003,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3492401,3492603,202,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3492801,3493603,802,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3493901,3493903,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3494201,3495603,1402,0,0,0.0483,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3497201,3497903,702,0,0,0.0306,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3498201,3498603,402,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3499501,3499503,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3499801,3501003,1202,0,0,0.0285,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3501301,3502203,902,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3502401,3502703,302,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3503301,3503303,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3503601,3503603,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3505501,3505703,202,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3506001,3506103,102,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3506601,3506603,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3506901,3506903,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3507401,3507503,102,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3507801,3507903,102,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3508401,3508503,102,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3509501,3509503,2,0,0,0.02,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3509801,3509903,102,0,0,0.0175,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3510601,3510703,102,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3511501,3511603,102,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3511801,3511803,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3512101,3512103,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3512401,3519703,7302,0,0,0.0021,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3520001,3520003,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3520801,3524303,3502,0,0,0.0104,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3524601,3524603,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3524901,3524903,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3525301,3525303,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3525601,3526503,902,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3527201,3527203,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3528101,3528203,102,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3528501,3528503,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3528801,3528903,102,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3529501,3529503,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3529801,3529803,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3530101,3530103,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3530401,3531203,802,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3531901,3531903,2,0,0,0.055,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3533101,3533103,2,0,0,0.055,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3533401,3533403,2,0,0,0.055,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3535501,3535503,2,0,0,0.065,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3536201,3536203,2,0,0,0.08,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3537301,3537403,102,0,0,0.09,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3539701,3539803,102,0,0,0.09,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3540601,3540603,2,0,0,0.09,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3540901,3540903,2,0,0,0.09,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3541301,3541303,2,0,0,0.08,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3541601,3541803,202,0,0,0.0833,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3543301,3543603,302,0,0,0.09,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3544401,3545103,702,0,0,0.0894,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3545801,3546003,202,0,0,0.07,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3547301,3547403,102,0,0,0.06,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3548901,3548903,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3549201,3549703,502,0,0,0.055,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3550001,3550003,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3550601,3550603,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3550901,3550903,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3551801,3551903,102,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3553401,3553403,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3555101,3555103,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3555701,3555703,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3558201,3558303,102,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3558601,3558603,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3560301,3560703,402,0,0,0.041,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3560901,3561503,602,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3561801,3561903,102,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3564401,3564403,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3564701,3564903,202,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3567601,3569203,1602,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3569801,3569803,2,0,0,0.045,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3570101,3570203,102,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3571301,3571303,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3571601,3571603,2,0,0,0.035,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3571901,3572003,102,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3572501,3572503,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3572801,3573003,202,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3573301,3573303,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3574101,3574303,202,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3574801,3576103,1302,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3577201,3577903,702,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3578301,3578303,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3578901,3579003,102,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3579301,3579303,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3579701,3580503,802,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3580801,3580803,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3582401,3582503,102,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3582801,3582803,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3583101,3583503,402,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3583701,3583903,202,0,0,0.04,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3584201,3584903,702,0,0,0.0488,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3585801,3585903,102,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3586201,3586203,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3586501,3586503,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3586801,3586803,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3587101,3587103,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3588201,3588303,102,0,0,0.06,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3588901,3589303,402,0,0,0.06,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3590001,3590703,702,0,0,0.0606,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3591001,3591703,702,0,0,0.0769,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3592801,3594103,1302,0,0,0.0795,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3594801,3599503,4702,0,0,0.0846,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3600001,3600503,502,0,0,0.0808,-4.01,-4.01,,chrY/chrY_3400001_3600001.html
+chrY,3600801,3600803,2,0,0,0.08,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3604701,3604703,2,0,0,0.08,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3605001,3605103,102,0,0,0.08,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3605801,3609703,3902,0,0,0.0545,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3610801,3610903,102,0,0,0.05,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3611201,3611203,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3611501,3613003,1502,0,0,0.0406,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3613901,3613903,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3614201,3614203,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3614501,3614503,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3614801,3615703,902,0,0,0.03,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3616901,3617203,302,0,0,0.03,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3617501,3617503,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3617801,3617803,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3618101,3618103,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3618901,3619503,602,0,0,0.03,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3619801,3619803,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3620101,3620503,402,0,0,0.039,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3621001,3623503,2502,0,0,0.04,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3623801,3623803,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3624101,3624703,602,0,0,0.0321,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3625001,3625003,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3625301,3625303,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3625601,3625603,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3625901,3625903,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3626201,3626203,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3626901,3626903,2,0,0,0.045,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3627601,3628103,502,0,0,0.05,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3628401,3628403,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3628901,3630203,1302,0,0,0.0439,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3630601,3630903,302,0,0,0.04,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3631201,3632003,802,0,0,0.04,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3632601,3633103,502,0,0,0.04,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3633801,3633803,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3634701,3635503,802,0,0,0.025,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3636001,3636103,102,0,0,0.01,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3636401,3636403,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3636701,3636703,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3637001,3637703,702,0,0,0.01,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3637901,3638703,802,0,0,0.01,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3639401,3648703,9302,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3649701,3649703,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3650101,3650103,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3650901,3651103,202,0,0,0.01,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3651901,3652303,402,0,0,0.01,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3652901,3652903,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3653201,3653603,402,0,0,0.01,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3653901,3653903,2,0,0,0.005,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3654701,3655203,502,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3656301,3660503,4202,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3662301,3666203,3902,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3667401,3674803,7402,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3675901,3678103,2202,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3679301,3686103,6802,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3688101,3697803,9702,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3699301,3703003,3702,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3704101,3708103,4002,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3710001,3715403,5402,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3716901,3739003,22102,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3740101,3740303,202,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3741601,3749103,7502,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3750201,3773803,23602,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3775101,3784703,9602,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3785801,3793103,7302,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3794201,3840103,45902,0,0,0,-4.01,-4.01,,chrY/chrY_3600001_3800001.html
+chrY,3841201,3841203,2,0,0,0,-4.01,-4.01,,chrY/chrY_3800001_4000001.html
+chrY,3842301,3844103,1802,0,0,0,-4.01,-4.01,,chrY/chrY_3800001_4000001.html
+chrY,3853501,3860903,7402,0,0,0,-4.01,-4.01,,chrY/chrY_3800001_4000001.html
+chrY,3862201,3884003,21802,0,0,0,-4.01,-4.01,,chrY/chrY_3800001_4000001.html
+chrY,3885201,3922903,37702,0,0,0,-4.01,-4.01,,chrY/chrY_3800001_4000001.html
+chrY,3924001,3924303,302,0,0,0,-4.01,-4.01,,chrY/chrY_3800001_4000001.html
+chrY,3925901,3934803,8902,0,0,0,-4.01,-4.01,,chrY/chrY_3800001_4000001.html
+chrY,3935901,3940103,4202,0,0,0,-4.01,-4.01,,chrY/chrY_3800001_4000001.html
+chrY,3941401,3973203,31802,0,0,0,-4.01,-4.01,,chrY/chrY_3800001_4000001.html
+chrY,3975201,3983203,8002,0,0,0,-4.01,-4.01,,chrY/chrY_3800001_4000001.html
+chrY,3984701,3999303,14602,0,0,0,-4.01,-4.01,,chrY/chrY_3800001_4000001.html
+chrY,4001001,4013803,12802,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4015401,4017403,2002,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4018901,4023903,5002,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4025101,4027503,2402,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4029201,4052703,23502,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4054301,4054703,402,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4056101,4077603,21502,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4078801,4087903,9102,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4089401,4101803,12402,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4103901,4111403,7502,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4112501,4122103,9602,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4123301,4129003,5702,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4130401,4131303,902,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4132401,4145603,13202,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4147001,4155103,8102,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4158501,4160603,2102,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4162401,4166703,4302,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4168501,4221603,53102,0,0,0,-4.01,-4.01,,chrY/chrY_4000001_4200001.html
+chrY,4223101,4233103,10002,0,0,0,-4.01,-4.01,,chrY/chrY_4200001_4400001.html
+chrY,4234201,4243603,9402,0,0,0,-4.01,-4.01,,chrY/chrY_4200001_4400001.html
+chrY,4244701,4304203,59502,0,0,0,-4.01,-4.01,,chrY/chrY_4200001_4400001.html
+chrY,4305401,4312203,6802,0,0,0,-4.01,-4.01,,chrY/chrY_4200001_4400001.html
+chrY,4313301,4341803,28502,0,0,0,-4.01,-4.01,,chrY/chrY_4200001_4400001.html
+chrY,4343101,4382903,39802,0,0,0,-4.01,-4.01,,chrY/chrY_4200001_4400001.html
+chrY,4384101,4410403,26302,0,0,0,-4.01,-4.01,,chrY/chrY_4200001_4400001.html
+chrY,4411601,4420803,9202,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4422401,4431403,9002,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4432501,4438803,6302,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4440101,4445003,4902,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4447701,4448103,402,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4449301,4449303,2,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4451701,4461903,10202,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4463201,4465003,1802,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4466201,4473903,7702,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4475001,4475403,402,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4476501,4478803,2302,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4480201,4481403,1202,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4483101,4490603,7502,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4491801,4492903,1102,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4494201,4501503,7302,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4502901,4504403,1502,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4505501,4523703,18202,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4524801,4533703,8902,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4535101,4539603,4502,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4540701,4541003,302,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4542401,4546703,4302,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4548101,4561203,13102,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4562301,4575203,12902,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4576501,4608903,32402,0,0,0,-4.01,-4.01,,chrY/chrY_4400001_4600001.html
+chrY,4610301,4611403,1102,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4612601,4616403,3802,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4617601,4620003,2402,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4621801,4624103,2302,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4625801,4626903,1102,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4628301,4631303,3002,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4632901,4681903,49002,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4683201,4690303,7102,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4691401,4694203,2802,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4696101,4696703,602,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4697901,4723103,25202,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4724401,4725703,1302,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4728001,4731403,3402,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4732901,4733403,502,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4734701,4748503,13802,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4750401,4804503,54102,0,0,0,-4.01,-4.01,,chrY/chrY_4600001_4800001.html
+chrY,4806601,4806603,2,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4807901,4821703,13802,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4823201,4826403,3202,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4827901,4843503,15602,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4844601,4846503,1902,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4847901,4851603,3702,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4853101,4861603,8502,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4862701,4903803,41102,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4905101,4905803,702,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4907301,4913803,6502,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4915001,4927203,12202,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4928401,4944303,15902,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4945601,4948803,3202,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4954901,4966103,11202,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4967401,4977403,10002,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4979401,4989003,9602,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4990101,4992303,2202,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,4994401,5007003,12602,0,0,0,-4.01,-4.01,,chrY/chrY_4800001_5000001.html
+chrY,5008101,5009903,1802,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5011201,5015003,3802,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5016101,5025403,9302,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5026701,5042003,15302,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5043201,5047703,4502,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5049101,5063603,14502,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5064701,5079503,14802,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5081301,5081303,2,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5082501,5085903,3402,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5087001,5095803,8802,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5097001,5112603,15602,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5114201,5118203,4002,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5119901,5136803,16902,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5138701,5139403,702,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5140501,5141003,502,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5142301,5146903,4602,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5147301,5151403,4102,0,0,0.00113,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5152501,5157903,5402,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5159101,5159103,2,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5159401,5159403,2,0,0,0.005,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5159701,5166203,6502,0,0,0.000102,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5167701,5170703,3002,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5171801,5175403,3602,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5176501,5196403,19902,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5197501,5208203,10702,0,0,0,-4.01,-4.01,,chrY/chrY_5000001_5200001.html
+chrY,5209301,5210503,1202,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5211701,5226903,15202,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5229001,5240703,11702,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5241801,5245403,3602,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5248701,5249603,902,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5251001,5252203,1202,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5253901,5256803,2902,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5258701,5264203,5502,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5265301,5266503,1202,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5267801,5267803,2,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5268901,5269003,102,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5270201,5271203,1002,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5272401,5281303,8902,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5282501,5292603,10102,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5293701,5350703,57002,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5351901,5370103,18202,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5371201,5379303,8102,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5380601,5429603,49002,0,0,0,-4.01,-4.01,,chrY/chrY_5200001_5400001.html
+chrY,5430901,5441003,10102,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5442101,5462503,20402,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5464201,5465303,1102,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5466501,5473003,6502,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5474501,5476303,1802,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5477701,5482203,4502,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5483301,5486603,3302,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5487701,5497703,10002,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5498901,5499303,402,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5500601,5517203,16602,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5519101,5520503,1402,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5521801,5525803,4002,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5527101,5538303,11202,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5539501,5539803,302,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5541401,5546103,4702,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5547201,5556903,9702,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5558201,5560903,2702,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5562101,5568203,6102,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5569501,5606103,36602,0,0,0,-4.01,-4.01,,chrY/chrY_5400001_5600001.html
+chrY,5612201,5648303,36102,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5649501,5662103,12602,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5663301,5695903,32602,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5697401,5697403,2,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5698701,5702003,3302,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5703101,5710603,7502,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5711701,5721603,9902,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5722801,5734703,11902,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5735801,5738103,2302,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5739201,5741903,2702,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5743101,5760503,17402,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5762401,5770303,7902,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5771801,5787103,15302,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5788301,5792103,3802,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5793701,5793703,2,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5794801,5797403,2602,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5798501,5805903,7402,0,0,0,-4.01,-4.01,,chrY/chrY_5600001_5800001.html
+chrY,5807101,5808103,1002,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,5809301,5854503,45202,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,5855801,5865203,9402,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,5866301,5907303,41002,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,5908401,5921503,13102,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,5923701,5950003,26302,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,5951201,5952103,902,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,5953401,5957303,3902,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,5958801,5959403,602,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,5960801,5964003,3202,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,5965901,5968003,2102,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,5969601,5989703,20102,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,5991201,6004203,13002,0,0,0,-4.01,-4.01,,chrY/chrY_5800001_6000001.html
+chrY,6005301,6008303,3002,0,0,0,-4.01,-4.01,,chrY/chrY_6000001_6200001.html
+chrY,6009701,6010403,702,0,0,0,-4.01,-4.01,,chrY/chrY_6000001_6200001.html
+chrY,6012601,6014603,2002,0,0,0,-4.01,-4.01,,chrY/chrY_6000001_6200001.html
+chrY,6016101,6025703,9602,0,0,0,-4.01,-4.01,,chrY/chrY_6000001_6200001.html
+chrY,6026801,6040303,13502,0,0,0,-4.01,-4.01,,chrY/chrY_6000001_6200001.html
+chrY,6041401,6041403,2,0,0,0,-4.01,-4.01,,chrY/chrY_6000001_6200001.html
+chrY,6042601,6058503,15902,0,0,0,-4.01,-4.01,,chrY/chrY_6000001_6200001.html
+chrY,6059801,6094503,34702,0,0,0,-4.01,-4.01,,chrY/chrY_6000001_6200001.html
+chrY,6096401,6112203,15802,0,0,0,-4.01,-4.01,,chrY/chrY_6000001_6200001.html
+chrY,6113301,6161203,47902,0,0,0,-4.01,-4.01,,chrY/chrY_6000001_6200001.html
+chrY,6162801,6201503,38702,0,0,0,-4.01,-4.01,,chrY/chrY_6000001_6200001.html
+chrY,6202601,6202603,2,0,0,0,-4.01,-4.01,,chrY/chrY_6200001_6400001.html
+chrY,6203701,6532603,328902,0,0,0,-4.01,-4.01,,chrY/chrY_6200001_6400001.html
+chrY,6535701,6539803,4102,0,0,0,-4.01,-4.01,,chrY/chrY_6400001_6600001.html
+chrY,6541101,6562503,21402,0,0,0,-4.01,-4.01,,chrY/chrY_6400001_6600001.html
+chrY,6563901,6617903,54002,0,0,0,-4.01,-4.01,,chrY/chrY_6400001_6600001.html
+chrY,6619101,6629903,10802,0,0,0,-4.01,-4.01,,chrY/chrY_6600001_6800001.html
+chrY,6631001,6648403,17402,0,0,0,-4.01,-4.01,,chrY/chrY_6600001_6800001.html
+chrY,6650601,6651703,1102,0,0,0,-4.01,-4.01,,chrY/chrY_6600001_6800001.html
+chrY,6652901,6691403,38502,0,0,0,-4.01,-4.01,,chrY/chrY_6600001_6800001.html
+chrY,6692701,6693103,402,0,0,0,-4.01,-4.01,,chrY/chrY_6600001_6800001.html
+chrY,6694401,6717403,23002,0,0,0,-4.01,-4.01,,chrY/chrY_6600001_6800001.html
+chrY,6719001,6728503,9502,0,0,0,-4.01,-4.01,,chrY/chrY_6600001_6800001.html
+chrY,6730101,6730103,2,0,0,0,-4.01,-4.01,,chrY/chrY_6600001_6800001.html
+chrY,6731401,6744203,12802,0,0,0,-4.01,-4.01,,chrY/chrY_6600001_6800001.html
+chrY,6745501,6854103,108602,0,0,0,-4.01,-4.01,,chrY/chrY_6600001_6800001.html
+chrY,6855201,6855903,702,0,0,0,-4.01,-4.01,,chrY/chrY_6800001_7000001.html
+chrY,6857301,7154403,297102,0,0,0,-4.01,-4.01,,chrY/chrY_6800001_7000001.html
+chrY,7155601,7156503,902,0,0,0,-4.01,-4.01,,chrY/chrY_7000001_7200001.html
+chrY,7157601,7158203,602,0,0,0,-4.01,-4.01,,chrY/chrY_7000001_7200001.html
+chrY,7159601,7250103,90502,0,0,0,-4.01,-4.01,,chrY/chrY_7000001_7200001.html
+chrY,7251501,7253803,2302,0,0,0,-4.01,-4.01,,chrY/chrY_7200001_7400001.html
+chrY,7254901,9134103,1879202,0,0,0,-4.01,-4.01,,chrY/chrY_7200001_7400001.html
+chrY,9135201,9194803,59602,0,0,0,-4.01,-4.01,,chrY/chrY_9000001_9200001.html
+chrY,9196401,9590403,394002,0,0,0,-4.01,-4.01,,chrY/chrY_9000001_9200001.html
+chrY,9592201,9592203,2,0,0,0,-4.01,-4.01,,chrY/chrY_9400001_9600001.html
+chrY,9593401,9941603,348202,0,0,0,-4.01,-4.01,,chrY/chrY_9400001_9600001.html
+chrY,9947201,10071303,124102,0,0,0,-4.01,-4.01,,chrY/chrY_9800001_10000001.html
+chrY,10072901,10078703,5802,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10079901,10080603,702,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10082001,10093203,11202,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10095001,10106803,11802,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10108701,10113403,4702,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10115401,10119903,4502,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10124101,10125903,1802,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10127201,10127203,2,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10128801,10128803,2,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10130801,10142103,11302,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10143201,10146103,2902,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10147601,10154003,6402,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10155701,10158703,3002,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10159901,10186103,26202,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10188101,10200403,12302,0,0,0,-4.01,-4.01,,chrY/chrY_10000001_10200001.html
+chrY,10201701,10204903,3202,0,0,0,-4.01,-4.01,,chrY/chrY_10200001_10400001.html
+chrY,10206001,10218603,12602,0,0,0,-4.01,-4.01,,chrY/chrY_10200001_10400001.html
+chrY,10219801,10220103,302,0,0,0,-4.01,-4.01,,chrY/chrY_10200001_10400001.html
+chrY,10221701,10223503,1802,0,0,0,-4.01,-4.01,,chrY/chrY_10200001_10400001.html
+chrY,10225001,10226403,1402,0,0,0,-4.01,-4.01,,chrY/chrY_10200001_10400001.html
+chrY,10228301,10623803,395502,0,0,0,-4.01,-4.01,,chrY/chrY_10200001_10400001.html
+chrY,10625801,10626403,602,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10629401,10629503,102,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10631001,10645703,14702,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10649401,10651403,2002,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10652501,10652503,2,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10656501,10656503,2,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10658701,10659003,302,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10662001,10662003,2,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10664901,10665503,602,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10669701,10670703,1002,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10672301,10672603,302,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10674001,10677603,3602,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10679601,10682303,2702,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10685301,10685303,2,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10687401,10687403,2,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10691501,10691803,302,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10692901,10692903,2,0,0,0,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10694201,10744103,49902,0,0,0.641,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10745101,10745103,2,0,0,1.23,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10750101,10750103,2,0,0,1.26,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10762001,10762003,2,0,0,1.35,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10767201,10767303,102,0,0,1.46,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10768201,10768403,202,0,0,1.5,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10772801,10772803,2,0,0,1.56,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10774501,10774503,2,0,0,1.53,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10774801,10774803,2,0,0,1.54,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10782101,10782103,2,0,0,1.5,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10784501,10784503,2,0,0,1.45,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10786601,10786603,2,0,0,1.42,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10788501,10788503,2,0,0,1.44,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10791701,10791703,2,0,0,1.43,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10794801,10794903,102,0,0,1.35,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10799001,10799003,2,0,0,1.35,-4.01,-4.01,,chrY/chrY_10600001_10800001.html
+chrY,10800101,10800103,2,0,0,1.4,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10805501,10805503,2,0,0,1.56,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10809701,10810403,702,0,0,1.6,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10813701,10813703,2,0,0,1.63,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10816801,10818203,1402,0,0,1.65,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10820201,10820203,2,0,0,1.68,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10827401,10827703,302,0,0,1.89,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10828001,10828003,2,0,0,1.91,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10829101,10829103,2,0,0,1.95,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10833301,10833303,2,0,0,2.03,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10834601,10834603,2,0,0,2.05,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10836201,10836203,2,0,0,2.1,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10840101,10840903,802,0,0,2.24,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10845801,10845803,2,0,0,2.33,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10849401,10849503,102,0,0,2.44,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10849901,10849903,2,0,0,2.46,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10857401,10857403,2,0,0,2.59,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10864001,10864003,2,0,0,2.81,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10865101,10865103,2,0,0,2.86,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10867701,10867703,2,0,0,2.91,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10876201,10876203,2,0,0,2.92,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10878401,10878403,2,0,0,2.9,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10881101,10881103,2,0,0,2.9,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10882401,10882403,2,0,0,2.88,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10890401,10892303,1902,0,0,2.84,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10895101,10895103,2,0,0,2.8,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10896501,10898003,1502,0,0,2.8,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10899801,10899803,2,0,0,2.78,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10900301,10900303,2,0,0,2.78,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10904401,10904903,502,0,0,2.69,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10937201,10937203,2,0,0,2.1,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10941801,10942103,302,0,0,2.03,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10945801,10945803,2,0,0,1.96,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10951401,10951403,2,0,0,1.81,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10955601,10955803,202,0,0,1.71,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10956901,10957603,702,0,0,1.65,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10960601,10960903,302,0,0,1.61,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10961701,10962403,702,0,0,1.61,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10965701,10967303,1602,0,0,1.55,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10968801,10968803,2,0,0,1.53,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10970001,10970503,502,0,0,1.5,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10970901,10970903,2,0,0,1.5,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10972701,10972703,2,0,0,1.5,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10974501,10974503,2,0,0,1.5,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10975201,10975203,2,0,0,1.5,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10984601,10984603,2,0,0,1.61,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10992401,10992403,2,0,0,1.73,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10996401,10996403,2,0,0,1.73,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,10999701,10999703,2,0,0,1.79,-4.01,-4.01,,chrY/chrY_10800001_11000001.html
+chrY,11002301,11003003,702,0,0,1.79,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11004601,11004603,2,0,0,1.74,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11005301,11005303,2,0,0,1.74,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11006901,11006903,2,0,0,1.73,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11008501,11008503,2,0,0,1.72,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11009601,11009603,2,0,0,1.71,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11011001,11011003,2,0,0,1.67,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11012401,11012903,502,0,0,1.68,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11018501,11018503,2,0,0,1.67,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11019901,11019903,2,0,0,1.61,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11023401,11024203,802,0,0,1.67,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11028401,11029003,602,0,0,1.6,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11029901,11029903,2,0,0,1.58,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11035101,11035103,2,0,0,1.53,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11036301,11036903,602,0,0,1.51,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11037801,11037803,2,0,0,1.49,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11038501,11038503,2,0,0,1.48,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11038901,11038903,2,0,0,1.47,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11096501,11096503,2,0,0,0.9,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11102101,11102203,102,0,0,0.883,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11104601,11104603,2,0,0,0.885,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11108601,11108703,102,0,0,0.825,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11120001,11120003,2,0,0,0.755,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11121001,11121203,202,0,0,0.748,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11122401,11122403,2,0,0,0.74,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11125001,11125103,102,0,0,0.73,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11126501,11126503,2,0,0,0.73,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11126801,11126803,2,0,0,0.72,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11133601,11133803,202,0,0,0.68,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11134901,11134903,2,0,0,0.67,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11145001,11145203,202,0,0,0.655,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11162701,11163703,1002,0,0,0.6,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11166001,11166903,902,0,0,0.617,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11168701,11169703,1002,0,0,0.656,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11180501,11182003,1502,0,0,0.829,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11189801,11189803,2,0,0,0.96,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11191701,11191703,2,0,0,1,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11192701,11192903,202,0,0,1.04,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11194601,11194603,2,0,0,1.08,-4.01,-4.01,,chrY/chrY_11000001_11200001.html
+chrY,11221601,11221703,102,0,0,1.4,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11223001,11223803,802,0,0,1.39,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11225701,11226503,802,0,0,1.41,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11241501,11241503,2,0,0,1.27,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11278401,11278803,402,0,0,1.1,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11279501,11279603,102,0,0,1.12,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11282701,11283203,502,0,0,1.16,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11331301,11331403,102,0,0,0.93,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11337501,11339403,1902,0,0,0.896,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11342901,11344003,1102,0,0,0.855,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11346001,11346003,2,0,0,0.84,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11349701,11350003,302,0,0,0.801,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11355801,11357303,1502,0,0,0.786,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11363001,11363103,102,0,0,0.79,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11364101,11365003,902,0,0,0.799,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11378301,11379503,1202,0,0,0.75,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11381101,11381103,2,0,0,0.76,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11384201,11384203,2,0,0,0.76,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11385801,11386503,702,0,0,0.75,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11387501,11388703,1202,0,0,0.74,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11390101,11391803,1702,0,0,0.73,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11393001,11393203,202,0,0,0.73,-4.01,-4.01,,chrY/chrY_11200001_11400001.html
+chrY,11402401,11402803,402,0,0,0.74,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11407401,11407803,402,0,0,0.72,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11477301,11477303,2,0,0,0.21,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11477601,11478103,502,0,0,0.21,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11478701,11478803,102,0,0,0.21,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11479701,11480103,402,0,0,0.2,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11480701,11480703,2,0,0,0.2,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11486001,11486003,2,0,0,0.15,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11487201,11487203,2,0,0,0.14,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11488601,11488803,202,0,0,0.128,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11489301,11489403,102,0,0,0.112,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11490201,11490303,102,0,0,0.1,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11490901,11490903,2,0,0,0.09,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11491301,11491603,302,0,0,0.08,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11491801,11491803,2,0,0,0.08,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11493101,11493103,2,0,0,0.07,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11493601,11493803,202,0,0,0.06,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11494701,11494703,2,0,0,0.06,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11495501,11495503,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11495801,11495803,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11497101,11497103,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11497701,11497803,102,0,0,0.04,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11498201,11498203,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11499101,11499403,302,0,0,0.0138,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11499701,11499803,102,0,0,0.01,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11500001,11500003,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11500301,11500403,102,0,0,0.01,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11500801,11502203,1402,0,0,0,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11503401,11504203,802,0,0,0,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11506201,11510603,4402,0,0,0,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11512101,11513103,1002,0,0,0,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11515301,11516603,1302,0,0,0,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11518901,11518903,2,0,0,0,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11520201,11520303,102,0,0,0,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11523001,11523403,402,0,0,0,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11525601,11527903,2302,0,0,0,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11529401,11538503,9102,0,0,0,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11539601,11540203,602,0,0,0,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11541701,11550103,8402,0,0,0,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11551501,11577103,25602,0,0,0.000577,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11577301,11577303,2,0,0,0.02,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11577501,11577503,2,0,0,0.02,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11578001,11578003,2,0,0,0.02,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11578201,11578203,2,0,0,0.025,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11578601,11578703,102,0,0,0.03,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11578901,11578903,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11579501,11580003,502,0,0,0.0425,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11580201,11580803,602,0,0,0.0514,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11581401,11581403,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11581701,11581703,2,0,0,0.05,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11581901,11582503,602,0,0,0.058,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11582801,11582903,102,0,0,0.06,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11583201,11583203,2,0,0,0.06,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11583601,11583903,302,0,0,0.0638,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11584201,11584503,302,0,0,0.07,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11584801,11584803,2,0,0,0.07,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11585001,11586403,1402,0,0,0.0792,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11586701,11586903,202,0,0,0.08,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11589201,11589503,302,0,0,0.1,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11591101,11592403,1302,0,0,0.122,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11592901,11642903,50002,0,0,0.203,-4.01,-4.01,,chrY/chrY_11400001_11600001.html
+chrY,11643901,11643903,2,0,0,0.16,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11644501,11645303,802,0,0,0.146,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11645701,11645703,2,0,0,0.135,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11646901,11646903,2,0,0,0.12,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11647301,11647703,402,0,0,0.101,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11650001,11650103,102,0,0,0.0675,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11650801,11650803,2,0,0,0.06,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11651001,11651103,102,0,0,0.06,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11652101,11652103,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11652601,11652603,2,0,0,0.04,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11653501,11653503,2,0,0,0.03,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11654001,11654203,202,0,0,0.025,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11654601,11654603,2,0,0,0.02,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11654901,11654903,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11655301,11655303,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11655501,11655503,2,0,0,0.01,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11655901,11674603,18702,0,0,5.95e-05,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11678101,11679003,902,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11681401,11681403,2,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11682801,11682803,2,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11684901,11686803,1902,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11689601,11692203,2602,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11693501,11693503,2,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11695501,11695603,102,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11696701,11698003,1302,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11699401,11699403,2,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11700601,11701203,602,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11702601,11703503,902,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11705801,11709103,3302,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11710801,11716703,5902,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11719601,11719603,2,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11720801,11721603,802,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11724001,11724003,2,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11726701,11728003,1302,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11729101,11729103,2,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11730701,11730703,2,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11732901,11734103,1202,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11735401,11735403,2,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11737501,11738503,1002,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11739801,11740303,502,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11741701,11744003,2302,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11749601,11755803,6202,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11757001,11811503,54502,0,0,0,-4.01,-4.01,,chrY/chrY_11600001_11800001.html
+chrY,11812601,11988803,176202,0,0,0,-4.01,-4.01,,chrY/chrY_11800001_12000001.html
+chrY,11990101,13130503,1140402,0,0,0,-4.01,-4.01,,chrY/chrY_11800001_12000001.html
+chrY,13131801,13179003,47202,0,0,0,-4.01,-4.01,,chrY/chrY_13000001_13200001.html
+chrY,13180401,13180403,2,0,0,0,-4.01,-4.01,,chrY/chrY_13000001_13200001.html
+chrY,13181701,13181703,2,0,0,0,-4.01,-4.01,,chrY/chrY_13000001_13200001.html
+chrY,13182901,13527203,344302,0,0,0,-4.01,-4.01,,chrY/chrY_13000001_13200001.html
+chrY,13528601,13559403,30802,0,0,0,-4.01,-4.01,,chrY/chrY_13400001_13600001.html
+chrY,13562701,13563403,702,0,0,0,-4.01,-4.01,,chrY/chrY_13400001_13600001.html
+chrY,13564501,13850003,285502,0,0,0,-4.01,-4.01,,chrY/chrY_13400001_13600001.html
+chrY,13851101,13898803,47702,0,0,0,-4.01,-4.01,,chrY/chrY_13800001_14000001.html
+chrY,13899901,13900303,402,0,0,0,-4.01,-4.01,,chrY/chrY_13800001_14000001.html
+chrY,13901401,15723903,1822502,0,0,0,-4.01,-4.01,,chrY/chrY_13800001_14000001.html
+chrY,15725301,17061103,1335802,0,0,0,-4.01,-4.01,,chrY/chrY_15600001_15800001.html
+chrY,17066901,17097803,30902,0,0,0,-4.01,-4.01,,chrY/chrY_17000001_17200001.html
+chrY,17099601,17375303,275702,0,0,0,-4.01,-4.01,,chrY/chrY_17000001_17200001.html
+chrY,17377501,18039403,661902,0,0,0,-4.01,-4.01,,chrY/chrY_17200001_17400001.html
+chrY,18040501,19008503,968002,0,0,0,-4.01,-4.01,,chrY/chrY_18000001_18200001.html
+chrY,19009701,19035203,25502,0,0,0,-4.01,-4.01,,chrY/chrY_19000001_19200001.html
+chrY,19036401,19375103,338702,0,0,0,-4.01,-4.01,,chrY/chrY_19000001_19200001.html
+chrY,19376201,19376603,402,0,0,0,-4.01,-4.01,,chrY/chrY_19200001_19400001.html
+chrY,19377701,19666603,288902,0,0,0,-4.01,-4.01,,chrY/chrY_19200001_19400001.html
+chrY,19668401,20370803,702402,0,0,0,-4.01,-4.01,,chrY/chrY_19600001_19800001.html
+chrY,20372501,20472903,100402,0,0,0,-4.01,-4.01,,chrY/chrY_20200001_20400001.html
+chrY,20475801,20914403,438602,0,0,0,-4.01,-4.01,,chrY/chrY_20400001_20600001.html
+chrY,20915601,20945403,29802,0,0,0,-4.01,-4.01,,chrY/chrY_20800001_21000001.html
+chrY,20946601,22341503,1394902,0,0,0,-4.01,-4.01,,chrY/chrY_20800001_21000001.html
+chrY,22342801,23148603,805802,0,0,0,-4.01,-4.01,,chrY/chrY_22200001_22400001.html
+chrY,23149701,23259103,109402,0,0,0,-4.01,-4.01,,chrY/chrY_23000001_23200001.html
+chrY,23260301,23380903,120602,0,0,0,-4.01,-4.01,,chrY/chrY_23200001_23400001.html
+chrY,23382301,23957003,574702,0,0,0,-4.01,-4.01,,chrY/chrY_23200001_23400001.html
+chrY,23959801,24248703,288902,0,0,0,-4.01,-4.01,,chrY/chrY_23800001_24000001.html
+chrY,24250001,24526703,276702,0,0,0,-4.01,-4.01,,chrY/chrY_24200001_24400001.html
+chrY,24527801,24776603,248802,0,0,0,-4.01,-4.01,,chrY/chrY_24400001_24600001.html
+chrY,24778901,24880303,101402,0,0,0,-4.01,-4.01,,chrY/chrY_24600001_24800001.html
+chrY,24881401,25142203,260802,0,0,0,-4.01,-4.01,,chrY/chrY_24800001_25000001.html
+chrY,25143301,25319203,175902,0,0,0,-4.01,-4.01,,chrY/chrY_25000001_25200001.html
+chrY,25320301,25710203,389902,0,0,0,-4.01,-4.01,,chrY/chrY_25200001_25400001.html
+chrY,25713301,26436003,722702,0,0,0,-4.01,-4.01,,chrY/chrY_25600001_25800001.html
+chrY,26438301,26438903,602,0,0,0,-4.01,-4.01,,chrY/chrY_26400001_26600001.html
+chrY,26442401,26637803,195402,0,0,0,-4.01,-4.01,,chrY/chrY_26400001_26600001.html
+chrY,26645001,26651603,6602,0,0,0,-4.01,-4.01,,chrY/chrY_26600001_26800001.html
+chrY,26653201,26653203,2,0,0,0,-4.01,-4.01,,chrY/chrY_26600001_26800001.html
+chrY,26655601,26668703,13102,0,0,0,-4.01,-4.01,,chrY/chrY_26600001_26800001.html
+chrY,26670301,26670903,602,0,0,0,-4.01,-4.01,,chrY/chrY_26600001_26800001.html
+chrY,26673001,56821403,30148402,0,0,0,-4.01,-4.01,,chrY/chrY_26600001_26800001.html
+chrY,56882301,56882303,2,0,0,0,-4.01,-4.01,,chrY/chrY_56800001_57000001.html
+chrY,56887301,56887603,302,0,0,0,-4.01,-4.01,,chrY/chrY_56800001_57000001.html
+chrY,56887901,57227403,339502,0,0,0,-4.01,-4.01,,chrY/chrY_56800001_57000001.html</pre>
+
+    <table id="table_lroi" class="display table text-center" style="width:100%">
+        <thead><th>chr</th>
+<th>start</th>
+<th>end</th>
+<th>size</th>
+<th>mean_cov</th>
+<th>max_cov</th>
+<th>mean_rm</th>
+<th>mean_zscore</th>
+<th>max_zscore</th>
+<th>log2_ratio</th>
+<th>link</th></thead>
+    </table>
+        
+<h3>High coverage region</h3>
+<p>Regions with a z-score higher than 3.00 and at least one base with a z-score higher than 6.00 are detected.There are 622 high regions of interest.</p>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        var hroi = document.getElementById('csv_hroi').innerText;
+        parseCsv_roi(hroi, '#table_hroi');
+        hroi = null;
+    });
+</script>
+        <style>#csv_hroi{display:none}</style>
+<pre id="csv_hroi">chr,start,end,size,mean_cov,max_cov,mean_rm,mean_zscore,max_zscore,log2_ratio,link
+chrY,3142301,3142403,102,0.505,0.87,0.0075,96.5,180,6.07,chrY/chrY_3000001_3200001.html
+chrY,3144301,3144303,2,0.66,0.66,0.03,20.9,20.9,4.46,chrY/chrY_3000001_3200001.html
+chrY,3145101,3145503,402,2.49,3.6,0.04,63,92.3,5.96,chrY/chrY_3000001_3200001.html
+chrY,3145901,3145903,2,0.79,0.79,0.04,18.5,18.5,4.3,chrY/chrY_3000001_3200001.html
+chrY,3146201,3146203,2,0.75,0.75,0.04,17.5,17.5,4.23,chrY/chrY_3000001_3200001.html
+chrY,3146501,3146503,2,0.87,0.87,0.04,20.6,20.6,4.44,chrY/chrY_3000001_3200001.html
+chrY,3146801,3147103,302,1,1.05,0.0417,23,23.5,4.58,chrY/chrY_3000001_3200001.html
+chrY,3147301,3148003,702,0.798,1.33,0.05,14.5,25.7,4,chrY/chrY_3000001_3200001.html
+chrY,3149001,3149103,102,1.01,1.36,0.06,15.5,21.6,4.07,chrY/chrY_3000001_3200001.html
+chrY,3149301,3149603,302,0.99,1.24,0.06,15.1,19.5,4.04,chrY/chrY_3000001_3200001.html
+chrY,3149901,3150503,602,1.13,1.64,0.0608,17.3,26.5,4.22,chrY/chrY_3000001_3200001.html
+chrY,3150701,3150703,2,0.57,0.57,0.07,6.33,6.33,3.03,chrY/chrY_3000001_3200001.html
+chrY,3151201,3151303,102,1.51,1.65,0.07,20.5,22.5,4.44,chrY/chrY_3000001_3200001.html
+chrY,3152201,3152203,2,0.81,0.81,0.09,7.23,7.23,3.17,chrY/chrY_3000001_3200001.html
+chrY,3152901,3152903,2,0.97,0.97,0.09,9.1,9.1,3.43,chrY/chrY_3000001_3200001.html
+chrY,3153201,3153203,2,0.86,0.86,0.09,7.81,7.81,3.26,chrY/chrY_3000001_3200001.html
+chrY,3156301,3156403,102,1.9,2.68,0.12,14.4,21.2,3.98,chrY/chrY_3000001_3200001.html
+chrY,3156601,3156603,2,2.28,2.28,0.12,17.7,17.7,4.25,chrY/chrY_3000001_3200001.html
+chrY,3157601,3157603,2,1.54,1.54,0.12,11.3,11.3,3.68,chrY/chrY_3000001_3200001.html
+chrY,3157901,3158503,602,1.85,3.07,0.123,13.7,24.6,3.91,chrY/chrY_3000001_3200001.html
+chrY,3160501,3161503,1002,1.97,4.35,0.136,13.2,32.9,3.86,chrY/chrY_3000001_3200001.html
+chrY,3162101,3163503,1402,2.19,4.2,0.155,12.6,26.2,3.82,chrY/chrY_3000001_3200001.html
+chrY,3166301,3166603,302,2.19,2.69,0.17,11.3,14.4,3.68,chrY/chrY_3000001_3200001.html
+chrY,3167201,3168203,1002,1.68,3.13,0.17,8.18,17.1,3.31,chrY/chrY_3000001_3200001.html
+chrY,3169301,3170303,1002,1.72,2.41,0.17,8.38,12.7,3.34,chrY/chrY_3000001_3200001.html
+chrY,3171201,3172903,1702,2,3.26,0.17,10.1,17.9,3.56,chrY/chrY_3000001_3200001.html
+chrY,3175801,3176803,1002,2.23,4.46,0.17,11.6,25.3,3.71,chrY/chrY_3000001_3200001.html
+chrY,3177801,3177803,2,1.49,1.49,0.17,6.98,6.98,3.13,chrY/chrY_3000001_3200001.html
+chrY,3179501,3179903,402,1.85,2.55,0.17,9.24,13.5,3.45,chrY/chrY_3000001_3200001.html
+chrY,3182301,3182903,602,1.98,4.96,0.15,11.7,32.5,3.73,chrY/chrY_3000001_3200001.html
+chrY,3185201,3185703,502,2.01,3.32,0.14,12.8,22.7,3.84,chrY/chrY_3000001_3200001.html
+chrY,3186601,3187203,602,2.13,4.13,0.15,12.7,26.7,3.83,chrY/chrY_3000001_3200001.html
+chrY,3188201,3188503,302,2.15,2.54,0.14,13.9,16.8,3.94,chrY/chrY_3000001_3200001.html
+chrY,3188801,3189103,302,1.84,2.64,0.14,11.6,17.6,3.71,chrY/chrY_3000001_3200001.html
+chrY,3190001,3191603,1602,2.19,4.8,0.14,14.2,33.8,3.97,chrY/chrY_3000001_3200001.html
+chrY,3192001,3193203,1202,2.1,4.36,0.146,12.9,29.3,3.85,chrY/chrY_3000001_3200001.html
+chrY,3194001,3194403,402,2.17,2.69,0.14,14,18,3.95,chrY/chrY_3000001_3200001.html
+chrY,3196201,3196903,702,2.71,4.11,0.138,18.2,28.6,4.3,chrY/chrY_3000001_3200001.html
+chrY,3198001,3198803,802,2.21,3.78,0.13,15.6,28.3,4.08,chrY/chrY_3000001_3200001.html
+chrY,3199601,3199603,2,1.63,1.63,0.13,10.9,10.9,3.65,chrY/chrY_3000001_3200001.html
+chrY,3199901,3199903,2,1.59,1.59,0.13,10.6,10.6,3.61,chrY/chrY_3000001_3200001.html
+chrY,3200901,3201203,302,1.81,2.73,0.139,11.6,19,3.71,chrY/chrY_3200001_3400001.html
+chrY,3202001,3202603,602,1.51,1.83,0.14,9.07,11.5,3.43,chrY/chrY_3200001_3400001.html
+chrY,3202801,3203003,202,2.02,3.59,0.14,12.9,24.7,3.85,chrY/chrY_3200001_3400001.html
+chrY,3203201,3203303,102,3.54,4.03,0.14,24.3,28,4.66,chrY/chrY_3200001_3400001.html
+chrY,3203501,3203603,102,2.02,2.97,0.135,13.5,20.9,3.9,chrY/chrY_3200001_3400001.html
+chrY,3204101,3205903,1802,2.49,7.05,0.146,15.9,50.6,4.1,chrY/chrY_3200001_3400001.html
+chrY,3207501,3207503,2,1.21,1.21,0.15,6.25,6.25,3.01,chrY/chrY_3200001_3400001.html
+chrY,3212201,3212203,2,1.82,1.82,0.14,11.4,11.4,3.7,chrY/chrY_3200001_3400001.html
+chrY,3212801,3212803,2,1.38,1.38,0.15,7.44,7.44,3.2,chrY/chrY_3200001_3400001.html
+chrY,3213801,3214203,402,2.23,2.82,0.15,13.4,17.5,3.89,chrY/chrY_3200001_3400001.html
+chrY,3215001,3215003,2,2.22,2.22,0.15,13.3,13.3,3.89,chrY/chrY_3200001_3400001.html
+chrY,3215201,3215803,602,1.6,2.51,0.145,9.47,16.6,3.47,chrY/chrY_3200001_3400001.html
+chrY,3216101,3216103,2,1.65,1.65,0.14,10.2,10.2,3.56,chrY/chrY_3200001_3400001.html
+chrY,3217801,3218303,502,1.55,2,0.135,9.86,13,3.52,chrY/chrY_3200001_3400001.html
+chrY,3218501,3218603,102,2.02,2.09,0.13,14.1,14.7,3.96,chrY/chrY_3200001_3400001.html
+chrY,3219601,3220403,802,2.16,4.76,0.134,14.7,34.8,4,chrY/chrY_3200001_3400001.html
+chrY,3221601,3221603,2,1.58,1.58,0.14,9.63,9.63,3.5,chrY/chrY_3200001_3400001.html
+chrY,3221901,3221903,2,1.24,1.24,0.14,7.08,7.08,3.15,chrY/chrY_3200001_3400001.html
+chrY,3223201,3223203,2,1.75,1.75,0.13,11.9,11.9,3.75,chrY/chrY_3200001_3400001.html
+chrY,3223501,3223503,2,1.82,1.82,0.13,12.5,12.5,3.81,chrY/chrY_3200001_3400001.html
+chrY,3224101,3224703,602,2.91,5.21,0.124,22.5,41.5,4.56,chrY/chrY_3200001_3400001.html
+chrY,3225501,3225503,2,0.94,0.94,0.12,6,6,2.97,chrY/chrY_3200001_3400001.html
+chrY,3226801,3227103,302,1.35,1.72,0.12,9.59,12.8,3.49,chrY/chrY_3200001_3400001.html
+chrY,3228701,3229003,302,1.33,1.97,0.095,12.7,20.8,3.81,chrY/chrY_3200001_3400001.html
+chrY,3229601,3230103,502,1.46,2.26,0.0933,14.2,22.8,3.96,chrY/chrY_3200001_3400001.html
+chrY,3230901,3230903,2,0.81,0.81,0.09,7.23,7.23,3.17,chrY/chrY_3200001_3400001.html
+chrY,3234501,3235003,502,1.33,1.89,0.129,8.66,13.7,3.37,chrY/chrY_3200001_3400001.html
+chrY,3236201,3236203,2,1.15,1.15,0.13,7.07,7.07,3.15,chrY/chrY_3200001_3400001.html
+chrY,3237101,3237103,2,2.58,2.58,0.13,18.6,18.6,4.31,chrY/chrY_3200001_3400001.html
+chrY,3237301,3237403,102,2.02,2.46,0.13,14.1,17.6,3.96,chrY/chrY_3200001_3400001.html
+chrY,3238201,3238503,302,2.55,3.62,0.115,21,30.8,4.47,chrY/chrY_3200001_3400001.html
+chrY,3238801,3238903,102,1.52,1.76,0.11,12.2,14.6,3.78,chrY/chrY_3200001_3400001.html
+chrY,3239101,3239203,102,1.01,1.18,0.1,8.38,10.2,3.34,chrY/chrY_3200001_3400001.html
+chrY,3239701,3239703,2,0.71,0.71,0.09,6.06,6.06,2.98,chrY/chrY_3200001_3400001.html
+chrY,3240101,3240103,2,1.34,1.34,0.09,13.4,13.4,3.9,chrY/chrY_3200001_3400001.html
+chrY,3240401,3240503,102,1.35,1.64,0.09,13.6,16.9,3.91,chrY/chrY_3200001_3400001.html
+chrY,3240701,3240703,2,1.32,1.32,0.09,13.2,13.2,3.87,chrY/chrY_3200001_3400001.html
+chrY,3242101,3242103,2,0.87,0.87,0.09,7.93,7.93,3.27,chrY/chrY_3200001_3400001.html
+chrY,3242401,3242403,2,0.71,0.71,0.09,6.06,6.06,2.98,chrY/chrY_3200001_3400001.html
+chrY,3243301,3243703,402,1.81,2.22,0.09,18.9,23.7,4.33,chrY/chrY_3200001_3400001.html
+chrY,3244101,3244103,2,0.85,0.85,0.09,7.7,7.7,3.24,chrY/chrY_3200001_3400001.html
+chrY,3244401,3244403,2,0.86,0.86,0.09,7.81,7.81,3.26,chrY/chrY_3200001_3400001.html
+chrY,3249301,3249303,2,1.6,1.6,0.105,13.8,13.8,3.93,chrY/chrY_3200001_3400001.html
+chrY,3249601,3250003,402,1.86,2.96,0.109,15.8,26,4.09,chrY/chrY_3200001_3400001.html
+chrY,3250801,3251303,502,1.26,1.7,0.11,9.76,14,3.51,chrY/chrY_3200001_3400001.html
+chrY,3251801,3251903,102,1.01,1.06,0.1,8.38,8.91,3.34,chrY/chrY_3200001_3400001.html
+chrY,3254001,3254003,2,1.17,1.17,0.12,8.02,8.02,3.29,chrY/chrY_3200001_3400001.html
+chrY,3256501,3256803,302,1.53,1.71,0.12,11.2,12.7,3.68,chrY/chrY_3200001_3400001.html
+chrY,3263701,3263703,2,0.95,0.95,0.12,6.09,6.09,2.98,chrY/chrY_3200001_3400001.html
+chrY,3265401,3265403,2,0.99,0.99,0.12,6.44,6.44,3.04,chrY/chrY_3200001_3400001.html
+chrY,3265601,3266003,402,1.07,1.25,0.111,7.84,9.71,3.26,chrY/chrY_3200001_3400001.html
+chrY,3266601,3266703,102,1.5,1.92,0.12,10.9,14.6,3.64,chrY/chrY_3200001_3400001.html
+chrY,3266901,3267003,102,1.93,1.99,0.11,16.2,16.8,4.13,chrY/chrY_3200001_3400001.html
+chrY,3267301,3267303,2,0.97,0.97,0.105,7.48,7.48,3.21,chrY/chrY_3200001_3400001.html
+chrY,3268501,3269603,1102,1.45,2.13,0.108,11.8,18.1,3.75,chrY/chrY_3200001_3400001.html
+chrY,3270501,3271103,602,1.26,2.46,0.1,11.1,23.6,3.66,chrY/chrY_3200001_3400001.html
+chrY,3272001,3272003,2,0.81,0.81,0.09,7.23,7.23,3.17,chrY/chrY_3200001_3400001.html
+chrY,3272301,3272303,2,1.19,1.19,0.09,11.7,11.7,3.72,chrY/chrY_3200001_3400001.html
+chrY,3273001,3273903,902,1.43,2.73,0.09,14.5,29.6,3.99,chrY/chrY_3200001_3400001.html
+chrY,3274601,3274903,302,0.74,1.13,0.0783,7.49,12.6,3.24,chrY/chrY_3200001_3400001.html
+chrY,3275301,3275903,602,1.88,2.98,0.0693,26.2,42.5,4.76,chrY/chrY_3200001_3400001.html
+chrY,3276201,3276203,2,0.63,0.63,0.06,8.8,8.8,3.39,chrY/chrY_3200001_3400001.html
+chrY,3276601,3277503,902,1.69,3.32,0.06,27.4,55.9,4.82,chrY/chrY_3200001_3400001.html
+chrY,3277801,3277803,2,1,1,0.06,15.3,15.3,4.06,chrY/chrY_3200001_3400001.html
+chrY,3278101,3278403,302,0.653,0.95,0.06,9.21,14.4,3.44,chrY/chrY_3200001_3400001.html
+chrY,3278701,3278803,102,0.505,0.53,0.06,6.62,7.05,3.07,chrY/chrY_3200001_3400001.html
+chrY,3279201,3279703,502,1.15,1.56,0.06,17.8,25.1,4.25,chrY/chrY_3200001_3400001.html
+chrY,3279901,3280103,202,1.35,2.1,0.06,21.3,34.5,4.49,chrY/chrY_3200001_3400001.html
+chrY,3280301,3281303,1002,1.24,3.12,0.0595,19.6,52.4,4.38,chrY/chrY_3200001_3400001.html
+chrY,3281801,3281803,2,0.95,0.95,0.05,17.7,17.7,4.25,chrY/chrY_3200001_3400001.html
+chrY,3283201,3283203,2,0.46,0.46,0.045,8.51,8.51,3.35,chrY/chrY_3200001_3400001.html
+chrY,3285301,3286303,1002,1.79,3.1,0.0345,55.3,106,5.7,chrY/chrY_3200001_3400001.html
+chrY,3286501,3286903,402,1.01,1.74,0.03,33.1,58.7,5.07,chrY/chrY_3200001_3400001.html
+chrY,3287101,3287203,102,0.505,0.52,0.03,15.5,16,4.07,chrY/chrY_3200001_3400001.html
+chrY,3288201,3288703,502,0.97,1.82,0.0192,48.6,93.3,5.66,chrY/chrY_3200001_3400001.html
+chrY,3289501,3289903,402,1.21,2.36,0.01,125,246,6.92,chrY/chrY_3200001_3400001.html
+chrY,3297701,3298703,1002,0.918,2.76,0.00636,172,577,7.17,chrY/chrY_3200001_3400001.html
+chrY,3298901,3299103,202,1.31,2.51,0.00833,224,525,7.3,chrY/chrY_3200001_3400001.html
+chrY,3301601,3302203,602,1.27,2.75,0.00571,252,575,7.8,chrY/chrY_3200001_3400001.html
+chrY,3302401,3302503,102,1.04,1.1,0.01,107,113,6.71,chrY/chrY_3200001_3400001.html
+chrY,3302701,3302803,102,0.505,0.55,0.01,50.8,55.5,5.66,chrY/chrY_3200001_3400001.html
+chrY,3303001,3303203,202,0.673,1.18,0.01,68.5,122,6.07,chrY/chrY_3200001_3400001.html
+chrY,3303501,3303603,102,0.49,0.51,0.01,49.2,51.3,5.61,chrY/chrY_3200001_3400001.html
+chrY,3304001,3304103,102,0.505,0.61,0.01,50.8,61.8,5.66,chrY/chrY_3200001_3400001.html
+chrY,3304301,3305003,702,0.624,1.74,0.01,63.3,180,5.96,chrY/chrY_3200001_3400001.html
+chrY,3306801,3307303,502,1.18,1.76,0.03,39,59.4,5.3,chrY/chrY_3200001_3400001.html
+chrY,3307501,3307603,102,0.505,0.7,0.03,15.5,22.3,4.07,chrY/chrY_3200001_3400001.html
+chrY,3308401,3310303,1902,1.63,5.56,0.0284,57.3,192,5.84,chrY/chrY_3200001_3400001.html
+chrY,3310601,3312003,1402,1.35,2.51,0.01,140,261,7.08,chrY/chrY_3200001_3400001.html
+chrY,3312801,3313403,602,0.866,1.41,0.0121,78.6,146,6.16,chrY/chrY_3200001_3400001.html
+chrY,3313601,3314203,602,0.929,2.02,0.015,67.8,139,5.95,chrY/chrY_3200001_3400001.html
+chrY,3314501,3315503,1002,1.61,4.28,0.021,76.3,178,6.26,chrY/chrY_3200001_3400001.html
+chrY,3316301,3317303,1002,1.38,3.7,0.01,142,386,7.11,chrY/chrY_3200001_3400001.html
+chrY,3317501,3317603,102,0.505,0.65,0.01,50.8,66,5.66,chrY/chrY_3200001_3400001.html
+chrY,3318901,3319003,102,0.505,0.53,0.01,50.8,53.4,5.66,chrY/chrY_3200001_3400001.html
+chrY,3319301,3319503,202,0.653,0.95,0.01,66.4,97.5,6.03,chrY/chrY_3200001_3400001.html
+chrY,3319801,3319903,102,0.505,0.65,0.01,50.8,66,5.66,chrY/chrY_3200001_3400001.html
+chrY,3320101,3320203,102,0.505,0.62,0.01,50.8,62.9,5.66,chrY/chrY_3200001_3400001.html
+chrY,3320601,3321403,802,1.61,3.33,0.0169,109,231,6.58,chrY/chrY_3200001_3400001.html
+chrY,3322601,3322903,302,0.63,0.88,0.03,19.8,28.6,4.39,chrY/chrY_3200001_3400001.html
+chrY,3323601,3323703,102,1.01,1.33,0.03,33.1,44.3,5.07,chrY/chrY_3200001_3400001.html
+chrY,3323901,3324503,602,1.04,1.62,0.03,34,54.5,5.11,chrY/chrY_3200001_3400001.html
+chrY,3324901,3325003,102,0.505,0.66,0.03,15.5,20.9,4.07,chrY/chrY_3200001_3400001.html
+chrY,3325201,3327003,1802,0.975,1.96,0.0247,41.6,76.9,5.3,chrY/chrY_3200001_3400001.html
+chrY,3327201,3327303,102,1.01,1.31,0.01,104,135,6.66,chrY/chrY_3200001_3400001.html
+chrY,3327501,3328103,602,0.733,1.43,0.01,74.7,148,6.2,chrY/chrY_3200001_3400001.html
+chrY,3328401,3329803,1402,2.04,6.99,0.00767,336,1.47e+03,8.06,chrY/chrY_3200001_3400001.html
+chrY,3384401,3385203,802,2.49,4.52,0.00944,312,947,8.05,chrY/chrY_3200001_3400001.html
+chrY,3385501,3386003,502,0.53,1.12,0.0108,49.4,115,5.61,chrY/chrY_3200001_3400001.html
+chrY,3386701,3386703,2,0.83,0.83,0.02,41.4,41.4,5.38,chrY/chrY_3200001_3400001.html
+chrY,3387301,3388203,902,0.631,1.11,0.0294,20.5,36.6,4.42,chrY/chrY_3200001_3400001.html
+chrY,3388501,3388803,302,0.48,0.82,0.0262,16.8,32.2,4.19,chrY/chrY_3200001_3400001.html
+chrY,3389201,3389303,102,0.505,0.81,0.025,19,31.8,4.34,chrY/chrY_3200001_3400001.html
+chrY,3389501,3389603,102,1.01,1.02,0.03,33.1,33.5,5.07,chrY/chrY_3200001_3400001.html
+chrY,3389801,3389903,102,2.02,2.45,0.03,68.5,83.5,6.07,chrY/chrY_3200001_3400001.html
+chrY,3390101,3390203,102,1.52,2.08,0.03,50.8,70.6,5.66,chrY/chrY_3200001_3400001.html
+chrY,3390801,3391303,502,1.14,3.47,0.0225,45.6,119,5.66,chrY/chrY_3200001_3400001.html
+chrY,3391501,3391603,102,0.505,0.64,0.02,24.3,31.4,4.66,chrY/chrY_3200001_3400001.html
+chrY,3392601,3392703,102,2.52,3.78,0.02,130,196,6.98,chrY/chrY_3200001_3400001.html
+chrY,3392901,3393003,102,2.52,3.13,0.02,130,162,6.98,chrY/chrY_3200001_3400001.html
+chrY,3395401,3395503,102,0.685,1.25,0.01,69.7,129,6.1,chrY/chrY_3200001_3400001.html
+chrY,3395701,3395803,102,0.505,0.93,0.01,50.8,95.4,5.66,chrY/chrY_3200001_3400001.html
+chrY,3410001,3410103,102,0.505,0.77,0.0075,91.2,159,6.07,chrY/chrY_3400001_3600001.html
+chrY,3411601,3411703,102,3.01,3.47,0.01,314,362,8.23,chrY/chrY_3400001_3600001.html
+chrY,3411901,3412203,302,2.02,4.24,0.01,210,443,7.66,chrY/chrY_3400001_3600001.html
+chrY,3412601,3412703,102,0.505,0.85,0.01,50.8,87,5.66,chrY/chrY_3400001_3600001.html
+chrY,3412901,3413003,102,0.505,0.91,0.01,50.8,93.3,5.66,chrY/chrY_3400001_3600001.html
+chrY,3414301,3414403,102,0.505,0.57,0.0275,17.4,21.7,4.2,chrY/chrY_3400001_3600001.html
+chrY,3414801,3416103,1302,1.24,3.24,0.0293,41.7,111,5.41,chrY/chrY_3400001_3600001.html
+chrY,3416401,3416403,2,0.83,0.83,0.035,22.7,22.7,4.57,chrY/chrY_3400001_3600001.html
+chrY,3416701,3417003,302,0.983,1.07,0.04,23.6,25.9,4.62,chrY/chrY_3400001_3600001.html
+chrY,3417201,3417303,102,0.505,0.52,0.04,11,11.4,3.66,chrY/chrY_3400001_3600001.html
+chrY,3418401,3418703,302,1.54,1.75,0.05,30.1,34.5,4.94,chrY/chrY_3400001_3600001.html
+chrY,3418901,3419003,102,1.52,1.85,0.05,29.6,36.6,4.92,chrY/chrY_3400001_3600001.html
+chrY,3419201,3419303,102,1.01,1.5,0.0525,18.5,29.3,4.27,chrY/chrY_3400001_3600001.html
+chrY,3420001,3420003,2,0.59,0.59,0.06,8.1,8.1,3.3,chrY/chrY_3400001_3600001.html
+chrY,3420301,3421303,1002,2.15,5.12,0.0636,32.7,80.5,5.08,chrY/chrY_3400001_3600001.html
+chrY,3422001,3423503,1502,1.32,2.47,0.0882,13.5,26.6,3.91,chrY/chrY_3400001_3600001.html
+chrY,3424601,3424903,302,2.53,3.29,0.09,27.2,36.2,4.81,chrY/chrY_3400001_3600001.html
+chrY,3425101,3426103,1002,2.34,4.38,0.0932,24.5,48.9,4.65,chrY/chrY_3400001_3600001.html
+chrY,3427001,3427303,302,1.39,1.54,0.1,12.3,13.9,3.79,chrY/chrY_3400001_3600001.html
+chrY,3428401,3428703,302,1.94,2.34,0.1,18.2,22.3,4.28,chrY/chrY_3400001_3600001.html
+chrY,3429401,3429403,2,0.99,0.99,0.11,7.23,7.23,3.17,chrY/chrY_3400001_3600001.html
+chrY,3429801,3429803,2,1.48,1.48,0.11,11.9,11.9,3.75,chrY/chrY_3400001_3600001.html
+chrY,3430401,3430403,2,0.98,0.98,0.11,7.13,7.13,3.16,chrY/chrY_3400001_3600001.html
+chrY,3430701,3430703,2,1.05,1.05,0.11,7.8,7.8,3.25,chrY/chrY_3400001_3600001.html
+chrY,3431501,3431503,2,1.28,1.28,0.12,8.98,8.98,3.42,chrY/chrY_3400001_3600001.html
+chrY,3432301,3432703,402,1.75,3.06,0.128,12.1,22.5,3.78,chrY/chrY_3400001_3600001.html
+chrY,3432901,3433003,102,2.45,3.22,0.13,17.5,23.8,4.23,chrY/chrY_3400001_3600001.html
+chrY,3433201,3433603,402,1.32,1.91,0.13,8.44,13.2,3.34,chrY/chrY_3400001_3600001.html
+chrY,3436601,3437203,602,1.96,2.52,0.119,15,19.8,4.04,chrY/chrY_3400001_3600001.html
+chrY,3437901,3438503,602,1.43,2.02,0.13,9.33,14.1,3.46,chrY/chrY_3400001_3600001.html
+chrY,3439001,3439003,2,1.78,1.78,0.13,12.2,12.2,3.78,chrY/chrY_3400001_3600001.html
+chrY,3439201,3440303,1102,2.01,3.9,0.126,14.3,29.3,3.99,chrY/chrY_3400001_3600001.html
+chrY,3444001,3449103,5102,4.88,16.6,0.136,35.6,122,5.17,chrY/chrY_3400001_3600001.html
+chrY,3452001,3452003,2,1.14,1.14,0.12,7.75,7.75,3.25,chrY/chrY_3400001_3600001.html
+chrY,3452801,3452803,2,0.93,0.93,0.11,6.66,6.66,3.08,chrY/chrY_3400001_3600001.html
+chrY,3454001,3454003,2,0.99,0.99,0.11,7.23,7.23,3.17,chrY/chrY_3400001_3600001.html
+chrY,3454301,3454603,302,1.62,2.22,0.11,13.2,19,3.88,chrY/chrY_3400001_3600001.html
+chrY,3456301,3456303,2,2.57,2.57,0.1,24.8,24.8,4.68,chrY/chrY_3400001_3600001.html
+chrY,3456701,3457203,502,1.16,1.56,0.107,9.11,13.4,3.43,chrY/chrY_3400001_3600001.html
+chrY,3461501,3461803,302,1.77,1.84,0.11,14.7,15.3,4.01,chrY/chrY_3400001_3600001.html
+chrY,3463501,3463603,102,1.01,1.15,0.11,7.42,8.76,3.2,chrY/chrY_3400001_3600001.html
+chrY,3464901,3465203,302,2.08,3.61,0.11,17.6,32.2,4.24,chrY/chrY_3400001_3600001.html
+chrY,3467301,3467603,302,1.8,2.55,0.11,14.9,22.1,4.03,chrY/chrY_3400001_3600001.html
+chrY,3467801,3468303,502,2.4,4.46,0.11,20.7,40.3,4.45,chrY/chrY_3400001_3600001.html
+chrY,3469501,3469903,402,2.22,4.03,0.11,19,36.2,4.34,chrY/chrY_3400001_3600001.html
+chrY,3471201,3471203,2,0.9,0.9,0.1,7.23,7.23,3.17,chrY/chrY_3400001_3600001.html
+chrY,3472901,3473203,302,1.25,1.48,0.09,12.3,15,3.79,chrY/chrY_3400001_3600001.html
+chrY,3474301,3474303,2,0.98,0.98,0.08,10.6,10.6,3.61,chrY/chrY_3400001_3600001.html
+chrY,3474601,3474603,2,1.89,1.89,0.08,22.6,22.6,4.56,chrY/chrY_3400001_3600001.html
+chrY,3474901,3474903,2,1.68,1.68,0.08,19.8,19.8,4.39,chrY/chrY_3400001_3600001.html
+chrY,3477101,3477403,302,0.597,0.78,0.0683,6.98,9.48,3.13,chrY/chrY_3400001_3600001.html
+chrY,3478701,3479103,402,0.91,1.06,0.065,12.6,16.3,3.81,chrY/chrY_3400001_3600001.html
+chrY,3480301,3480703,402,1.93,3.24,0.07,26.7,46.4,4.79,chrY/chrY_3400001_3600001.html
+chrY,3480901,3482103,1202,1.14,2.89,0.0577,19.4,58.5,4.3,chrY/chrY_3400001_3600001.html
+chrY,3483001,3483003,2,1.75,1.75,0.05,34.5,34.5,5.13,chrY/chrY_3400001_3600001.html
+chrY,3483301,3483403,102,2.02,3.46,0.05,40.2,70.4,5.34,chrY/chrY_3400001_3600001.html
+chrY,3483601,3483703,102,1.51,2.3,0.05,29.6,46.1,4.92,chrY/chrY_3400001_3600001.html
+chrY,3483901,3483903,2,0.8,0.8,0.05,14.6,14.6,4,chrY/chrY_3400001_3600001.html
+chrY,3485401,3485403,2,0.83,0.83,0.04,19.6,19.6,4.38,chrY/chrY_3400001_3600001.html
+chrY,3485601,3486003,402,1.3,2.27,0.04,32,57.4,5.02,chrY/chrY_3400001_3600001.html
+chrY,3486701,3486803,102,0.505,0.57,0.04,11,12.7,3.66,chrY/chrY_3400001_3600001.html
+chrY,3487501,3487603,102,0.505,0.52,0.04,11,11.4,3.66,chrY/chrY_3400001_3600001.html
+chrY,3487801,3488403,602,1.17,3.03,0.04,28.6,77.3,4.87,chrY/chrY_3400001_3600001.html
+chrY,3488701,3488703,2,0.78,0.78,0.04,18.3,18.3,4.29,chrY/chrY_3400001_3600001.html
+chrY,3489101,3490103,1002,0.891,2.71,0.05,16.5,54.7,4.16,chrY/chrY_3400001_3600001.html
+chrY,3490801,3491403,602,1.94,4.45,0.05,38.5,91.2,5.28,chrY/chrY_3400001_3600001.html
+chrY,3491701,3491803,102,0.675,0.94,0.05,12,17.5,3.75,chrY/chrY_3400001_3600001.html
+chrY,3492101,3492303,202,0.957,1.24,0.05,17.9,23.8,4.26,chrY/chrY_3400001_3600001.html
+chrY,3492701,3492703,2,0.52,0.52,0.05,8.7,8.7,3.38,chrY/chrY_3400001_3600001.html
+chrY,3493801,3493803,2,0.68,0.68,0.05,12.1,12.1,3.77,chrY/chrY_3400001_3600001.html
+chrY,3494001,3494103,102,0.505,0.51,0.05,8.38,8.49,3.34,chrY/chrY_3400001_3600001.html
+chrY,3495701,3495703,2,0.83,0.83,0.04,19.6,19.6,4.38,chrY/chrY_3400001_3600001.html
+chrY,3497101,3497103,2,0.72,0.72,0.04,16.7,16.7,4.17,chrY/chrY_3400001_3600001.html
+chrY,3498001,3498003,2,0.78,0.78,0.03,25.1,25.1,4.7,chrY/chrY_3400001_3600001.html
+chrY,3498701,3499403,702,0.833,1.52,0.03,26.9,51,4.79,chrY/chrY_3400001_3600001.html
+chrY,3499601,3499703,102,0.505,0.76,0.03,15.5,24.4,4.07,chrY/chrY_3400001_3600001.html
+chrY,3501101,3501203,102,0.505,0.76,0.03,15.5,24.4,4.07,chrY/chrY_3400001_3600001.html
+chrY,3502301,3502303,2,0.26,0.26,0.03,6.88,6.88,3.12,chrY/chrY_3400001_3600001.html
+chrY,3502801,3503203,402,1.62,3.3,0.03,54.3,113,5.75,chrY/chrY_3400001_3600001.html
+chrY,3503401,3503503,102,0.49,0.63,0.03,14.9,19.8,4.03,chrY/chrY_3400001_3600001.html
+chrY,3503701,3505403,1702,2.09,5.07,0.0239,99.6,264,6.45,chrY/chrY_3400001_3600001.html
+chrY,3505901,3505903,2,0.99,0.99,0.01,102,102,6.63,chrY/chrY_3400001_3600001.html
+chrY,3506201,3506503,302,0.758,1.35,0.01,77.3,140,6.24,chrY/chrY_3400001_3600001.html
+chrY,3506801,3506803,2,1.21,1.21,0.01,125,125,6.92,chrY/chrY_3400001_3600001.html
+chrY,3507001,3507303,302,0.46,1,0.01,46.1,103,5.52,chrY/chrY_3400001_3600001.html
+chrY,3507601,3507703,102,0.505,0.82,0.01,50.8,83.9,5.66,chrY/chrY_3400001_3600001.html
+chrY,3508001,3508303,302,0.758,1,0.01,77.3,103,6.24,chrY/chrY_3400001_3600001.html
+chrY,3508601,3509403,802,1.14,3.3,0.0194,60.7,171,5.87,chrY/chrY_3400001_3600001.html
+chrY,3509601,3509703,102,0.505,0.6,0.02,24.3,29.3,4.66,chrY/chrY_3400001_3600001.html
+chrY,3510001,3510503,502,1.68,3.87,0.01,175,404,7.4,chrY/chrY_3400001_3600001.html
+chrY,3510901,3511403,502,2.69,3.77,0.01,280,394,8.07,chrY/chrY_3400001_3600001.html
+chrY,3511701,3511703,2,0.4,0.4,0.01,39.8,39.8,5.32,chrY/chrY_3400001_3600001.html
+chrY,3511901,3512003,102,1.01,1.6,0.01,104,166,6.66,chrY/chrY_3400001_3600001.html
+chrY,3512201,3512303,102,0.505,0.63,0.01,50.8,63.9,5.66,chrY/chrY_3400001_3600001.html
+chrY,3519801,3519903,102,1.01,1.41,0.01,104,146,6.66,chrY/chrY_3400001_3600001.html
+chrY,3520101,3520703,602,1.59,2.18,0.01,164,227,7.31,chrY/chrY_3400001_3600001.html
+chrY,3524401,3524503,102,1.01,1.7,0.0275,39.1,69.2,5.2,chrY/chrY_3400001_3600001.html
+chrY,3524701,3524803,102,1.46,2.62,0.03,48.7,89.5,5.6,chrY/chrY_3400001_3600001.html
+chrY,3525001,3525203,202,0.457,0.71,0.03,13.8,22.6,3.93,chrY/chrY_3400001_3600001.html
+chrY,3525401,3525503,102,0.505,0.71,0.03,15.5,22.6,4.07,chrY/chrY_3400001_3600001.html
+chrY,3526701,3527103,402,1.59,2.68,0.0388,41.3,68.1,5.36,chrY/chrY_3400001_3600001.html
+chrY,3527301,3528003,702,0.872,1.77,0.04,20.7,44.2,4.45,chrY/chrY_3400001_3600001.html
+chrY,3528401,3528403,2,0.92,0.92,0.04,21.9,21.9,4.52,chrY/chrY_3400001_3600001.html
+chrY,3528701,3528703,2,1.37,1.37,0.04,33.7,33.7,5.1,chrY/chrY_3400001_3600001.html
+chrY,3529001,3529303,302,0.91,1.72,0.04,21.7,42.9,4.51,chrY/chrY_3400001_3600001.html
+chrY,3529601,3529603,2,0.68,0.68,0.045,13.6,13.6,3.92,chrY/chrY_3400001_3600001.html
+chrY,3529901,3530003,102,1.25,1.9,0.05,24.1,37.7,4.65,chrY/chrY_3400001_3600001.html
+chrY,3530201,3530203,2,0.72,0.72,0.05,12.9,12.9,3.85,chrY/chrY_3400001_3600001.html
+chrY,3531301,3531803,502,0.962,1.42,0.055,16.1,24.9,4.13,chrY/chrY_3400001_3600001.html
+chrY,3532001,3533003,1002,3.45,6.04,0.0573,60,103,5.91,chrY/chrY_3400001_3600001.html
+chrY,3533201,3533203,2,0.67,0.67,0.05,11.8,11.8,3.74,chrY/chrY_3400001_3600001.html
+chrY,3533501,3535303,1802,1.39,2.93,0.0584,22.9,49,4.57,chrY/chrY_3400001_3600001.html
+chrY,3535701,3536103,402,1.15,1.49,0.071,14.7,20.1,4.02,chrY/chrY_3400001_3600001.html
+chrY,3536401,3537203,802,2.16,4.34,0.0879,23.4,48.4,4.62,chrY/chrY_3400001_3600001.html
+chrY,3537501,3539603,2102,3.1,5.19,0.09,34.1,61.9,5.11,chrY/chrY_3400001_3600001.html
+chrY,3540001,3540503,502,1.3,1.94,0.09,13,20.4,3.85,chrY/chrY_3400001_3600001.html
+chrY,3540701,3540803,102,1.47,2.13,0.09,14.9,22.6,4.03,chrY/chrY_3400001_3600001.html
+chrY,3541101,3541203,102,1.21,1.33,0.08,13.7,15.2,3.92,chrY/chrY_3400001_3600001.html
+chrY,3541401,3541503,102,1.16,1.45,0.08,13,16.8,3.86,chrY/chrY_3400001_3600001.html
+chrY,3541901,3542303,402,0.982,1.76,0.09,9.24,18.3,3.45,chrY/chrY_3400001_3600001.html
+chrY,3542901,3543203,302,0.845,0.94,0.09,7.64,8.75,3.23,chrY/chrY_3400001_3600001.html
+chrY,3543701,3544303,602,1.32,3.13,0.0892,13.4,34.3,3.89,chrY/chrY_3400001_3600001.html
+chrY,3545301,3545703,402,1.54,2.64,0.078,19,37.4,4.31,chrY/chrY_3400001_3600001.html
+chrY,3546101,3547103,1002,2.23,3.11,0.0625,35.3,52.2,5.15,chrY/chrY_3400001_3600001.html
+chrY,3547601,3548803,1202,2.49,9.46,0.0533,48,196,5.54,chrY/chrY_3400001_3600001.html
+chrY,3549101,3549103,2,0.91,0.91,0.05,16.9,16.9,4.19,chrY/chrY_3400001_3600001.html
+chrY,3549801,3549903,102,2.02,2.37,0.05,40.2,47.5,5.34,chrY/chrY_3400001_3600001.html
+chrY,3550101,3550503,402,1.41,2.78,0.05,27.5,56.2,4.82,chrY/chrY_3400001_3600001.html
+chrY,3550701,3550803,102,1.52,2.23,0.05,29.6,44.6,4.92,chrY/chrY_3400001_3600001.html
+chrY,3551001,3551603,602,1.23,3.63,0.05,23.7,74,4.62,chrY/chrY_3400001_3600001.html
+chrY,3552001,3553203,1202,1.35,3.03,0.05,26,61.4,4.75,chrY/chrY_3400001_3600001.html
+chrY,3553501,3555003,1502,0.821,1.71,0.0497,15.1,33.7,4.05,chrY/chrY_3400001_3600001.html
+chrY,3555201,3555503,302,1.27,1.64,0.045,27.4,36,4.82,chrY/chrY_3400001_3600001.html
+chrY,3555801,3558003,2202,0.958,1.55,0.04,22.9,38.5,4.58,chrY/chrY_3400001_3600001.html
+chrY,3558501,3558503,2,0.41,0.41,0.04,8.54,8.54,3.36,chrY/chrY_3400001_3600001.html
+chrY,3558701,3560203,1502,1.92,3.17,0.04,48.1,81,5.58,chrY/chrY_3400001_3600001.html
+chrY,3560801,3560803,2,0.81,0.81,0.05,14.8,14.8,4.02,chrY/chrY_3400001_3600001.html
+chrY,3561701,3561703,2,0.88,0.88,0.05,16.3,16.3,4.14,chrY/chrY_3400001_3600001.html
+chrY,3562001,3564303,2302,1.12,2.89,0.05,21.4,58.5,4.49,chrY/chrY_3400001_3600001.html
+chrY,3564501,3564503,2,0.9,0.9,0.05,16.7,16.7,4.17,chrY/chrY_3400001_3600001.html
+chrY,3565001,3567403,2402,1.91,4.48,0.05,37.8,91.8,5.25,chrY/chrY_3400001_3600001.html
+chrY,3569301,3569703,402,2.22,3.91,0.05,44.4,79.9,5.47,chrY/chrY_3400001_3600001.html
+chrY,3569901,3569903,2,0.9,0.9,0.04,21.4,21.4,4.49,chrY/chrY_3400001_3600001.html
+chrY,3570301,3571203,902,1.35,3.12,0.04,33.1,79.7,5.07,chrY/chrY_3400001_3600001.html
+chrY,3571401,3571503,102,1.01,1.4,0.04,24.3,34.5,4.66,chrY/chrY_3400001_3600001.html
+chrY,3571701,3571803,102,0.505,0.52,0.03,15.5,16,4.07,chrY/chrY_3400001_3600001.html
+chrY,3572101,3572403,302,0.757,1.44,0.03,24.3,48.2,4.66,chrY/chrY_3400001_3600001.html
+chrY,3572601,3572703,102,1.01,1.26,0.03,33.1,41.9,5.07,chrY/chrY_3400001_3600001.html
+chrY,3573101,3573203,102,0.505,0.75,0.03,15.5,24,4.07,chrY/chrY_3400001_3600001.html
+chrY,3573401,3574003,602,1.3,1.91,0.03,43.2,64.6,5.44,chrY/chrY_3400001_3600001.html
+chrY,3574401,3574703,302,0.417,0.72,0.0283,12.9,23,3.88,chrY/chrY_3400001_3600001.html
+chrY,3576201,3577103,902,1.42,3.21,0.03,47.4,110,5.56,chrY/chrY_3400001_3600001.html
+chrY,3578001,3578103,102,0.57,0.8,0.03,17.7,25.8,4.25,chrY/chrY_3400001_3600001.html
+chrY,3578401,3578803,402,0.615,0.9,0.0312,18.6,29.3,4.3,chrY/chrY_3400001_3600001.html
+chrY,3579101,3579103,2,0.98,0.98,0.04,23.5,23.5,4.61,chrY/chrY_3400001_3600001.html
+chrY,3579401,3579603,202,0.627,0.98,0.04,14.2,23.5,3.97,chrY/chrY_3400001_3600001.html
+chrY,3580601,3580703,102,0.505,0.56,0.04,11,12.5,3.66,chrY/chrY_3400001_3600001.html
+chrY,3580901,3582303,1402,1.72,5.2,0.04,43,134,5.43,chrY/chrY_3400001_3600001.html
+chrY,3582601,3582603,2,0.96,0.96,0.04,23,23,4.58,chrY/chrY_3400001_3600001.html
+chrY,3582901,3582903,2,0.91,0.91,0.04,21.7,21.7,4.51,chrY/chrY_3400001_3600001.html
+chrY,3583601,3583603,2,0.56,0.56,0.04,12.5,12.5,3.81,chrY/chrY_3400001_3600001.html
+chrY,3584001,3584003,2,0.33,0.33,0.04,6.44,6.44,3.04,chrY/chrY_3400001_3600001.html
+chrY,3585001,3585603,602,1.11,2.07,0.05,21.1,41.2,4.47,chrY/chrY_3400001_3600001.html
+chrY,3586001,3586103,102,1.01,1.62,0.05,19,31.8,4.34,chrY/chrY_3400001_3600001.html
+chrY,3586301,3586403,102,1.52,1.97,0.05,29.6,39.1,4.92,chrY/chrY_3400001_3600001.html
+chrY,3586601,3586703,102,1.01,1.15,0.05,19,21.9,4.34,chrY/chrY_3400001_3600001.html
+chrY,3587001,3587003,2,0.62,0.62,0.05,10.8,10.8,3.63,chrY/chrY_3400001_3600001.html
+chrY,3587201,3588103,902,1.09,2.3,0.055,18.7,41.7,4.31,chrY/chrY_3400001_3600001.html
+chrY,3588401,3588703,302,1.21,2.4,0.06,19,39.8,4.34,chrY/chrY_3400001_3600001.html
+chrY,3589401,3589803,402,0.702,1,0.063,9.52,15.3,3.48,chrY/chrY_3400001_3600001.html
+chrY,3590801,3590803,2,0.78,0.78,0.07,9.48,9.48,3.48,chrY/chrY_3400001_3600001.html
+chrY,3591801,3592603,802,2.21,3.36,0.088,24.3,39.3,4.65,chrY/chrY_3400001_3600001.html
+chrY,3594201,3594703,502,1.01,1.69,0.0792,11.1,20,3.67,chrY/chrY_3400001_3600001.html
+chrY,3599601,3599603,2,0.71,0.71,0.09,6.06,6.06,2.98,chrY/chrY_3400001_3600001.html
+chrY,3600701,3600703,2,0.81,0.81,0.08,8.41,8.41,3.34,chrY/chrY_3600001_3800001.html
+chrY,3601001,3601003,2,0.81,0.81,0.08,8.41,8.41,3.34,chrY/chrY_3600001_3800001.html
+chrY,3603601,3604503,902,1.08,1.9,0.0767,12.7,24.4,3.82,chrY/chrY_3600001_3800001.html
+chrY,3604801,3604803,2,0.83,0.83,0.08,8.67,8.67,3.38,chrY/chrY_3600001_3800001.html
+chrY,3605301,3605603,302,1.67,1.76,0.075,21.2,21.5,4.48,chrY/chrY_3600001_3800001.html
+chrY,3609901,3610703,802,1.24,1.65,0.05,23.8,32.4,4.63,chrY/chrY_3600001_3800001.html
+chrY,3611101,3611103,2,0.82,0.82,0.045,16.9,16.9,4.19,chrY/chrY_3600001_3800001.html
+chrY,3611301,3611403,102,0.505,0.52,0.04,11,11.4,3.66,chrY/chrY_3600001_3800001.html
+chrY,3613101,3613803,702,0.795,1.52,0.0344,23.1,51,4.53,chrY/chrY_3600001_3800001.html
+chrY,3614001,3614103,102,0.505,0.7,0.03,15.5,22.3,4.07,chrY/chrY_3600001_3800001.html
+chrY,3614301,3614403,102,0.97,1.34,0.03,31.7,44.7,5.01,chrY/chrY_3600001_3800001.html
+chrY,3614601,3614703,102,1.01,1.48,0.03,33.1,49.6,5.07,chrY/chrY_3600001_3800001.html
+chrY,3615801,3616803,1002,0.918,2.71,0.0345,25.6,79.1,4.73,chrY/chrY_3600001_3800001.html
+chrY,3617301,3617403,102,0.505,0.76,0.03,15.5,24.4,4.07,chrY/chrY_3600001_3800001.html
+chrY,3617601,3617603,2,0.83,0.83,0.03,26.8,26.8,4.79,chrY/chrY_3600001_3800001.html
+chrY,3617901,3618003,102,0.505,0.77,0.03,15.5,24.7,4.07,chrY/chrY_3600001_3800001.html
+chrY,3618201,3618803,602,1.01,1.77,0.03,33,59.7,5.07,chrY/chrY_3600001_3800001.html
+chrY,3619701,3619703,2,0.89,0.89,0.03,28.9,28.9,4.89,chrY/chrY_3600001_3800001.html
+chrY,3619901,3620003,102,0.505,0.68,0.03,15.5,21.6,4.07,chrY/chrY_3600001_3800001.html
+chrY,3620601,3620903,302,0.72,1.25,0.04,16.7,30.6,4.17,chrY/chrY_3600001_3800001.html
+chrY,3623701,3623703,2,0.7,0.7,0.04,16.2,16.2,4.13,chrY/chrY_3600001_3800001.html
+chrY,3623901,3624003,102,0.69,1.01,0.04,15.9,24.3,4.11,chrY/chrY_3600001_3800001.html
+chrY,3624901,3624903,2,0.85,0.85,0.04,20.1,20.1,4.41,chrY/chrY_3600001_3800001.html
+chrY,3625101,3625103,2,0.71,0.71,0.04,16.4,16.4,4.15,chrY/chrY_3600001_3800001.html
+chrY,3625501,3625503,2,0.86,0.86,0.04,20.4,20.4,4.43,chrY/chrY_3600001_3800001.html
+chrY,3625701,3625803,102,0.505,0.64,0.04,11,14.6,3.66,chrY/chrY_3600001_3800001.html
+chrY,3626101,3626103,2,0.75,0.75,0.04,17.5,17.5,4.23,chrY/chrY_3600001_3800001.html
+chrY,3626301,3626803,502,0.842,1.64,0.04,19.9,40.8,4.4,chrY/chrY_3600001_3800001.html
+chrY,3627101,3627403,302,0.938,1.87,0.05,17.5,37,4.23,chrY/chrY_3600001_3800001.html
+chrY,3628201,3628303,102,1.01,1.17,0.05,19,22.3,4.34,chrY/chrY_3600001_3800001.html
+chrY,3628501,3628703,202,0.893,1.27,0.05,16.5,24.4,4.16,chrY/chrY_3600001_3800001.html
+chrY,3630401,3630503,102,0.965,1.1,0.035,26.7,30.8,4.79,chrY/chrY_3600001_3800001.html
+chrY,3631101,3631103,2,0.75,0.75,0.04,17.5,17.5,4.23,chrY/chrY_3600001_3800001.html
+chrY,3632201,3632503,302,1.22,1.65,0.04,29.9,41.1,4.93,chrY/chrY_3600001_3800001.html
+chrY,3633201,3633703,502,1.28,3.22,0.0325,38.3,94.4,5.29,chrY/chrY_3600001_3800001.html
+chrY,3633901,3634603,702,1.51,4.75,0.03,50.6,164,5.65,chrY/chrY_3600001_3800001.html
+chrY,3635601,3635903,302,0.67,1,0.0183,37.2,50.3,5.19,chrY/chrY_3600001_3800001.html
+chrY,3636201,3636303,102,1.01,1.04,0.01,104,107,6.66,chrY/chrY_3600001_3800001.html
+chrY,3636501,3636603,102,1.52,2.14,0.01,157,222,7.24,chrY/chrY_3600001_3800001.html
+chrY,3636801,3636903,102,0.505,0.62,0.01,50.8,62.9,5.66,chrY/chrY_3600001_3800001.html
+chrY,3637801,3637803,2,0.35,0.35,0.01,34.5,34.5,5.13,chrY/chrY_3600001_3800001.html
+chrY,3638801,3638903,102,0.71,0.88,0.0075,101,111,6.56,chrY/chrY_3600001_3800001.html
+chrY,3649201,3649603,402,1.11,2.42,0.009,135,252,6.95,chrY/chrY_3600001_3800001.html
+chrY,3649801,3650003,202,0.673,1.8,0.01,68.5,187,6.07,chrY/chrY_3600001_3800001.html
+chrY,3650201,3650803,602,1.15,2.5,0.01,119,260,6.85,chrY/chrY_3600001_3800001.html
+chrY,3651201,3651803,602,1.3,2.93,0.0143,100,218,6.51,chrY/chrY_3600001_3800001.html
+chrY,3652401,3652803,402,1.51,2.25,0.01,156,234,7.24,chrY/chrY_3600001_3800001.html
+chrY,3653001,3653103,102,1.01,1.43,0.01,104,148,6.66,chrY/chrY_3600001_3800001.html
+chrY,3653701,3653803,102,0.705,1.1,0.0075,88.1,113,6.55,chrY/chrY_3600001_3800001.html
+chrY,3654001,3654003,2,1.43,1.43,0.005,298,298,8.16,chrY/chrY_3600001_3800001.html
+chrY,5147201,5147203,2,0.47,0.47,0.005,96.5,96.5,6.55,chrY/chrY_5000001_5200001.html
+chrY,5159201,5159303,102,1.01,1.65,0.005,210,344,7.66,chrY/chrY_5000001_5200001.html
+chrY,5159501,5159603,102,1.01,1.49,0.005,210,311,7.66,chrY/chrY_5000001_5200001.html
+chrY,10744201,10744503,302,67.2,155,1.2,56.7,134,5.81,chrY/chrY_10600001_10800001.html
+chrY,10745701,10750003,4302,34.7,202,1.26,26.9,168,4.78,chrY/chrY_10600001_10800001.html
+chrY,10750401,10753503,3102,30.9,166,1.25,23.8,137,4.63,chrY/chrY_10600001_10800001.html
+chrY,10754701,10758003,3302,26.9,158,1.24,20.6,132,4.44,chrY/chrY_10600001_10800001.html
+chrY,10759101,10761503,2402,51.5,222,1.3,39.7,180,5.31,chrY/chrY_10600001_10800001.html
+chrY,10762901,10764603,1702,46.8,106,1.4,33,79,5.07,chrY/chrY_10600001_10800001.html
+chrY,10766301,10766503,202,22.2,30.7,1.46,13.8,20,3.93,chrY/chrY_10600001_10800001.html
+chrY,10767601,10768103,502,18.6,33.3,1.49,10.9,21.4,3.64,chrY/chrY_10600001_10800001.html
+chrY,10768501,10770603,2102,32.6,88.7,1.55,19.8,56.5,4.39,chrY/chrY_10600001_10800001.html
+chrY,10771801,10772603,802,28.5,71.9,1.58,16.8,45.6,4.17,chrY/chrY_10600001_10800001.html
+chrY,10773101,10774003,902,20.6,61.5,1.54,11.9,40,3.74,chrY/chrY_10600001_10800001.html
+chrY,10774701,10774703,2,12.7,12.7,1.54,6.46,6.46,3.05,chrY/chrY_10600001_10800001.html
+chrY,10775001,10776703,1702,51.3,270,1.56,32,177,5.03,chrY/chrY_10600001_10800001.html
+chrY,10777901,10778903,1002,12.7,20.3,1.55,6.4,11.6,3.04,chrY/chrY_10600001_10800001.html
+chrY,10780101,10781703,1602,21.6,44.6,1.51,12.8,28.6,3.84,chrY/chrY_10600001_10800001.html
+chrY,10785201,10786403,1202,194,850,1.44,139,615,7.07,chrY/chrY_10600001_10800001.html
+chrY,10789301,10791203,1902,84.6,449,1.42,60,328,5.89,chrY/chrY_10600001_10800001.html
+chrY,10791801,10793103,1302,24.6,89.1,1.41,16.2,64.9,4.13,chrY/chrY_10600001_10800001.html
+chrY,10794201,10794203,2,49.4,49.4,1.37,35.6,35.6,5.17,chrY/chrY_10600001_10800001.html
+chrY,10795001,10798303,3302,82.9,695,1.37,61.1,528,5.92,chrY/chrY_10600001_10800001.html
+chrY,10799401,10799603,202,59.1,88.8,1.37,43.1,65.8,5.43,chrY/chrY_10600001_10800001.html
+chrY,10800301,10802003,1702,61.4,391,1.46,41.5,275,5.39,chrY/chrY_10800001_11000001.html
+chrY,10803901,10804803,902,33.3,65.5,1.53,20.6,42.6,4.44,chrY/chrY_10800001_11000001.html
+chrY,10807001,10809503,2502,34.7,112,1.6,20.6,71.1,4.44,chrY/chrY_10800001_11000001.html
+chrY,10810501,10811003,502,15.7,17.9,1.61,8,9.45,3.28,chrY/chrY_10800001_11000001.html
+chrY,10812201,10813603,1402,24.6,37.3,1.62,13.7,22.1,3.92,chrY/chrY_10800001_11000001.html
+chrY,10815101,10815303,202,15.7,17,1.64,7.86,8.64,3.26,chrY/chrY_10800001_11000001.html
+chrY,10816501,10816503,2,20.8,20.8,1.65,11,11,3.66,chrY/chrY_10800001_11000001.html
+chrY,10818601,10818703,102,34.7,46.8,1.65,19.8,27.5,4.39,chrY/chrY_10800001_11000001.html
+chrY,10821101,10821903,802,59.1,140,1.7,34.1,83.6,5.12,chrY/chrY_10800001_11000001.html
+chrY,10823701,10826903,3202,45.2,165,1.8,24.2,93.4,4.65,chrY/chrY_10800001_11000001.html
+chrY,10827901,10827903,2,32,32,1.9,15.4,15.4,4.07,chrY/chrY_10800001_11000001.html
+chrY,10828101,10828803,702,23,48.1,1.93,10.3,24.2,3.58,chrY/chrY_10800001_11000001.html
+chrY,10829601,10829603,2,16.3,16.3,1.96,6.51,6.51,3.06,chrY/chrY_10800001_11000001.html
+chrY,10830901,10831503,602,18.8,25.9,2,7.67,11.4,3.24,chrY/chrY_10800001_11000001.html
+chrY,10834101,10834103,2,21.6,21.6,2.04,8.88,8.88,3.4,chrY/chrY_10800001_11000001.html
+chrY,10835301,10835303,2,20.1,20.1,2.08,7.89,7.89,3.27,chrY/chrY_10800001_11000001.html
+chrY,10836501,10836503,2,21.2,21.2,2.12,8.26,8.26,3.32,chrY/chrY_10800001_11000001.html
+chrY,10837801,10837803,2,23.8,23.8,2.16,9.38,9.38,3.47,chrY/chrY_10800001_11000001.html
+chrY,10839001,10839903,902,46.5,137,2.2,20,63.7,4.4,chrY/chrY_10800001_11000001.html
+chrY,10841001,10841003,2,21.9,21.9,2.26,7.94,7.94,3.28,chrY/chrY_10800001_11000001.html
+chrY,10841901,10842503,602,37.2,125,2.26,15,55.9,4.04,chrY/chrY_10800001_11000001.html
+chrY,10844201,10845703,1502,50.9,219,2.32,20.8,96.8,4.46,chrY/chrY_10800001_11000001.html
+chrY,10846601,10848003,1402,18.9,45.4,2.39,6.06,17.7,2.98,chrY/chrY_10800001_11000001.html
+chrY,10849601,10849803,202,24.7,37.6,2.45,8.36,13.9,3.33,chrY/chrY_10800001_11000001.html
+chrY,10851001,10851003,2,69.2,69.2,2.49,27,27,4.8,chrY/chrY_10800001_11000001.html
+chrY,10858401,10858403,2,38.4,38.4,2.64,13.1,13.1,3.86,chrY/chrY_10800001_11000001.html
+chrY,10859601,10859603,2,26.8,26.8,2.69,8.25,8.25,3.32,chrY/chrY_10800001_11000001.html
+chrY,10864601,10864603,2,29.8,29.8,2.84,8.81,8.81,3.39,chrY/chrY_10800001_11000001.html
+chrY,10866001,10866203,202,33,41.3,2.89,9.77,12.8,3.51,chrY/chrY_10800001_11000001.html
+chrY,10868101,10870403,2302,24,67.1,2.93,6.37,21.8,3.03,chrY/chrY_10800001_11000001.html
+chrY,10873001,10873103,102,119,149,2.91,40.8,51.7,5.36,chrY/chrY_10800001_11000001.html
+chrY,10875701,10875703,2,32.6,32.6,2.93,9.46,9.46,3.48,chrY/chrY_10800001_11000001.html
+chrY,10880301,10880903,602,37.1,55.1,2.9,11.2,17.7,3.68,chrY/chrY_10800001_11000001.html
+chrY,10882001,10882003,2,36.4,36.4,2.9,11,11,3.65,chrY/chrY_10800001_11000001.html
+chrY,10883501,10883703,202,28.3,32.1,2.88,8.08,9.45,3.29,chrY/chrY_10800001_11000001.html
+chrY,10885001,10885203,202,41.8,67.6,2.85,13.2,22.7,3.87,chrY/chrY_10800001_11000001.html
+chrY,10887301,10889703,2402,41.2,129,2.83,13.1,45.6,3.86,chrY/chrY_10800001_11000001.html
+chrY,10892501,10892503,2,201,201,2.86,71.4,71.4,6.13,chrY/chrY_10800001_11000001.html
+chrY,10895801,10896303,502,52.5,87.5,2.8,17.5,30.7,4.23,chrY/chrY_10800001_11000001.html
+chrY,10899901,10900003,102,49.7,72.5,2.78,16.6,25.1,4.16,chrY/chrY_10800001_11000001.html
+chrY,10900801,10900803,2,23.6,23.6,2.78,6.71,6.71,3.09,chrY/chrY_10800001_11000001.html
+chrY,10902101,10902103,2,22.2,22.2,2.72,6.34,6.34,3.03,chrY/chrY_10800001_11000001.html
+chrY,10909701,10909703,2,28,28,2.69,8.71,8.71,3.38,chrY/chrY_10800001_11000001.html
+chrY,10911701,10911703,2,30.6,30.6,2.7,9.71,9.71,3.51,chrY/chrY_10800001_11000001.html
+chrY,10921101,10921503,402,49.7,97.4,2.55,18.3,37.9,4.29,chrY/chrY_10800001_11000001.html
+chrY,10924301,10927803,3502,37.8,121,2.42,14.2,50.6,3.97,chrY/chrY_10800001_11000001.html
+chrY,10930001,10930303,302,26.2,30.4,2.31,9.71,11.6,3.51,chrY/chrY_10800001_11000001.html
+chrY,10932701,10933203,502,18.1,20,2.24,6.27,7.07,3.01,chrY/chrY_10800001_11000001.html
+chrY,10934701,10935603,902,72.8,113,2.15,33.3,53,5.08,chrY/chrY_10800001_11000001.html
+chrY,10937301,10940403,3102,24.8,72.6,2.06,10.4,34.3,3.59,chrY/chrY_10800001_11000001.html
+chrY,10942601,10942703,102,34.3,36.6,2.01,15.7,16.9,4.09,chrY/chrY_10800001_11000001.html
+chrY,10945201,10945203,2,17.8,17.8,1.98,7.26,7.26,3.18,chrY/chrY_10800001_11000001.html
+chrY,10947301,10947603,302,37.2,55.5,1.92,18.2,28.2,4.28,chrY/chrY_10800001_11000001.html
+chrY,10949501,10951203,1702,23.9,33.8,1.83,11.4,17,3.7,chrY/chrY_10800001_11000001.html
+chrY,10951701,10952403,702,19.7,26.1,1.79,9.36,13.2,3.46,chrY/chrY_10800001_11000001.html
+chrY,10954001,10955403,1402,21,39.4,1.71,10.6,21.8,3.61,chrY/chrY_10800001_11000001.html
+chrY,10956501,10956603,102,63.6,80,1.68,37.5,47.8,5.24,chrY/chrY_10800001_11000001.html
+chrY,10958201,10959303,1102,43.9,184,1.61,26.4,118,4.77,chrY/chrY_10800001_11000001.html
+chrY,10961101,10961503,402,30.7,46,1.62,17.6,27.4,4.24,chrY/chrY_10800001_11000001.html
+chrY,10962601,10965603,3002,19.9,63.1,1.59,11,40,3.65,chrY/chrY_10800001_11000001.html
+chrY,10967501,10967503,2,162,162,1.53,109,109,6.72,chrY/chrY_10800001_11000001.html
+chrY,10969001,10969403,402,30.9,60.6,1.52,19.1,39.6,4.34,chrY/chrY_10800001_11000001.html
+chrY,10970601,10970603,2,13,13,1.5,6.86,6.86,3.11,chrY/chrY_10800001_11000001.html
+chrY,10971001,10971903,902,44.6,116,1.5,29,79,4.89,chrY/chrY_10800001_11000001.html
+chrY,10972901,10974003,1102,47.7,194,1.5,31.1,133,4.99,chrY/chrY_10800001_11000001.html
+chrY,10974701,10974703,2,28.6,28.6,1.5,17.8,17.8,4.25,chrY/chrY_10800001_11000001.html
+chrY,10975701,10975803,102,16.1,19,1.49,9.12,11.2,3.43,chrY/chrY_10800001_11000001.html
+chrY,10976901,10977003,102,37.2,61.8,1.48,24.1,41.5,4.65,chrY/chrY_10800001_11000001.html
+chrY,10980201,10980703,502,61.5,92.7,1.55,39.2,60.2,5.31,chrY/chrY_10800001_11000001.html
+chrY,10982201,10984503,2302,22.8,64.9,1.6,12.7,40.2,3.83,chrY/chrY_10800001_11000001.html
+chrY,10984901,10985203,302,18.9,21.6,1.61,10.1,11.8,3.55,chrY/chrY_10800001_11000001.html
+chrY,10986301,10990103,3802,53,350,1.68,30.9,217,4.98,chrY/chrY_10800001_11000001.html
+chrY,10991201,10992303,1102,28.9,63.8,1.73,15.3,36.5,4.06,chrY/chrY_10800001_11000001.html
+chrY,10992501,10993003,502,34,36.8,1.74,18.3,20,4.29,chrY/chrY_10800001_11000001.html
+chrY,10994101,10994603,502,23.5,39.7,1.74,11.9,21.7,3.75,chrY/chrY_10800001_11000001.html
+chrY,10995801,10995803,2,27.9,27.9,1.74,14.6,14.6,4.01,chrY/chrY_10800001_11000001.html
+chrY,10997101,10998303,1202,23.2,60.7,1.74,11.8,34.4,3.74,chrY/chrY_10800001_11000001.html
+chrY,10999401,10999403,2,15.7,15.7,1.78,7.02,7.02,3.14,chrY/chrY_10800001_11000001.html
+chrY,10999801,11001903,2102,159,936,1.8,91.2,547,6.47,chrY/chrY_10800001_11000001.html
+chrY,11003701,11004403,702,52.5,146,1.76,29.3,86,4.9,chrY/chrY_11000001_11200001.html
+chrY,11004701,11005103,402,16.2,21.5,1.74,7.54,10.7,3.22,chrY/chrY_11000001_11200001.html
+chrY,11005401,11005503,102,21.5,24.6,1.74,10.8,12.6,3.63,chrY/chrY_11000001_11200001.html
+chrY,11006601,11006603,2,15.2,15.2,1.73,7.01,7.01,3.14,chrY/chrY_11000001_11200001.html
+chrY,11008701,11008703,2,15.1,15.1,1.72,7.02,7.02,3.14,chrY/chrY_11000001_11200001.html
+chrY,11010201,11010203,2,14.4,14.4,1.67,6.81,6.81,3.1,chrY/chrY_11000001_11200001.html
+chrY,11011401,11012303,902,16.7,31.2,1.68,8.2,17.4,3.31,chrY/chrY_11000001_11200001.html
+chrY,11013201,11015903,2702,59,342,1.67,34.7,212,5.14,chrY/chrY_11000001_11200001.html
+chrY,11017601,11018203,602,26.6,58.5,1.67,14.5,34.6,3.99,chrY/chrY_11000001_11200001.html
+chrY,11019401,11019403,2,35.5,35.5,1.62,20.8,20.8,4.46,chrY/chrY_11000001_11200001.html
+chrY,11020101,11023103,3002,34.9,103,1.64,20,62.6,4.41,chrY/chrY_11000001_11200001.html
+chrY,11024401,11026003,1602,24.8,54,1.61,13.9,32.9,3.94,chrY/chrY_11000001_11200001.html
+chrY,11027301,11027603,302,18.3,23.2,1.6,9.81,13,3.52,chrY/chrY_11000001_11200001.html
+chrY,11029701,11029703,2,45.4,45.4,1.58,27.9,27.9,4.84,chrY/chrY_11000001_11200001.html
+chrY,11030101,11031603,1502,39,82.8,1.57,24,53.7,4.64,chrY/chrY_11000001_11200001.html
+chrY,11033101,11034903,1802,20.4,50.5,1.53,11.8,32.5,3.74,chrY/chrY_11000001_11200001.html
+chrY,11035801,11036103,302,14,17.6,1.52,7.46,10,3.2,chrY/chrY_11000001_11200001.html
+chrY,11037101,11037103,2,33.9,33.9,1.5,21.5,21.5,4.5,chrY/chrY_11000001_11200001.html
+chrY,11038101,11038103,2,16.8,16.8,1.48,9.69,9.69,3.5,chrY/chrY_11000001_11200001.html
+chrY,11038601,11038603,2,11.6,11.6,1.47,6.06,6.06,2.98,chrY/chrY_11000001_11200001.html
+chrY,11039101,11040703,1602,13.5,19.7,1.48,7.34,11.8,3.19,chrY/chrY_11000001_11200001.html
+chrY,11083901,11083903,2,8.31,8.31,0.97,6.77,6.77,3.1,chrY/chrY_11000001_11200001.html
+chrY,11089001,11089003,2,9.09,9.09,0.93,8.04,8.04,3.29,chrY/chrY_11000001_11200001.html
+chrY,11097001,11098903,1902,8.36,12.5,0.898,7.56,12.3,3.22,chrY/chrY_11000001_11200001.html
+chrY,11103501,11104003,502,8.58,13.7,0.887,7.93,14,3.27,chrY/chrY_11000001_11200001.html
+chrY,11105201,11108203,3002,9.26,17.1,0.845,9.28,18.6,3.46,chrY/chrY_11000001_11200001.html
+chrY,11109601,11117603,8002,13,24,0.784,15.2,30.5,4.05,chrY/chrY_11000001_11200001.html
+chrY,11120201,11120203,2,6.02,6.02,0.76,6.1,6.1,2.99,chrY/chrY_11000001_11200001.html
+chrY,11125401,11125803,402,8.59,10.6,0.725,10.2,13.2,3.57,chrY/chrY_11000001_11200001.html
+chrY,11126701,11126703,2,6.56,6.56,0.725,7.28,7.28,3.18,chrY/chrY_11000001_11200001.html
+chrY,11126901,11126903,2,5.83,5.83,0.72,6.28,6.28,3.02,chrY/chrY_11000001_11200001.html
+chrY,11132601,11133003,402,5.57,5.83,0.685,6.32,6.65,3.02,chrY/chrY_11000001_11200001.html
+chrY,11136601,11136903,302,7.03,9.43,0.66,8.96,12.8,3.41,chrY/chrY_11000001_11200001.html
+chrY,11138001,11138303,302,7.6,10.3,0.67,9.69,13.9,3.5,chrY/chrY_11000001_11200001.html
+chrY,11141101,11141103,2,5.56,5.56,0.665,6.56,6.56,3.06,chrY/chrY_11000001_11200001.html
+chrY,11145601,11147203,1602,6.31,11.3,0.636,8.22,16.5,3.31,chrY/chrY_11000001_11200001.html
+chrY,11151401,11151403,2,4.81,4.81,0.6,6.2,6.2,3,chrY/chrY_11000001_11200001.html
+chrY,11164301,11165003,702,5.5,6.51,0.6,7.41,9.17,3.2,chrY/chrY_11000001_11200001.html
+chrY,11177501,11177503,2,6.89,6.89,0.78,7.05,7.05,3.14,chrY/chrY_11000001_11200001.html
+chrY,11180101,11180403,302,8.55,9.75,0.82,8.73,10.3,3.38,chrY/chrY_11000001_11200001.html
+chrY,11189601,11189603,2,8.95,8.95,0.96,7.57,7.57,3.22,chrY/chrY_11000001_11200001.html
+chrY,11192301,11192303,2,8.71,8.71,1.02,6.7,6.7,3.09,chrY/chrY_11000001_11200001.html
+chrY,11249101,11249103,2,9.56,9.56,1.19,6.18,6.18,3,chrY/chrY_11200001_11400001.html
+chrY,11257101,11257103,2,10.9,10.9,1.19,7.32,7.32,3.18,chrY/chrY_11200001_11400001.html
+chrY,11264801,11265103,302,11.6,14.6,1.18,8.13,10.8,3.3,chrY/chrY_11200001_11400001.html
+chrY,11279301,11279303,2,10.4,10.4,1.11,7.65,7.65,3.23,chrY/chrY_11200001_11400001.html
+chrY,11279901,11280303,402,14.1,15.8,1.12,10.9,12.5,3.64,chrY/chrY_11200001_11400001.html
+chrY,11282001,11282003,2,9.81,9.81,1.16,6.66,6.66,3.08,chrY/chrY_11200001_11400001.html
+chrY,11289701,11331103,41402,104,1.81e+03,1.04,102,1.9e+03,6.64,chrY/chrY_11200001_11400001.html
+chrY,11331601,11334403,2802,42.5,149,0.917,46.6,170,5.53,chrY/chrY_11200001_11400001.html
+chrY,11337301,11337303,2,7.41,7.41,0.9,6.42,6.42,3.04,chrY/chrY_11200001_11400001.html
+chrY,11341401,11342003,602,9.45,14.5,0.871,9.17,15.3,3.44,chrY/chrY_11200001_11400001.html
+chrY,11344901,11344903,2,6.92,6.92,0.85,6.33,6.33,3.03,chrY/chrY_11200001_11400001.html
+chrY,11348001,11348003,2,8.11,8.11,0.82,8.16,8.16,3.31,chrY/chrY_11200001_11400001.html
+chrY,11351001,11351303,302,9.34,12.7,0.795,10.1,14.5,3.55,chrY/chrY_11200001_11400001.html
+chrY,11357801,11358503,702,7.65,10.8,0.79,7.95,12.1,3.28,chrY/chrY_11200001_11400001.html
+chrY,11360301,11360803,502,7.1,9.31,0.781,7.32,10.3,3.18,chrY/chrY_11200001_11400001.html
+chrY,11363601,11363603,2,7.24,7.24,0.795,7.34,7.34,3.19,chrY/chrY_11200001_11400001.html
+chrY,11365701,11366003,302,6.3,7.12,0.78,6.26,7.36,3.01,chrY/chrY_11200001_11400001.html
+chrY,11377701,11377703,2,6.05,6.05,0.745,6.31,6.31,3.02,chrY/chrY_11200001_11400001.html
+chrY,11381201,11381203,2,6.02,6.02,0.76,6.1,6.1,2.99,chrY/chrY_11200001_11400001.html
+chrY,11387001,11387003,2,8.08,8.08,0.745,9.17,9.17,3.44,chrY/chrY_11200001_11400001.html
+chrY,11406201,11406203,2,8.71,8.71,0.73,10.3,10.3,3.58,chrY/chrY_11400001_11600001.html
+chrY,11409101,11409503,402,5.99,7.65,0.71,6.63,9.09,3.08,chrY/chrY_11400001_11600001.html
+chrY,11453601,11453603,2,2.75,2.75,0.33,6.53,6.53,3.06,chrY/chrY_11400001_11600001.html
+chrY,11477101,11477103,2,1.79,1.79,0.21,6.73,6.73,3.09,chrY/chrY_11400001_11600001.html
+chrY,11477401,11477403,2,1.69,1.69,0.21,6.23,6.23,3.01,chrY/chrY_11400001_11600001.html
+chrY,11478301,11478303,2,2,2,0.21,7.78,7.78,3.25,chrY/chrY_11400001_11600001.html
+chrY,11479001,11479503,502,2.83,4.46,0.208,12.1,20.6,3.77,chrY/chrY_11400001_11600001.html
+chrY,11480201,11480503,302,1.76,2.25,0.2,7.02,9.59,3.14,chrY/chrY_11400001_11600001.html
+chrY,11481001,11481503,502,4.26,7.73,0.2,20.2,38.4,4.41,chrY/chrY_11400001_11600001.html
+chrY,11482601,11482803,202,2.22,2.6,0.19,10,12.1,3.55,chrY/chrY_11400001_11600001.html
+chrY,11484801,11485903,1102,3.11,5.55,0.156,18.7,34.2,4.32,chrY/chrY_11400001_11600001.html
+chrY,11486201,11486903,702,1.88,2.61,0.14,11.9,17.4,3.75,chrY/chrY_11400001_11600001.html
+chrY,11489001,11489203,202,2.83,4.71,0.117,23.5,40.8,4.59,chrY/chrY_11400001_11600001.html
+chrY,11489701,11489803,102,1.97,2.28,0.11,16.6,19.5,4.17,chrY/chrY_11400001_11600001.html
+chrY,11490801,11490803,2,2.7,2.7,0.09,29.3,29.3,4.91,chrY/chrY_11400001_11600001.html
+chrY,11491201,11491203,2,1.14,1.14,0.08,12.7,12.7,3.83,chrY/chrY_11400001_11600001.html
+chrY,11491701,11491703,2,1.42,1.42,0.08,16.4,16.4,4.15,chrY/chrY_11400001_11600001.html
+chrY,11492101,11493003,902,1.14,3.06,0.075,13.8,43.7,3.93,chrY/chrY_11400001_11600001.html
+chrY,11493201,11493303,102,15.5,18.1,0.07,230,269,7.79,chrY/chrY_11400001_11600001.html
+chrY,11493901,11494603,702,1.06,1.54,0.06,16.4,24.7,4.15,chrY/chrY_11400001_11600001.html
+chrY,11494801,11495403,602,3.28,14.2,0.055,57.5,247,5.9,chrY/chrY_11400001_11600001.html
+chrY,11495601,11495703,102,8.2,11.6,0.05,170,240,7.36,chrY/chrY_11400001_11600001.html
+chrY,11495901,11496703,802,4.37,22.9,0.05,89.5,478,6.45,chrY/chrY_11400001_11600001.html
+chrY,11497201,11497603,402,3.36,7.54,0.043,75.9,156,6.29,chrY/chrY_11400001_11600001.html
+chrY,11498001,11498103,102,0.465,0.58,0.0325,13.2,18.1,3.84,chrY/chrY_11400001_11600001.html
+chrY,11498301,11499003,702,0.875,2.06,0.0269,30.2,69.9,5.02,chrY/chrY_11400001_11600001.html
+chrY,11499501,11499603,102,2.33,4.29,0.01,242,448,7.86,chrY/chrY_11400001_11600001.html
+chrY,11499901,11499903,2,0.47,0.47,0.01,47.1,47.1,5.55,chrY/chrY_11400001_11600001.html
+chrY,11500101,11500203,102,0.74,0.78,0.01,75.5,79.7,6.21,chrY/chrY_11400001_11600001.html
+chrY,11500501,11500603,102,0.3,0.32,0.0075,44,56.6,5.32,chrY/chrY_11400001_11600001.html
+chrY,11577201,11577203,2,0.2,0.2,0.015,11.8,11.8,3.74,chrY/chrY_11400001_11600001.html
+chrY,11577401,11577403,2,0.26,0.26,0.02,11.4,11.4,3.7,chrY/chrY_11400001_11600001.html
+chrY,11577601,11577903,302,1.95,6.23,0.02,100,325,6.61,chrY/chrY_11400001_11600001.html
+chrY,11578101,11578103,2,0.39,0.39,0.02,18.3,18.3,4.29,chrY/chrY_11400001_11600001.html
+chrY,11578501,11578503,2,0.95,0.95,0.03,31,31,4.98,chrY/chrY_11400001_11600001.html
+chrY,11578801,11578803,2,0.4,0.4,0.03,11.8,11.8,3.74,chrY/chrY_11400001_11600001.html
+chrY,11579001,11579403,402,0.89,1.17,0.035,25.4,38.7,4.67,chrY/chrY_11400001_11600001.html
+chrY,11580101,11580103,2,0.46,0.46,0.05,7.44,7.44,3.2,chrY/chrY_11400001_11600001.html
+chrY,11580901,11581203,302,0.807,1.12,0.05,14.7,21.3,4.01,chrY/chrY_11400001_11600001.html
+chrY,11581501,11581603,102,1.52,1.95,0.05,29.8,38.7,4.93,chrY/chrY_11400001_11600001.html
+chrY,11581801,11581803,2,0.94,0.94,0.05,17.5,17.5,4.23,chrY/chrY_11400001_11600001.html
+chrY,11582701,11582703,2,0.61,0.61,0.06,8.45,8.45,3.35,chrY/chrY_11400001_11600001.html
+chrY,11583001,11583103,102,0.725,0.87,0.06,10.5,13,3.59,chrY/chrY_11400001_11600001.html
+chrY,11583301,11583403,102,2.29,4.04,0.06,37.9,68.5,5.26,chrY/chrY_11400001_11600001.html
+chrY,11584001,11584103,102,1.37,1.39,0.07,18.3,18.6,4.29,chrY/chrY_11400001_11600001.html
+chrY,11584601,11584703,102,1.01,1.02,0.07,12.9,13.1,3.85,chrY/chrY_11400001_11600001.html
+chrY,11584901,11584903,2,0.94,0.94,0.07,11.9,11.9,3.75,chrY/chrY_11400001_11600001.html
+chrY,11586601,11586603,2,0.9,0.9,0.08,9.59,9.59,3.49,chrY/chrY_11400001_11600001.html
+chrY,11587101,11587203,102,1.5,1.7,0.0875,15.8,18.8,4.09,chrY/chrY_11400001_11600001.html
+chrY,11588801,11589103,302,2.16,5.38,0.0988,20.6,54.3,4.45,chrY/chrY_11400001_11600001.html
+chrY,11589601,11589703,102,1.41,1.74,0.103,12.3,16,3.78,chrY/chrY_11400001_11600001.html
+chrY,11591001,11591003,2,1.09,1.09,0.12,7.32,7.32,3.18,chrY/chrY_11400001_11600001.html
+chrY,11592701,11592803,102,1.79,1.84,0.133,12,12.6,3.76,chrY/chrY_11400001_11600001.html
+chrY,11643001,11643803,802,127,489,0.17,781,3.02e+03,9.54,chrY/chrY_11600001_11800001.html
+chrY,11644101,11644103,2,1.64,1.64,0.16,8.54,8.54,3.36,chrY/chrY_11600001_11800001.html
+chrY,11645401,11645403,2,2.84,2.84,0.14,19.1,19.1,4.34,chrY/chrY_11600001_11800001.html
+chrY,11645901,11646703,802,14.6,72.5,0.127,116,583,6.84,chrY/chrY_11600001_11800001.html
+chrY,11647001,11647103,102,4.27,5.69,0.117,36.2,49.7,5.18,chrY/chrY_11600001_11800001.html
+chrY,11647801,11649603,1802,2.39,5.79,0.0816,29.4,73.8,4.87,chrY/chrY_11600001_11800001.html
+chrY,11650401,11650603,202,0.907,1.46,0.06,13.6,23.3,3.92,chrY/chrY_11600001_11800001.html
+chrY,11650901,11650903,2,1.24,1.24,0.06,19.5,19.5,4.37,chrY/chrY_11600001_11800001.html
+chrY,11651201,11651903,702,1.88,6.15,0.0486,37.1,115,5.27,chrY/chrY_11600001_11800001.html
+chrY,11652201,11652503,302,0.647,0.99,0.04,14.8,23.8,4.01,chrY/chrY_11600001_11800001.html
+chrY,11652701,11653403,702,4.54,26.1,0.0394,117,682,6.85,chrY/chrY_11600001_11800001.html
+chrY,11653601,11653803,202,4.31,6.89,0.03,149,239,7.17,chrY/chrY_11600001_11800001.html
+chrY,11654301,11654503,202,0.607,0.99,0.02,29.6,49.7,4.92,chrY/chrY_11600001_11800001.html
+chrY,11654701,11654803,102,1.27,1.82,0.0125,99.8,125,6.67,chrY/chrY_11600001_11800001.html
+chrY,11655001,11655203,202,0.573,1.15,0.01,58,119,5.84,chrY/chrY_11600001_11800001.html
+chrY,11655401,11655403,2,0.47,0.47,0.01,47.1,47.1,5.55,chrY/chrY_11600001_11800001.html
+chrY,11655601,11655803,202,0.673,1.57,0.01,68.5,163,6.07,chrY/chrY_11600001_11800001.html</pre>
+
+    <table id="table_hroi" class="display table text-center" style="width:100%">
+        <thead><th>chr</th>
+<th>start</th>
+<th>end</th>
+<th>size</th>
+<th>mean_cov</th>
+<th>max_cov</th>
+<th>mean_rm</th>
+<th>mean_zscore</th>
+<th>max_zscore</th>
+<th>log2_ratio</th>
+<th>link</th></thead>
+    </table>
+        
+
+  </div>
+  <div id="cov_barplot" style="clear:both">
+      <h2 id="cov_barplot">Coverage histogram
+        <div style="float:right"></div>
+      </h2>
+    <p>Large data sets (--chunk-size argument used), skipped plotting.</p>
+  </div>
+  <div id="normalised_coverage" style="clear:both">
+      <h2 id="normalised_coverage">Normalised coverage
+        <div style="float:right"></div>
+      </h2>
+    <p>Large data sets (--chunk-size argument used), skipped plotting.</p>
+  </div>
+  <div id="zscore_distribution" style="clear:both">
+      <h2 id="zscore_distribution">Z-Score distribution
+        <div style="float:right"></div>
+      </h2>
+    <p>Large data sets (--chunk-size argument used), skipped plotting.</p>
+  </div>
+  <div id="command" style="clear:both">
+      <h2 id="command">Command
+        <div style="float:right"></div>
+      </h2>
+    <p>Command used: <pre></pre>.</p>
+  </div>
+  </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="copyright">
+        Generated with Sequana (02-22-2018 12:13:53)
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

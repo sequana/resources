@@ -1,0 +1,66 @@
+{
+    "data": {
+        "BOC": 82.72135243040576,
+        "C3": 0.8223,
+        "C4": 0.8254,
+        "CV": 0.6647452404315957,
+        "DOC": 4.331398032379263,
+        "ROI": 2076,
+        "ROI(high)": 794,
+        "ROI(low)": 1282,
+        "chrom_name": "chr15",
+        "evenness": 0.7562,
+        "fit_mu": 0.979073952491509,
+        "fit_pi": 0.8935495347864004,
+        "fit_sigma": 0.363005545515662,
+        "hist_coverage": {
+            "X": [
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                5.0,
+                6.0,
+                7.0,
+                8.0,
+                9.0,
+                10.0
+            ],
+            "Y": [
+                0.18698873737409027,
+                0.03313306229031682,
+                0.07655251649765574,
+                0.12791859526117255,
+                0.15742921055810039,
+                0.15230647758205407,
+                0.12004284249792126,
+                0.07878447887771023,
+                0.044412657502577835,
+                0.022431421558400853
+            ]
+        },
+        "length": 101991189
+    },
+    "data_description": {
+        "BOC": "Breadth of Coverage",
+        "C3": "Centralness (1 - ratio outliers by genome length) using zscore of 3",
+        "C4": "Centralness (1 - ratio outliers by genome length) using zscore of 4",
+        "CV": "coefficient of variation of the DOC",
+        "DOC": "Depth of Coverage",
+        "ROI": "number of regions of interest found",
+        "ROI(high)": null,
+        "ROI(low)": null,
+        "chrom_name": "name of the contig/chromosome",
+        "evenness": null,
+        "fit_mu": null,
+        "fit_pi": null,
+        "fit_sigma": null,
+        "hist_coverage": null,
+        "length": "length of the contig/chromosome"
+    },
+    "date": "Thu Feb 22 12:40:53 2018",
+    "description": "",
+    "name": "sequana_summary_coverage",
+    "sample_name": "NA12878.bed",
+    "version": ">=0.20.0"
+}

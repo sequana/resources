@@ -1,0 +1,50 @@
+{
+    "data": {
+        "BOC": 5.78655366738019,
+        "C3": 0.0684,
+        "C4": 0.0689,
+        "CV": 29.271648660499352,
+        "DOC": 0.27147518238609064,
+        "ROI": 9632,
+        "ROI(high)": 1035,
+        "ROI(low)": 8597,
+        "chrom_name": "chrY",
+        "evenness": 0.0,
+        "fit_mu": 2.1144046362595375,
+        "fit_pi": 0.5765071310858229,
+        "fit_sigma": 0.9524909504441079,
+        "hist_coverage": {
+            "X": [
+                1.0,
+                2.0
+            ],
+            "Y": [
+                0.9898552828658738,
+                0.010144717134126261
+            ]
+        },
+        "length": 57227415
+    },
+    "data_description": {
+        "BOC": "Breadth of Coverage",
+        "C3": "Centralness (1 - ratio outliers by genome length) using zscore of 3",
+        "C4": "Centralness (1 - ratio outliers by genome length) using zscore of 4",
+        "CV": "coefficient of variation of the DOC",
+        "DOC": "Depth of Coverage",
+        "ROI": "number of regions of interest found",
+        "ROI(high)": null,
+        "ROI(low)": null,
+        "chrom_name": "name of the contig/chromosome",
+        "evenness": null,
+        "fit_mu": null,
+        "fit_pi": null,
+        "fit_sigma": null,
+        "hist_coverage": null,
+        "length": "length of the contig/chromosome"
+    },
+    "date": "Thu Feb 22 12:47:43 2018",
+    "description": "",
+    "name": "sequana_summary_coverage",
+    "sample_name": "NA12878.bed",
+    "version": ">=0.20.0"
+}

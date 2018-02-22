@@ -1,0 +1,68 @@
+{
+    "data": {
+        "BOC": 98.69104885445755,
+        "C3": 0.9795,
+        "C4": 0.9842,
+        "CV": 2.5697989856657215,
+        "DOC": 5.018756292225926,
+        "ROI": 6485,
+        "ROI(high)": 2912,
+        "ROI(low)": 3573,
+        "chrom_name": "chr17",
+        "evenness": 0.812,
+        "fit_mu": 0.9891494895591777,
+        "fit_pi": 0.9306193852591865,
+        "fit_sigma": 0.39001286443666827,
+        "hist_coverage": {
+            "X": [
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                5.0,
+                6.0,
+                7.0,
+                8.0,
+                9.0,
+                10.0,
+                11.0
+            ],
+            "Y": [
+                0.03599254732268029,
+                0.052733154096848395,
+                0.10780164225935074,
+                0.16370886006809368,
+                0.18881491506496817,
+                0.17090664125797309,
+                0.1269273485340438,
+                0.07915253105787963,
+                0.04308958385172328,
+                0.02122677865912498,
+                0.009645997827313941
+            ]
+        },
+        "length": 83257441
+    },
+    "data_description": {
+        "BOC": "Breadth of Coverage",
+        "C3": "Centralness (1 - ratio outliers by genome length) using zscore of 3",
+        "C4": "Centralness (1 - ratio outliers by genome length) using zscore of 4",
+        "CV": "coefficient of variation of the DOC",
+        "DOC": "Depth of Coverage",
+        "ROI": "number of regions of interest found",
+        "ROI(high)": null,
+        "ROI(low)": null,
+        "chrom_name": "name of the contig/chromosome",
+        "evenness": null,
+        "fit_mu": null,
+        "fit_pi": null,
+        "fit_sigma": null,
+        "hist_coverage": null,
+        "length": "length of the contig/chromosome"
+    },
+    "date": "Thu Feb 22 12:41:22 2018",
+    "description": "",
+    "name": "sequana_summary_coverage",
+    "sample_name": "NA12878.bed",
+    "version": ">=0.20.0"
+}
