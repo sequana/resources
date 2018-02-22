@@ -1,0 +1,66 @@
+{
+    "data": {
+        "BOC": 99.59662473344667,
+        "C3": 0.992,
+        "C4": 0.9944,
+        "CV": 0.6470359996248614,
+        "DOC": 5.301935953671872,
+        "ROI": 2528,
+        "ROI(high)": 1125,
+        "ROI(low)": 1403,
+        "chrom_name": "chr12",
+        "evenness": 0.8615,
+        "fit_mu": 0.9819143186801607,
+        "fit_pi": 0.9074058259395186,
+        "fit_sigma": 0.357652906784003,
+        "hist_coverage": {
+            "X": [
+                1.8,
+                2.8,
+                3.8,
+                4.8,
+                5.8,
+                6.8,
+                7.8,
+                8.8,
+                9.8,
+                10.8
+            ],
+            "Y": [
+                0.026420470228857795,
+                0.07409125482282077,
+                0.14040082317652905,
+                0.18879924797732892,
+                0.19396940384108155,
+                0.16013068387445026,
+                0.10815693106049919,
+                0.06256018941647702,
+                0.031125212388132026,
+                0.014345783213823477
+            ]
+        },
+        "length": 133275309
+    },
+    "data_description": {
+        "BOC": "Breadth of Coverage",
+        "C3": "Centralness (1 - ratio outliers by genome length) using zscore of 3",
+        "C4": "Centralness (1 - ratio outliers by genome length) using zscore of 4",
+        "CV": "coefficient of variation of the DOC",
+        "DOC": "Depth of Coverage",
+        "ROI": "number of regions of interest found",
+        "ROI(high)": null,
+        "ROI(low)": null,
+        "chrom_name": "name of the contig/chromosome",
+        "evenness": null,
+        "fit_mu": null,
+        "fit_pi": null,
+        "fit_sigma": null,
+        "hist_coverage": null,
+        "length": "length of the contig/chromosome"
+    },
+    "date": "Thu Feb 22 12:46:57 2018",
+    "description": "",
+    "name": "sequana_summary_coverage",
+    "sample_name": "NA12878.bed",
+    "version": ">=0.20.0"
+}

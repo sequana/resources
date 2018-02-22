@@ -1,0 +1,66 @@
+{
+    "data": {
+        "BOC": 99.48069180809465,
+        "C3": 0.9902,
+        "C4": 0.9929,
+        "CV": 2.3226232106455975,
+        "DOC": 5.5445663529508264,
+        "ROI": 2048,
+        "ROI(high)": 805,
+        "ROI(low)": 1243,
+        "chrom_name": "chr4",
+        "evenness": 0.8018,
+        "fit_mu": 0.9628947954827428,
+        "fit_pi": 0.8574273231088064,
+        "fit_sigma": 0.3397424974407979,
+        "hist_coverage": {
+            "X": [
+                1.8399999999999999,
+                2.84,
+                3.8399999999999994,
+                4.84,
+                5.839999999999999,
+                6.839999999999999,
+                7.839999999999999,
+                8.84,
+                9.839999999999998,
+                10.839999999999998
+            ],
+            "Y": [
+                0.023473966356687935,
+                0.06977236860853693,
+                0.13575025338677982,
+                0.18767666502670982,
+                0.1965130752955283,
+                0.1627466320393805,
+                0.11144770553902157,
+                0.06494713155411455,
+                0.03275235844618119,
+                0.014919843747059505
+            ]
+        },
+        "length": 190214555
+    },
+    "data_description": {
+        "BOC": "Breadth of Coverage",
+        "C3": "Centralness (1 - ratio outliers by genome length) using zscore of 3",
+        "C4": "Centralness (1 - ratio outliers by genome length) using zscore of 4",
+        "CV": "coefficient of variation of the DOC",
+        "DOC": "Depth of Coverage",
+        "ROI": "number of regions of interest found",
+        "ROI(high)": null,
+        "ROI(low)": null,
+        "chrom_name": "name of the contig/chromosome",
+        "evenness": null,
+        "fit_mu": null,
+        "fit_pi": null,
+        "fit_sigma": null,
+        "hist_coverage": null,
+        "length": "length of the contig/chromosome"
+    },
+    "date": "Thu Feb 22 12:41:27 2018",
+    "description": "",
+    "name": "sequana_summary_coverage",
+    "sample_name": "NA12878.bed",
+    "version": ">=0.20.0"
+}

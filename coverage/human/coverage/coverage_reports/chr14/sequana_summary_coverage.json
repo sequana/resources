@@ -1,0 +1,66 @@
+{
+    "data": {
+        "BOC": 82.35722199697693,
+        "C3": 0.8196,
+        "C4": 0.8221,
+        "CV": 0.6467320378741938,
+        "DOC": 4.38692566967914,
+        "ROI": 1366,
+        "ROI(high)": 511,
+        "ROI(low)": 855,
+        "chrom_name": "chr14",
+        "evenness": 0.762,
+        "fit_mu": 0.9728635804535821,
+        "fit_pi": 0.8759575292620405,
+        "fit_sigma": 0.34914479193916625,
+        "hist_coverage": {
+            "X": [
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                5.0,
+                6.0,
+                7.0,
+                8.0,
+                9.0,
+                10.0
+            ],
+            "Y": [
+                0.18689965878092596,
+                0.026979118153044834,
+                0.07064090256722205,
+                0.12460579217002024,
+                0.1590423054623566,
+                0.15663951487962285,
+                0.12370854758532852,
+                0.08218912471129444,
+                0.046440011025463114,
+                0.02285502466472137
+            ]
+        },
+        "length": 107043718
+    },
+    "data_description": {
+        "BOC": "Breadth of Coverage",
+        "C3": "Centralness (1 - ratio outliers by genome length) using zscore of 3",
+        "C4": "Centralness (1 - ratio outliers by genome length) using zscore of 4",
+        "CV": "coefficient of variation of the DOC",
+        "DOC": "Depth of Coverage",
+        "ROI": "number of regions of interest found",
+        "ROI(high)": null,
+        "ROI(low)": null,
+        "chrom_name": "name of the contig/chromosome",
+        "evenness": null,
+        "fit_mu": null,
+        "fit_pi": null,
+        "fit_sigma": null,
+        "hist_coverage": null,
+        "length": "length of the contig/chromosome"
+    },
+    "date": "Thu Feb 22 12:44:42 2018",
+    "description": "",
+    "name": "sequana_summary_coverage",
+    "sample_name": "NA12878.bed",
+    "version": ">=0.20.0"
+}

@@ -1,0 +1,72 @@
+{
+    "data": {
+        "BOC": 72.30772258134341,
+        "C3": 0.709,
+        "C4": 0.7135,
+        "CV": 1.4777604430520994,
+        "DOC": 3.686610506016509,
+        "ROI": 1748,
+        "ROI(high)": 789,
+        "ROI(low)": 959,
+        "chrom_name": "chr22",
+        "evenness": 0.6402,
+        "fit_mu": 0.9905776445473947,
+        "fit_pi": 0.9051060096532695,
+        "fit_sigma": 0.39128933844922137,
+        "hist_coverage": {
+            "X": [
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                5.0,
+                6.0,
+                7.0,
+                8.0,
+                9.0,
+                10.0,
+                11.0,
+                12.0,
+                13.0
+            ],
+            "Y": [
+                0.2942166182729406,
+                0.04113997056600772,
+                0.08620579929199317,
+                0.12610079153573844,
+                0.137283719820214,
+                0.11934688357662782,
+                0.08618790024263155,
+                0.05263712660594248,
+                0.028644445328348117,
+                0.014484308500059663,
+                0.007179507577264229,
+                0.003965633825225727,
+                0.0026072948570064836
+            ]
+        },
+        "length": 50818468
+    },
+    "data_description": {
+        "BOC": "Breadth of Coverage",
+        "C3": "Centralness (1 - ratio outliers by genome length) using zscore of 3",
+        "C4": "Centralness (1 - ratio outliers by genome length) using zscore of 4",
+        "CV": "coefficient of variation of the DOC",
+        "DOC": "Depth of Coverage",
+        "ROI": "number of regions of interest found",
+        "ROI(high)": null,
+        "ROI(low)": null,
+        "chrom_name": "name of the contig/chromosome",
+        "evenness": null,
+        "fit_mu": null,
+        "fit_pi": null,
+        "fit_sigma": null,
+        "hist_coverage": null,
+        "length": "length of the contig/chromosome"
+    },
+    "date": "Thu Feb 22 12:42:10 2018",
+    "description": "",
+    "name": "sequana_summary_coverage",
+    "sample_name": "NA12878.bed",
+    "version": ">=0.20.0"
+}

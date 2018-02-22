@@ -1,0 +1,66 @@
+{
+    "data": {
+        "BOC": 99.27699870479375,
+        "C3": 0.9856,
+        "C4": 0.9892,
+        "CV": 1.5905846977673492,
+        "DOC": 5.301807739634929,
+        "ROI": 2918,
+        "ROI(high)": 1450,
+        "ROI(low)": 1468,
+        "chrom_name": "chr18",
+        "evenness": 0.8524,
+        "fit_mu": 0.9920948649514454,
+        "fit_pi": 0.9357960757578598,
+        "fit_sigma": 0.37250463459010896,
+        "hist_coverage": {
+            "X": [
+                1.33,
+                2.33,
+                3.33,
+                4.33,
+                5.33,
+                6.33,
+                7.33,
+                8.33,
+                9.33,
+                10.33
+            ],
+            "Y": [
+                0.019807518997193945,
+                0.05138203305818979,
+                0.10866932593244986,
+                0.16759519079122545,
+                0.19477500358437622,
+                0.17711426991377016,
+                0.13211242652028757,
+                0.08258530815394384,
+                0.044287528418982855,
+                0.021671394629580322
+            ]
+        },
+        "length": 80373285
+    },
+    "data_description": {
+        "BOC": "Breadth of Coverage",
+        "C3": "Centralness (1 - ratio outliers by genome length) using zscore of 3",
+        "C4": "Centralness (1 - ratio outliers by genome length) using zscore of 4",
+        "CV": "coefficient of variation of the DOC",
+        "DOC": "Depth of Coverage",
+        "ROI": "number of regions of interest found",
+        "ROI(high)": null,
+        "ROI(low)": null,
+        "chrom_name": "name of the contig/chromosome",
+        "evenness": null,
+        "fit_mu": null,
+        "fit_pi": null,
+        "fit_sigma": null,
+        "hist_coverage": null,
+        "length": "length of the contig/chromosome"
+    },
+    "date": "Thu Feb 22 12:42:19 2018",
+    "description": "",
+    "name": "sequana_summary_coverage",
+    "sample_name": "NA12878.bed",
+    "version": ">=0.20.0"
+}
