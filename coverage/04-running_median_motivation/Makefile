@@ -1,2 +1,2 @@
 clean:
-	rm -f FN43*
+	rm -f FN43* err out
