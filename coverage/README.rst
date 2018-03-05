@@ -12,7 +12,7 @@ There are also a few other notebooks that complemented the main notebook. Here i
 - 01-virus                                    simple run of sequana_coverage on a viral genome 	
 - 02-bacteria                                 simple run of sequana_coverage on a bacterial genome
 -	03-fungus                                   simple run of sequana_coverage on a multi-chromosome 
-                                              funghi genome
+                                               funghi genome
 -	04-running_median_motivation                why running median is better than mean estimator
 -	05-sensitivity                              specificity and sensitivity at detecting CNVs
 -	06-window_impact                            Impact of the running median parameter on  the 
