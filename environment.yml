@@ -1,0 +1,6 @@
+channels:
+  - bioconda
+dependencies:
+  - sequana=0.7.0
+
+
