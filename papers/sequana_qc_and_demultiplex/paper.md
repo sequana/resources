@@ -24,6 +24,16 @@ bibliography: paper.bib
 
 # Summary
 
+Sequencing facilities that generated Terabytes of sequencing data rely on a few tools to perform so-called base calling and quality controls. Some sequencers from the Illumina series perform base calling auto;atically and generates FastQ files ready-to-use for bioinrmatics analysis such as variant calling, genome assembly, etc. Some sequencers (e.g. NextSeq) do not generate such files auto;atically and one first need to perform the base calling. This also performs the demultiplexing: from a sample sheet that describes the design of the experiments, sample and index are used to create the FastQ. THis is achieve by the Illu;ina tool called bcl2fastq [@bcl2fastq]. Once FastQ files are available (directly or after the de;ultiplexing), a very standard tools used by ;ost facilities is to check the quality of the data with a tool called fastqc [@fastqc:xxxx]. 
+
+Facilities usually have those tools in place for years and are part of a daily tasks, usually auto;atised. Yetm new platforms, or researchers that receive those data occasionally or for the first time, may not know what to do. The yield of data generated being larger, cluster are required. 
+
+Here, we described two pipelines that have been put in place zithin the Sequqna framework: sequana_demultiplex and sequana_fastqc. They are used in production within a sequencing platform and can be used by non-expert users. 
+
+## sequana_demultiplex
+
+## sequana_fastqc
+
 **Sequana** is a Python-based software dedicated to the development of Next Generation Sequencing (NGS) pipelines.
 We use the Snakemake [@snakemake:2012] framework to design our pipelines, which eases the decomposition of pipelines into modular sub-units. We currently have 7 pipelines covering quality control, variant calling, long-reads quality, de-novo and RNA-seq analysis (see https://sequana.readthedocs.io for details). Our pipelines are associated with HTML reports based on JINJA templating and Javascript. The reports are used to store the results of a pipelines but also materials required to reproduce the results. **Sequana** is also a Python library that provides tools to perform various analysis tasks (e.g., variant call filtering). Some of the library components provide original tools that are also available as standalone applications. For instance a fast taxonomic analysis based on Kraken [@kraken] as well as a tool to perform exhaustive coverage analysis [@coverage:2016] (bottom right panel in the image here below).
 
