@@ -34,7 +34,7 @@ software that is routinely tested. **Sequana** is now available on bioconda maki
 
 Finally, for end-users, we also developed a Graphical interface called **Sequanix** [@sequanix:2017] developed with the PyQt framework (see left panel of the image here below). **Sequanix** standalone exposes all **Sequana** pipelines (Snakemake pipelines) within an easy-to-use interface. Within the graphical interface, the configuration file used by Snakemake are automatically loaded and can be edited by end-users with dedicated widgets. We made the interface generic enough that not only Sequana pipelines can be run interactively but also any Snakemake pipelines.
 
-![](demultiplex.png)
+
 
 ![](barcodes_hiseq_bad_lane.png)
 ![](barcodes_hiseq_good.png)
