@@ -1,4 +1,4 @@
-Snpashots of Software used by Sequana
+Snapshots of Software used by Sequana
 ----------------------------------------
 Motivation: some software are hard to find or links may not be
 available on the long run.
